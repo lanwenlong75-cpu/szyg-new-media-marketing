@@ -1,0 +1,6 @@
+# Tested on Windows Python 3.12; other runtimes resolve requirements-runtime.txt and must be verified.
+numpy==2.5.4
+pillow==12.3.0
+scipy==1.18.1
+opencv-python-headless==5.0.0.93
+fonttools==4.67.0

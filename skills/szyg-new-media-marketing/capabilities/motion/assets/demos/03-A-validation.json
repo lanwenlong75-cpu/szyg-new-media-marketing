@@ -1,0 +1,86 @@
+{
+  "schema": "duli-demo-validation/1",
+  "id": "03-A",
+  "kind": "silent-different-content-preview",
+  "selection": "anim4-showcase-macro@1.1.1-candidate",
+  "templateStatus": "candidate-awaiting-owner-av",
+  "content": "Owner presenter plus actual recording of the owner old repository; source s05 58.1–66.1 s, before hero handoff. No third-party wall or comparison videos in the public excerpt.",
+  "outputs": [
+    {
+      "id": "03-A",
+      "layout": "landscape",
+      "sourceSha256": "ef654b77e13760eb21390773961565343367d2c08dd9e2d791ffb813bce8f8c5",
+      "rangeSeconds": [
+        45.8,
+        53.8
+      ],
+      "mp4": {
+        "sha256": "48047bd0cad3a966f28911b19455520cd16c10edd2312c2d2f0c7cc977296c86",
+        "width": 960,
+        "height": 540,
+        "fps": 24,
+        "frames": 192,
+        "durationSeconds": 8,
+        "audio": false,
+        "fullDecode": "pass",
+        "color": {
+          "pix_fmt": "yuv420p",
+          "color_range": "tv",
+          "color_space": "bt709",
+          "color_transfer": "bt709",
+          "color_primaries": "bt709"
+        }
+      },
+      "gif": {
+        "sha256": "80a10711d61f2dfbe0c187c8dd49f9ec0104753979190953e7ba5d0632f126ad",
+        "width": 400,
+        "height": 225,
+        "frames": 64,
+        "durationSeconds": 8.0,
+        "allFramesDecoded": true,
+        "targetColor": "sRGB"
+      }
+    },
+    {
+      "id": "03-A-portrait",
+      "layout": "portrait",
+      "sourceSha256": "d8563871b3d46ef1116f7fdc3e6e1a3cf781d9d5f79d97a1e3c52f7489e1fa07",
+      "rangeSeconds": [
+        45.8,
+        53.8
+      ],
+      "mp4": {
+        "sha256": "9240582064920070dd4abc65fb8943c09dc14bf16dfad04e781a567171a4fd37",
+        "width": 540,
+        "height": 960,
+        "fps": 24,
+        "frames": 192,
+        "durationSeconds": 8,
+        "audio": false,
+        "fullDecode": "pass",
+        "color": {
+          "pix_fmt": "yuv420p",
+          "color_range": "tv",
+          "color_space": "bt709",
+          "color_transfer": "bt709",
+          "color_primaries": "bt709"
+        }
+      },
+      "gif": {
+        "sha256": "af678a9d5299dcb34bde7f24fdf358f7898ffdf59efac5cd437dc17cbee93ba5",
+        "width": 225,
+        "height": 400,
+        "frames": 64,
+        "durationSeconds": 8.0,
+        "allFramesDecoded": true,
+        "targetColor": "sRGB"
+      }
+    }
+  ],
+  "fullFilmEvidence": "../../docs/03-A-validation.json",
+  "limits": [
+    "Public previews are silent 8-second excerpts, not complete audiovisual review.",
+    "Full films and private input media are retained in the owner delivery; not distributed as template inputs."
+  ],
+  "colorPolicy": "duli-srgb-bt709/1"
+}

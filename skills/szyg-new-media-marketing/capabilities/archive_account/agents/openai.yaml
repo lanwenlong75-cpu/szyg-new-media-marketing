@@ -1,0 +1,4 @@
+interface:
+  display_name: "szyg-账号作品采集归档"
+  short_description: "一键整号下载、GPU转写、逐条分析并归档社媒全部作品"
+  default_prompt: "Use $szyg-archive-social-account to archive and analyze every video from this social-media profile."

@@ -1,0 +1,30 @@
+{
+  "edition": "szyg-duli-motion-video",
+  "local_maintainer": "duli",
+  "animation_catalog_base": "https://adudir.com/api/lottie-catalog",
+  "preserved_actual_source_urls": [
+    "https://adudir.com/api/lottie-catalog",
+    "https://adudir.com/api/lottie-catalog/annotations",
+    "https://adudir.com/api/lottie-catalog/file/insider_loading.json",
+    "https://adudir.com/api/lottie-catalog/manifest",
+    "https://adunext.github.io/adu-motion-video/examples/gallery/?template=01-A",
+    "https://adunext.github.io/adu-motion-video/examples/gallery/?template=01-B",
+    "https://adunext.github.io/adu-motion-video/examples/gallery/?template=01-C",
+    "https://adunext.github.io/adu-motion-video/examples/gallery/?template=01-D",
+    "https://adunext.github.io/adu-motion-video/examples/gallery/?template=01-E",
+    "https://adunext.github.io/adu-motion-video/examples/gallery/?template=02-A",
+    "https://adunext.github.io/adu-motion-video/examples/gallery/?template=02-B",
+    "https://adunext.github.io/adu-motion-video/examples/gallery/?template=03-A",
+    "https://adunext.github.io/adu-motion-video/examples/gallery/?template=04-A",
+    "https://adunext.github.io/adu-motion-video/examples/gallery/?template=05-A",
+    "https://adunext.github.io/adu-motion-video/examples/gallery/?template=06-A",
+    "https://github.com/adunext/adu-motion-video",
+    "https://github.com/adunext/adu-motion-video#模板库",
+    "https://github.com/adunext/adu-motion-video/blob/main/references/template-catalog.md",
+    "https://github.com/adunext/adu-motion-video/releases",
+    "https://github.com/adunext/adu-motion-video/releases/download/v3.14.0-rc.1/adu-motion-video_3.14.0-rc.1.zip",
+    "https://github.com/adunext/adu-motion-video/releases/tag/v3.14.0-rc.1",
+    "https://www.adunext.com"
+  ],
+  "note": "真实第三方地址和许可来源登记；不冒充本地维护者的服务或原创项目"
+}

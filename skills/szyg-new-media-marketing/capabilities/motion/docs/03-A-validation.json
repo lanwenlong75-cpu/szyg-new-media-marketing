@@ -1,0 +1,170 @@
+{
+  "schema": "duli-showcase-validation/1",
+  "date": "2026-10-02",
+  "sourceRevision": "ccd3891e0e7abbc55afb0f793bcd95d056db9e6c241eed6d9d39119346ea5c0b",
+  "scenes": 9,
+  "slots": 222,
+  "cues": 66,
+  "protectedWindows": 42,
+  "sfxEvents": 175,
+  "newSceneOrder": [
+    "s01",
+    "s03",
+    "s02",
+    "s05",
+    "s04",
+    "s06",
+    "s07",
+    "s08",
+    "s09"
+  ],
+  "voice": {
+    "method": "decode original audio and imported narration at 48kHz stereo s16; pad only after narration to 108.4 s",
+    "bytes": 20812800,
+    "sameSamples": true,
+    "originalPaddedPcmSha256": "7397005f575ad0952dd3cc487d54aa5e1cab8c21d358dfde9dc176cc36de721c",
+    "importedPcmSha256": "7397005f575ad0952dd3cc487d54aa5e1cab8c21d358dfde9dc176cc36de721c",
+    "retimed": false
+  },
+  "rejectionChecks": [
+    {
+      "case": "existing-output",
+      "rejected": true,
+      "outputCreated": "existing directory preserved"
+    },
+    {
+      "case": "version-mismatch",
+      "rejected": true,
+      "outputCreated": false
+    },
+    {
+      "case": "invalid-layout",
+      "rejected": true,
+      "outputCreated": false
+    },
+    {
+      "case": "invalid-cutoff",
+      "rejected": true,
+      "outputCreated": false
+    }
+  ],
+  "distribution": {
+    "public": "Frozen code/contracts/sound recipe plus owner-only silent software-window previews",
+    "private": "Full narration, raw recordings, subtitles, third-party wall/comparison media and full new films"
+  },
+  "limits": [
+    "Owner normal-speed continuous source/new audiovisual confirmation remains pending.",
+    "Fresh dependencies on the same computer; no independent operator or blank-OS validation.",
+    "No source/new pixel equivalence, automatic word-onset alignment, arbitrary new-content or cross-platform guarantee.",
+    "Source software media playback rates about 0.88x and 2.4x are retained and fast-forward is labeled."
+  ],
+  "selection": "anim4-showcase-macro@1.1.1-candidate",
+  "qualityStatus": "candidate-awaiting-owner-av",
+  "candidateManifestSha256": "d447e302b82610e72fcd9d5a5564afa2e44737865ac81539f3f4f31d04ef9122",
+  "outputs": [
+    {
+      "id": "new-nine-landscape",
+      "sha256": "ef654b77e13760eb21390773961565343367d2c08dd9e2d791ffb813bce8f8c5",
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "frames": 6504,
+      "durationSeconds": 108.4,
+      "audio": true,
+      "completeDecode": "pass",
+      "frameClock": {
+        "frames": 6504,
+        "fps": 60,
+        "max_error_seconds": 3.333333467026023e-07,
+        "verification": "every decoded display timestamp matches frame / fps"
+      },
+      "color": {
+        "pix_fmt": "yuv420p",
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709"
+      },
+      "integratedLufs": -15.2,
+      "truePeakDbtp": -1.1,
+      "aacPacketsEqualToPrevious": true,
+      "aacPacketMd5": "MD5=098a234ee49a1546050432851b92044f",
+      "sampledStateFrames": 295,
+      "reverseDifferences": 0,
+      "freshDifferences": 0,
+      "allFramePresenterClockMismatches": 0,
+      "captionBoundaryViolations": 0,
+      "browserScriptErrors": 0
+    },
+    {
+      "id": "new-nine-portrait",
+      "sha256": "d8563871b3d46ef1116f7fdc3e6e1a3cf781d9d5f79d97a1e3c52f7489e1fa07",
+      "width": 1080,
+      "height": 1920,
+      "fps": 60,
+      "frames": 6504,
+      "durationSeconds": 108.4,
+      "audio": true,
+      "completeDecode": "pass",
+      "frameClock": {
+        "frames": 6504,
+        "fps": 60,
+        "max_error_seconds": 3.333333467026023e-07,
+        "verification": "every decoded display timestamp matches frame / fps"
+      },
+      "color": {
+        "pix_fmt": "yuv420p",
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709"
+      },
+      "integratedLufs": -15.2,
+      "truePeakDbtp": -1.1,
+      "aacPacketsEqualToPrevious": true,
+      "aacPacketMd5": "MD5=098a234ee49a1546050432851b92044f",
+      "sampledStateFrames": 295,
+      "reverseDifferences": 0,
+      "freshDifferences": 0,
+      "allFramePresenterClockMismatches": 0,
+      "captionBoundaryViolations": 0,
+      "browserScriptErrors": 0
+    }
+  ],
+  "colorPipeline": {
+    "policy": "duli-srgb-bt709/1",
+    "packManifestSha256": "d447e302b82610e72fcd9d5a5564afa2e44737865ac81539f3f4f31d04ef9122",
+    "rootRuntimeSha256": "b3ad7ad3a1f32d1be4ff223ca87a245b43387f3766bf3e1e71e7f4cfd54dc185",
+    "frozenPackRuntimeSha256": "b3ad7ad3a1f32d1be4ff223ca87a245b43387f3766bf3e1e71e7f4cfd54dc185",
+    "sameRuntime": true,
+    "checks": {
+      "syntheticHlgAndPqRamps": "pass: actual imported pixels changed, neutral channels and monotonic ramp retained",
+      "browserSrgbRoundTrip": "pass: black, white, grey, skin, blue and red patches; maximum accepted centre-patch error 4/255",
+      "wrongVideoRangeAndMatrix": "pass: rejected"
+    },
+    "environment": "macOS / FFmpeg 9.0.1 / Chrome / Playwright 1.58.2",
+    "independentOperator": false,
+    "newColdInstall": false,
+    "inputProfiles": {
+      "unknown/unknown/unknown/unknown": 35,
+      "bt470bg/unknown/unknown/pc": 8,
+      "bt709/bt709/bt709/tv": 3,
+      "bt2020nc/arib-std-b67/bt2020/tv": 2
+    },
+    "auditedVideoInputs": 48,
+    "hdrVideoInputs": 2,
+    "hdrDerivedAvatar": true
+  },
+  "faceTracking": {
+    "method": "macOS Vision rerun on tone-mapped sRGB frames",
+    "samples": 401,
+    "lastTrackedFrame": 6046,
+    "maximumGapFrames": 45,
+    "presenterVisibleEndFrame": 6046,
+    "faceSha256": "819b5fb05a972a8883ffc05fc254b5ca1b819cadc86bfaaef7155f6a1c776727"
+  },
+  "previousValidation": "03-A-validation-1.1.0.json",
+  "previousColorStatus": "incomplete: HLG rasterized without tone mapping; output full range / BT.601-like matrix / missing TRC and primaries",
+  "newColdInstall": false,
+  "cleanInstallScope": "Earlier 1.1.0 record only; this color revision uses existing dependencies on the same computer."
+}

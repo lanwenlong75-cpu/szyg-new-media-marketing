@@ -1,0 +1,94 @@
+{
+  "name": "dark-yellow-teaching-stage",
+  "version": "2.1.0",
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "aspectRatio": "16:9"
+  },
+  "colors": {
+    "background": "#161819",
+    "foreground": "#F4F2EC",
+    "accent": "#F9BE4E",
+    "muted": "#A7ABAF",
+    "line": "#52595C",
+    "panel": "#222628",
+    "panelStrong": "#303538"
+  },
+  "layout": {
+    "safeMarginX": 64,
+    "safeMarginY": 52,
+    "gutter": 28,
+    "mainVisualShare": [
+      0.5,
+      0.8
+    ]
+  },
+  "typography": {
+    "units": "CSS px at 96dpi; PPT points = px * 0.75",
+    "families": [
+      "Noto Sans CJK SC",
+      "Source Han Sans SC",
+      "Hiragino Sans GB",
+      "Microsoft YaHei",
+      "sans-serif"
+    ],
+    "cover": [
+      72,
+      112
+    ],
+    "title": [
+      48,
+      68
+    ],
+    "number": [
+      72,
+      128
+    ],
+    "diagram": [
+      32,
+      48
+    ],
+    "body": [
+      28,
+      36
+    ],
+    "weights": {
+      "body": 400,
+      "heading": 600,
+      "emphasis": 700
+    }
+  },
+  "screen": {
+    "showSlideNumbers": false,
+    "showTotalSlideCount": false,
+    "showSessionFooters": false,
+    "showSpeakerFooters": false
+  },
+  "images": {
+    "preserveAspectRatio": true,
+    "enlargeEvidenceDetail": true
+  },
+  "logic": [
+    "→",
+    "↓",
+    "＋",
+    "＝",
+    "⇒"
+  ],
+  "notes": "Defaults; user instructions take priority. Course people, cases, timing and diagrams are not global defaults.",
+  "defaultOutput": "pptx",
+  "editable": {
+    "text": true,
+    "diagrams": true,
+    "requiredDataTables": true,
+    "fullSlideRasterOnly": false
+  },
+  "pptx": {
+    "slideWidthIn": 13.333333,
+    "slideHeightIn": 7.5,
+    "sampleFont": "Noto Sans CJK SC",
+    "embeddedFonts": false,
+    "layouts": "dark-yellow-layouts.pptx"
+  }
+}

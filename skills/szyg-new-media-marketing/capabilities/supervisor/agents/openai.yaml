@@ -1,0 +1,4 @@
+interface:
+  display_name: "szyg-新媒体主管"
+  short_description: "管理、调用、协同和同步员工skill，保留源审美与工作标准并核对实际交付"
+  default_prompt: "使用 $szyg-team-orchestrator 以新媒体主管身份管理和协同我的数字员工，核对实际skill版本、交接与同步状态。"

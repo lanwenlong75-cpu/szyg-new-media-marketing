@@ -1,0 +1,6 @@
+# Tested local ASR compatibility set. Do not silently upgrade PyAV 19 with faster-whisper 1.2.1.
+faster-whisper==1.2.1
+av==18.1.0
+ctranslate2==4.8.2
+huggingface-hub==1.33.0
+tokenizers>=0.23,<0.24

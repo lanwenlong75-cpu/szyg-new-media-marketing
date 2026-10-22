@@ -1,0 +1,118 @@
+{
+  "source_entry_version": "0.2.7",
+  "release": "2026.10.22.1",
+  "modules": [
+    {
+      "id": "DIRECTOR",
+      "name": "短视频编导",
+      "source_version": "1.1.0",
+      "source_entry_sha256": "27f25883d8d4b409adfc1a5ca58c29f48ca1a49556a3556de0dd3af2991f7f50",
+      "public_entry_sha256": "6888b968c593e506c7e121dee2f53c9c161d74f84b5db3dbaffcd0965f8684c5",
+      "inherited_rules": 19
+    },
+    {
+      "id": "EDITOR",
+      "name": "公众号编辑",
+      "source_version": "0.3.0",
+      "source_entry_sha256": "39b8662350c2d9c0a8592e2acfcf431b7bea686a07d5d40231590edb450b9f7c",
+      "public_entry_sha256": "71b5ffd0d48174824a7d5c2dde3e5c6a253d1ba634dcc0837efb2b376904eb8c",
+      "inherited_rules": 2
+    },
+    {
+      "id": "DESIGNER",
+      "name": "海报设计师",
+      "source_version": null,
+      "source_entry_sha256": "f81cf2386bd1ab09072dce9d8b1f273149518200af59a72bc845995903f6ac47",
+      "public_entry_sha256": "ea8f14fd1a5b1f8a5d484408dd5761e7c529e8720cd18c466a5e35f679f1ad7b",
+      "inherited_rules": 9
+    },
+    {
+      "id": "ENGINEER",
+      "name": "全栈工程师",
+      "source_version": "1.0.0",
+      "source_entry_sha256": "5fef06db4926cbb7e35c2dd36cc772a7120bcd1076d8c9b50b637189ea9d28ba",
+      "public_entry_sha256": "2ec4de431fbf5250521c6fe090188f12870df0120fe759c5b9eff3fce25fcf02",
+      "inherited_rules": 0
+    },
+    {
+      "id": "PRIVATE",
+      "name": "私域顾问",
+      "source_version": "0.1.0",
+      "source_entry_sha256": "68e1f79f6d6c1f84b6d81ca14e3f6c1a57cd6edeadb2d617277f1e735c9044ff",
+      "public_entry_sha256": "742399d68a4d310f8305ecf5a9e91219d9458889b07ec830fde44a4fbe44f6a8",
+      "inherited_rules": 0
+    },
+    {
+      "id": "OPS",
+      "name": "新媒体运营",
+      "source_version": "1.0.9",
+      "source_entry_sha256": "8a52e28a0862348ea13b4f0b8c68a1d7e8b3b04f71a545f438e63b679e73887e",
+      "public_entry_sha256": "cb7f6ce413499206b564e534a1a18cf4aaf4e3a3c127eb168dc1deaedfdcb3d3",
+      "inherited_rules": 0
+    },
+    {
+      "id": "MOTION",
+      "name": "视频制作引擎",
+      "source_version": "3.14.0-rc.1",
+      "source_entry_sha256": "1e67f0628d60c5c48433f22982046495a71581a23f5bd36c6538c95da7bd4f40",
+      "public_entry_sha256": "f9257422bc14db093493a23c5a3ebb04bfcf31cf358906912a3891806c36b1ed",
+      "inherited_rules": 0
+    },
+    {
+      "id": "BUILDER",
+      "name": "数字员工搭建师",
+      "source_version": "1.2.1",
+      "source_entry_sha256": "9186113fb6011a5aab97d4279ad27fbb99ead69a1fdca56269668c2ab961a86a",
+      "public_entry_sha256": "d31fc640809604a7d1cd601e8928791e005dee72bdce6835f5ef4e2971e17e75",
+      "inherited_rules": 0
+    },
+    {
+      "id": "SUPERVISOR",
+      "name": "新媒体主管",
+      "source_version": "1.1.0",
+      "source_entry_sha256": "b1ecf0cfcfa60c8f2f2ee5cc07ff37a23dd8826413e530443957c002fe4fe191",
+      "public_entry_sha256": "2ac3908eda6555cde00e1428e039dba8abae09be95b8820612f9e0c36016e460",
+      "inherited_rules": 1
+    },
+    {
+      "id": "ARCHIVE_VIDEO",
+      "name": "单条视频归档",
+      "source_version": null,
+      "source_entry_sha256": "5cb176431d6057e52529c2f3c87f37c5e1a213d53eac46ec0f13c47dde78772e",
+      "public_entry_sha256": "5a6ad335ba8f538cdb365a89f1cefcb2c5ea67110766657b710ad0ed15b34f14",
+      "inherited_rules": 0
+    },
+    {
+      "id": "ARCHIVE_ACCOUNT",
+      "name": "账号作品归档",
+      "source_version": null,
+      "source_entry_sha256": "acb8b4be51dcece1d1a8745796b928a3375420fd64f8626274e88ed2dd6f5c5e",
+      "public_entry_sha256": "cf28b6d46534f540fd95e9f4e2278f8b297d49cfbbec26c46298a39ac4e3d5e4",
+      "inherited_rules": 0
+    },
+    {
+      "id": "PRODUCT",
+      "name": "产品经理",
+      "source_version": "0.2.0",
+      "source_entry_sha256": "65f687108a9417247527b705f8a53dfe888c48a9eb6e113926435b5f4caf3c8f",
+      "public_entry_sha256": "a74e69b11140ee89f0a0236d6f3e0acc2d41d45399f63634f82a8ce3c2895c69",
+      "inherited_rules": 1
+    },
+    {
+      "id": "XHS",
+      "name": "小红书运营",
+      "source_version": "0.2.1",
+      "source_entry_sha256": "689961eec1bf1a7ad50573bb2825b720892479764e4050e869bdde4ee0eb4d66",
+      "public_entry_sha256": "533d672c55cd7fa84c14b3e8195008504edeb5edba2edca7dda398048bf056a0",
+      "inherited_rules": 2
+    },
+    {
+      "id": "COURSEWARE",
+      "name": "课件打造师",
+      "source_version": "0.2.0",
+      "source_entry_sha256": "324ea82a8958a617ac71e87bb88792935accd7233425838641e6c3dddc87271e",
+      "public_entry_sha256": "370c8d2870401f0a36d9a59e550fadf6d1d0e7d0fa98b0facac34a11c1f6dba0",
+      "inherited_rules": 1
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "szyg-独立视频制作"
+  short_description: "复用完整工程编舞，为新口播适配动作、素材、字幕和声音"
+  default_prompt: "使用 $szyg-duli-motion-video，检查我的口播与素材，按语义选择完整场景包，绑定新文案和动作时间，保留镜头与声音细节，实际验收后导出新版本 MP4，并说明尚未验证的部分。"

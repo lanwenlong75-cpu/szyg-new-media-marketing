@@ -1,0 +1,6 @@
+interface:
+  display_name: "szyg-海报设计师"
+  short_description: "按海报用途拆解参考，用大模型生成完整海报并核对文案和视觉"
+  default_prompt: "用 $szyg-poster-designer 根据我的资料、用途和参考图，直接用大模型生成完整海报，让人物、字体、文案和版式一起完成，并核对中文和业务事实。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,487 @@
+{
+  "schema": "publication-word-lexicon/1",
+  "scope": "只提供语境检查线索，不自动认定或遮蔽；平台具体规则与适用场景另核对",
+  "sources": [
+    {
+      "id": "DY-AGREEMENT",
+      "title": "抖音用户服务协议",
+      "url": "https://www.douyin.com/agreements/?id=6773906068725565448",
+      "checkedAt": "2026-10-20",
+      "status": "official_fulltext_verified",
+      "clause": "4.6",
+      "summary": "不当营销和刻意使用字符组合逃避审核受限制，不存在换字即通过的保证。"
+    },
+    {
+      "id": "DY-COMMUNITY",
+      "title": "抖音社区自律公约",
+      "url": "https://sf3-cdn-tos.douyinstatic.com/obj/ies-hotsoon-draft/douyin_agreement/b94d5a1e-c676-4e99-92b5-2d5e26d2568b.html",
+      "checkedAt": "2026-10-20",
+      "status": "official_fulltext_verified",
+      "summary": "不当营销、虚假宣传、夸大效果或收益按行为及语境判断。"
+    },
+    {
+      "id": "WX-CHANNELS",
+      "title": "微信视频号运营规范",
+      "url": "https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_agreement&s=video&head=true",
+      "checkedAt": "2026-10-20",
+      "status": "official_html_fetched",
+      "clause": "4.4,4.6,4.7",
+      "summary": "诱导互动、违法营销和恶意对抗等受限制；不能把同音替换视为合规。"
+    }
+  ],
+  "rules": [
+    {
+      "id": "R-001",
+      "term": "全网最低",
+      "category": "夸大或极限宣传",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-COMMUNITY",
+        "WX-CHANNELS"
+      ],
+      "note": "这是语境审查线索，不是平台公布的逐字禁词；需核对是否商业宣传、实际依据、效果承诺或正常介绍，不自动替换。"
+    },
+    {
+      "id": "R-002",
+      "term": "最便宜",
+      "category": "夸大或极限宣传",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-COMMUNITY",
+        "WX-CHANNELS"
+      ],
+      "note": "这是语境审查线索，不是平台公布的逐字禁词；需核对是否商业宣传、实际依据、效果承诺或正常介绍，不自动替换。"
+    },
+    {
+      "id": "R-003",
+      "term": "最有效",
+      "category": "夸大或极限宣传",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-COMMUNITY",
+        "WX-CHANNELS"
+      ],
+      "note": "这是语境审查线索，不是平台公布的逐字禁词；需核对是否商业宣传、实际依据、效果承诺或正常介绍，不自动替换。"
+    },
+    {
+      "id": "R-004",
+      "term": "最好",
+      "category": "夸大或极限宣传",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-COMMUNITY",
+        "WX-CHANNELS"
+      ],
+      "note": "这是语境审查线索，不是平台公布的逐字禁词；需核对是否商业宣传、实际依据、效果承诺或正常介绍，不自动替换。"
+    },
+    {
+      "id": "R-005",
+      "term": "最佳",
+      "category": "夸大或极限宣传",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-COMMUNITY",
+        "WX-CHANNELS"
+      ],
+      "note": "这是语境审查线索，不是平台公布的逐字禁词；需核对是否商业宣传、实际依据、效果承诺或正常介绍，不自动替换。"
+    },
+    {
+      "id": "R-006",
+      "term": "顶级",
+      "category": "夸大或极限宣传",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-COMMUNITY",
+        "WX-CHANNELS"
+      ],
+      "note": "这是语境审查线索，不是平台公布的逐字禁词；需核对是否商业宣传、实际依据、效果承诺或正常介绍，不自动替换。"
+    },
+    {
+      "id": "R-007",
+      "term": "世界第一",
+      "category": "夸大或极限宣传",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-COMMUNITY",
+        "WX-CHANNELS"
+      ],
+      "note": "这是语境审查线索，不是平台公布的逐字禁词；需核对是否商业宣传、实际依据、效果承诺或正常介绍，不自动替换。"
+    },
+    {
+      "id": "R-008",
+      "term": "行业第一",
+      "category": "夸大或极限宣传",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-COMMUNITY",
+        "WX-CHANNELS"
+      ],
+      "note": "这是语境审查线索，不是平台公布的逐字禁词；需核对是否商业宣传、实际依据、效果承诺或正常介绍，不自动替换。"
+    },
+    {
+      "id": "R-009",
+      "term": "国家级",
+      "category": "夸大或极限宣传",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-COMMUNITY",
+        "WX-CHANNELS"
+      ],
+      "note": "这是语境审查线索，不是平台公布的逐字禁词；需核对是否商业宣传、实际依据、效果承诺或正常介绍，不自动替换。"
+    },
+    {
+      "id": "R-010",
+      "term": "唯一",
+      "category": "夸大或极限宣传",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-COMMUNITY",
+        "WX-CHANNELS"
+      ],
+      "note": "这是语境审查线索，不是平台公布的逐字禁词；需核对是否商业宣传、实际依据、效果承诺或正常介绍，不自动替换。"
+    },
+    {
+      "id": "R-011",
+      "term": "首创",
+      "category": "夸大或极限宣传",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-COMMUNITY",
+        "WX-CHANNELS"
+      ],
+      "note": "这是语境审查线索，不是平台公布的逐字禁词；需核对是否商业宣传、实际依据、效果承诺或正常介绍，不自动替换。"
+    },
+    {
+      "id": "R-012",
+      "term": "独家",
+      "category": "夸大或极限宣传",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-COMMUNITY",
+        "WX-CHANNELS"
+      ],
+      "note": "这是语境审查线索，不是平台公布的逐字禁词；需核对是否商业宣传、实际依据、效果承诺或正常介绍，不自动替换。"
+    },
+    {
+      "id": "R-013",
+      "term": "稳赚",
+      "category": "收益或效果保证",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-COMMUNITY",
+        "WX-CHANNELS"
+      ],
+      "note": "这是语境审查线索，不是平台公布的逐字禁词；需核对是否商业宣传、实际依据、效果承诺或正常介绍，不自动替换。"
+    },
+    {
+      "id": "R-014",
+      "term": "保本",
+      "category": "收益或效果保证",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-COMMUNITY",
+        "WX-CHANNELS"
+      ],
+      "note": "这是语境审查线索，不是平台公布的逐字禁词；需核对是否商业宣传、实际依据、效果承诺或正常介绍，不自动替换。"
+    },
+    {
+      "id": "R-015",
+      "term": "零风险",
+      "category": "收益或效果保证",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-COMMUNITY",
+        "WX-CHANNELS"
+      ],
+      "note": "这是语境审查线索，不是平台公布的逐字禁词；需核对是否商业宣传、实际依据、效果承诺或正常介绍，不自动替换。"
+    },
+    {
+      "id": "R-016",
+      "term": "保证收益",
+      "category": "收益或效果保证",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-COMMUNITY",
+        "WX-CHANNELS"
+      ],
+      "note": "这是语境审查线索，不是平台公布的逐字禁词；需核对是否商业宣传、实际依据、效果承诺或正常介绍，不自动替换。"
+    },
+    {
+      "id": "R-017",
+      "term": "包过",
+      "category": "收益或效果保证",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-COMMUNITY",
+        "WX-CHANNELS"
+      ],
+      "note": "这是语境审查线索，不是平台公布的逐字禁词；需核对是否商业宣传、实际依据、效果承诺或正常介绍，不自动替换。"
+    },
+    {
+      "id": "R-018",
+      "term": "包学会",
+      "category": "收益或效果保证",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-COMMUNITY",
+        "WX-CHANNELS"
+      ],
+      "note": "这是语境审查线索，不是平台公布的逐字禁词；需核对是否商业宣传、实际依据、效果承诺或正常介绍，不自动替换。"
+    },
+    {
+      "id": "R-019",
+      "term": "根治",
+      "category": "收益或效果保证",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-COMMUNITY",
+        "WX-CHANNELS"
+      ],
+      "note": "这是语境审查线索，不是平台公布的逐字禁词；需核对是否商业宣传、实际依据、效果承诺或正常介绍，不自动替换。"
+    },
+    {
+      "id": "R-020",
+      "term": "包治",
+      "category": "收益或效果保证",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-COMMUNITY",
+        "WX-CHANNELS"
+      ],
+      "note": "这是语境审查线索，不是平台公布的逐字禁词；需核对是否商业宣传、实际依据、效果承诺或正常介绍，不自动替换。"
+    },
+    {
+      "id": "R-021",
+      "term": "永久有效",
+      "category": "收益或效果保证",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-COMMUNITY",
+        "WX-CHANNELS"
+      ],
+      "note": "这是语境审查线索，不是平台公布的逐字禁词；需核对是否商业宣传、实际依据、效果承诺或正常介绍，不自动替换。"
+    },
+    {
+      "id": "R-022",
+      "term": "百分百",
+      "category": "收益或效果保证",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-COMMUNITY",
+        "WX-CHANNELS"
+      ],
+      "note": "这是语境审查线索，不是平台公布的逐字禁词；需核对是否商业宣传、实际依据、效果承诺或正常介绍，不自动替换。"
+    },
+    {
+      "id": "R-023",
+      "term": "100%",
+      "category": "收益或效果保证",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-COMMUNITY",
+        "WX-CHANNELS"
+      ],
+      "note": "这是语境审查线索，不是平台公布的逐字禁词；需核对是否商业宣传、实际依据、效果承诺或正常介绍，不自动替换。"
+    },
+    {
+      "id": "R-024",
+      "pattern": "(?:加|添加|联系).{0,8}(?:我|微信|VX|微[信号])",
+      "term": "联系方式引导",
+      "category": "联系方式引导",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-AGREEMENT",
+        "WX-CHANNELS"
+      ],
+      "note": "核对是否引导添加、交易或过度营销；微信/VX等拼写不改变行为性质。"
+    },
+    {
+      "id": "R-025",
+      "pattern": "(?:扫码|扫二维码|二维码|加群|进群)",
+      "term": "扫码或群导流",
+      "category": "扫码或群导流",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-AGREEMENT",
+        "WX-CHANNELS"
+      ],
+      "note": "区分产品操作示例、普通群聊介绍和实际导流，不把正常技术演示一律判违规。"
+    },
+    {
+      "id": "R-026",
+      "pattern": "(?:评论|点赞|关注|转发|私信).{0,12}(?:领取|送|免费|资料|[0-9]{3,})",
+      "term": "利益诱导互动",
+      "category": "利益诱导互动",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-AGREEMENT",
+        "WX-CHANNELS"
+      ],
+      "note": "核对是否以利益诱导互动；既有668等导流须结合原声与本条授权复核，不因命中就静默删除。"
+    },
+    {
+      "id": "R-027",
+      "pattern": "(?:立刻|马上|立即|[0-9一二三四五六七八九十]+分钟).{0,4}(?:见效|赚钱|回本|学会|吃透)",
+      "term": "即时或结果保证",
+      "category": "即时或结果保证",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-AGREEMENT",
+        "WX-CHANNELS"
+      ],
+      "note": "核对是否夸大结果承诺，知识讲解也需要据实际内容判断，不自动改台词。"
+    },
+    {
+      "id": "R-028",
+      "pattern": "(?<![0-9])1[3-9][0-9]{9}(?![0-9])",
+      "term": "联系方式或隐私",
+      "category": "联系方式或隐私",
+      "platforms": [
+        "douyin",
+        "weixin_channels"
+      ],
+      "action": "review",
+      "evidenceKind": "context_review_heuristic",
+      "sourceRefs": [
+        "DY-AGREEMENT",
+        "WX-CHANNELS"
+      ],
+      "note": "疑似手机号仅提示核对，不能据数字外形证明是私人号码或违规。"
+    }
+  ]
+}

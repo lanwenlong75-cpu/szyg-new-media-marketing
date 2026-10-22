@@ -1,0 +1,49 @@
+{
+  "schema": "video-style-collaboration/1",
+  "newStyle": {
+    "recommendations": 1,
+    "alternative": "有必要时用一句话说明，默认不制作第二种样片",
+    "pilotSeconds": [
+      20,
+      40
+    ],
+    "expandAfterDirectionFeedback": true
+  },
+  "reuse": {
+    "confirmedSeries": "同IP、同表达任务、同素材条件直接复用",
+    "localRevision": "直接定位修改，不重做风格探索"
+  },
+  "budget": "复用已有转写、切点、原声与素材；方向明确后再批量生成素材和扩展全片，不承诺无计量的Token或金额节省比例。",
+  "initial_standard": "inherited; recipient feedback starts empty",
+  "acceptedDirections": [
+    {
+      "id": "opinion-logic-neutral-1",
+      "style": "真人主讲＋中性纸色逻辑卡",
+      "scope": "同类表达任务与素材条件，可选用已形成的路线",
+      "recipientAccepted": false,
+      "fullVideoAccepted": false
+    },
+    {
+      "id": "progressive-relation-model-1",
+      "style": "真人主讲＋白字黄词注释＋随讲解绘制的关系模型",
+      "scope": "同类表达任务与素材条件，可选用已形成的路线",
+      "recipientAccepted": false,
+      "fullVideoAccepted": false
+    }
+  ],
+  "fullscreenRequirement": {
+    "personAlwaysFullFrame": true,
+    "transparentOverheadBoard": true,
+    "minimal": true,
+    "softTransitions": true
+  },
+  "fullscreenVariants": {
+    "available": [
+      "A",
+      "B",
+      "C"
+    ],
+    "selectedVariant": null,
+    "status": "源需求已确认，具体三版尚待选择；接收者当前要求优先"
+  }
+}

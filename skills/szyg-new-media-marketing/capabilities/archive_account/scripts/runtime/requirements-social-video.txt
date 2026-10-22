@@ -1,0 +1,2 @@
+faster-whisper==1.2.1
+nvidia-cublas-cu12==12.8.4.1; platform_system == "Windows"

@@ -1,0 +1,393 @@
+{
+  "schema": "duli-template-catalog/1",
+  "updated": "2026-10-04",
+  "numbering": "template-style",
+  "templates": [
+    {
+      "id": "01",
+      "title": "现代图文口播",
+      "styles": [
+        {
+          "id": "01-A",
+          "title": "原片节奏",
+          "status": "released",
+          "selection": "classic-performance@1.0.0",
+          "preview": "assets/demos/01-A.gif",
+          "demo": "assets/demos/01-A.mp4",
+          "requires": [
+            "本期真人口播",
+            "对应文案",
+            "证据组：三段本期真实视频"
+          ],
+          "portraitSelection": "classic-performance@1.1.0-candidate",
+          "layouts": {
+            "landscape": {
+              "width": 1920,
+              "height": 1080
+            },
+            "portrait": {
+              "width": 1080,
+              "height": 1920,
+              "status": "candidate",
+              "selection": "classic-performance@1.1.0-candidate"
+            }
+          }
+        },
+        {
+          "id": "01-B",
+          "title": "连续形变",
+          "status": "released",
+          "selection": "continuous-performance@1.0.0",
+          "preview": "assets/demos/01-B.gif",
+          "demo": "assets/demos/01-B.mp4",
+          "requires": [
+            "本期真人口播",
+            "对应文案",
+            "演示或证据组：本期真实视频"
+          ],
+          "portraitSelection": "continuous-performance@1.1.0-candidate",
+          "layouts": {
+            "landscape": {
+              "width": 1920,
+              "height": 1080
+            },
+            "portrait": {
+              "width": 1080,
+              "height": 1920,
+              "status": "candidate",
+              "selection": "continuous-performance@1.1.0-candidate"
+            }
+          }
+        },
+        {
+          "id": "01-C",
+          "title": "纵深舞台",
+          "status": "released",
+          "selection": "stage-performance@1.0.0",
+          "preview": "assets/demos/01-C.gif",
+          "demo": "assets/demos/01-C.mp4",
+          "requires": [
+            "本期真人口播",
+            "对应文案",
+            "演示或证据组：本期真实视频"
+          ],
+          "scope": "三个完整镜头组；新内容整片与独立使用已验收",
+          "previewBasis": "已保留的源演出短段；新内容验收摘要见实际包 review.json",
+          "portraitSelection": "stage-performance@1.1.0-candidate",
+          "layouts": {
+            "landscape": {
+              "width": 1920,
+              "height": 1080
+            },
+            "portrait": {
+              "width": 1080,
+              "height": 1920,
+              "status": "candidate",
+              "selection": "stage-performance@1.1.0-candidate"
+            }
+          }
+        },
+        {
+          "id": "01-D",
+          "title": "杂志分屏",
+          "status": "candidate",
+          "selection": "editorial-performance@1.2.0-candidate",
+          "preview": "assets/demos/01-D.gif",
+          "demo": "assets/demos/01-D.mp4",
+          "requires": [
+            "本期真人口播",
+            "对应文案",
+            "演示或证据组：本期真实视频"
+          ],
+          "scope": "十三个候选完整组：十个源演出与三个新创基础组；源码结构覆盖已核对，新真人口播与独立使用连续声画待验收",
+          "previewBasis": "保留的原三组源演出短段；不能代表新增十组已经人工验收",
+          "portraitSelection": "editorial-performance@1.2.0-candidate",
+          "layouts": {
+            "landscape": {
+              "width": 1920,
+              "height": 1080,
+              "selection": "editorial-performance@1.2.0-candidate",
+              "status": "candidate"
+            },
+            "portrait": {
+              "width": 1080,
+              "height": 1920,
+              "status": "candidate",
+              "selection": "editorial-performance@1.2.0-candidate"
+            }
+          },
+          "historicalSelections": {
+            "landscape": "editorial-performance@1.0.0",
+            "portrait": "editorial-performance@1.1.0-candidate"
+          },
+          "acceptance": "technical candidate; human episode AV review pending"
+        },
+        {
+          "id": "01-E",
+          "title": "节拍字效",
+          "status": "candidate",
+          "selection": "kinetic-performance@1.2.0-candidate",
+          "preview": "assets/demos/01-E.gif",
+          "demo": "assets/demos/01-E.mp4",
+          "requires": [
+            "本期真人口播",
+            "对应文案",
+            "演示或证据组：本期真实视频"
+          ],
+          "scope": "三个完整镜头组；新内容整片与独立使用已验收",
+          "previewBasis": "已保留的源演出短段；新内容验收摘要见实际包 review.json",
+          "portraitSelection": "kinetic-performance@1.2.0-candidate",
+          "layouts": {
+            "landscape": {
+              "width": 1920,
+              "height": 1080,
+              "selection": "kinetic-performance@1.2.0-candidate",
+              "status": "candidate"
+            },
+            "portrait": {
+              "width": 1080,
+              "height": 1920,
+              "status": "candidate",
+              "selection": "kinetic-performance@1.2.0-candidate"
+            }
+          },
+          "historicalSelections": {
+            "landscape": "kinetic-performance@1.0.0",
+            "portrait": "kinetic-performance@1.1.0-candidate"
+          },
+          "acceptance": "technical candidate; human episode AV review pending"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "纸面透视讲解",
+      "styles": [
+        {
+          "id": "02-A",
+          "title": "纸面天平",
+          "status": "released",
+          "selection": "paper-balance@1.0.0",
+          "preview": "assets/demos/02-A.gif",
+          "demo": "assets/demos/02-A.mp4",
+          "requires": [
+            "本期真人口播",
+            "对应文案",
+            "透明插图"
+          ],
+          "scope": "一个续接镜头组",
+          "portraitSelection": "paper-balance@1.1.0-candidate",
+          "layouts": {
+            "landscape": {
+              "width": 1920,
+              "height": 1080
+            },
+            "portrait": {
+              "width": 1080,
+              "height": 1920,
+              "status": "candidate",
+              "selection": "paper-balance@1.1.0-candidate"
+            }
+          }
+        },
+        {
+          "id": "02-B",
+          "title": "纸面聚合",
+          "status": "released",
+          "selection": "paper-ball-performance@1.0.0",
+          "preview": "assets/demos/02-B.gif",
+          "demo": "assets/demos/02-B.mp4",
+          "requires": [
+            "本期真人口播",
+            "对应文案",
+            "固定 SHA 的优设标题黑字体文件（externalFontFiles.title）"
+          ],
+          "scope": "两个完整镜头组；源/重放对照与 18.2667 秒不同内容样片已验收，非完整新路线",
+          "previewBasis": "作者已认可的新内容样片的 8 秒开箱交付舞台局部；排除人物、字幕、账号角标和声音",
+          "demoAudio": "none; silent detail preview",
+          "qualityLimits": "严格栅格审计仍保留 1 issue/2 warning；实际限制见包 review.json",
+          "portraitSelection": "paper-ball-performance@1.1.0-candidate",
+          "layouts": {
+            "landscape": {
+              "width": 1920,
+              "height": 1080
+            },
+            "portrait": {
+              "width": 1080,
+              "height": 1920,
+              "status": "candidate",
+              "selection": "paper-ball-performance@1.1.0-candidate"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "深色 3D",
+      "styles": [
+        {
+          "id": "03-A",
+          "title": "多屏展陈",
+          "status": "candidate",
+          "selection": "anim4-showcase-macro@1.3.1-candidate",
+          "preview": "assets/demos/03-A.gif",
+          "demo": "assets/demos/03-A.mp4",
+          "requires": [
+            "本期真人口播与对应文案",
+            "所选场景的真实作品、比较视频与软件录屏",
+            "按场景提供头像、标识、作品清单与来源图标"
+          ],
+          "scope": "十个候选完整组：九场原编舞与一个独立成果；源码闭包已修正，新内容整片与独立使用连续声画待验收",
+          "guide": "references/dark-3d-template.md",
+          "previewBasis": "不同内容九场样片的软件窗口段；仅包含所有者口播与本人实录",
+          "demoAudio": "none; silent different-content preview",
+          "portraitPreview": "assets/demos/03-A-portrait.gif",
+          "portraitDemo": "assets/demos/03-A-portrait.mp4",
+          "layouts": {
+            "landscape": {
+              "width": 1920,
+              "height": 1080,
+              "selection": "anim4-showcase-macro@1.3.1-candidate",
+              "status": "candidate"
+            },
+            "portrait": {
+              "width": 1080,
+              "height": 1920,
+              "status": "candidate",
+              "selection": "anim4-showcase-macro@1.3.1-candidate"
+            }
+          },
+          "acceptance": "technical candidate; human episode AV review pending",
+          "portraitSelection": "anim4-showcase-macro@1.3.1-candidate",
+          "historicalSelections": {
+            "landscape": "anim4-showcase-macro@1.1.1-candidate",
+            "portrait": "anim4-showcase-macro@1.2.0-candidate"
+          },
+          "previousTechnicalCandidate": "anim4-showcase-macro@1.3.0-candidate",
+          "migrationNote": "1.3.0-candidate旧清单包含未封存Python缓存，不能用本机缓存补齐冷安装；另存重规划至1.3.1-candidate，旧A/B保留"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "深色科技控制台",
+      "styles": [
+        {
+          "id": "04-A",
+          "title": "仪器台演示",
+          "status": "candidate",
+          "selection": "doubao-console-performance@0.3.0-candidate",
+          "preview": "assets/demos/04-A.gif",
+          "demo": "assets/demos/04-A.mp4",
+          "guide": "references/doubao-console-template.md",
+          "requires": [
+            "本期已剪辑口播与文案、实际动作锚点",
+            "所选组的图片与显式grainTexture",
+            "固定SHA的Geist/GeistMono字体文件"
+          ],
+          "scope": "三个完整镜头组；同内容技术重放已检查，尚未完成不同内容与独立复用声画验收",
+          "previewBasis": "同内容技术重放开场的3.9秒局部，排除人物、字幕和声音",
+          "demoAudio": "none; silent detail preview",
+          "layouts": {
+            "landscape": {
+              "width": 1920,
+              "height": 1080,
+              "selection": "doubao-console-performance@0.3.0-candidate",
+              "status": "candidate"
+            },
+            "portrait": {
+              "width": 1080,
+              "height": 1920,
+              "status": "candidate",
+              "selection": "doubao-console-performance@0.3.0-candidate"
+            }
+          },
+          "qualityLimits": "横屏有界文字已检查；竖屏选择0.2.0-candidate；仍待新口播完整声画与独立复用验收。",
+          "portraitSelection": "doubao-console-performance@0.3.0-candidate",
+          "historicalSelections": {
+            "landscape": "doubao-console-performance@0.1.2-candidate",
+            "portrait": "doubao-console-performance@0.2.0-candidate"
+          },
+          "acceptance": "technical candidate; human episode AV review pending"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "鲜色角色叙事",
+      "styles": [
+        {
+          "id": "05-A",
+          "title": "角色与物件接力",
+          "status": "candidate",
+          "selection": "vivid-sticker-performance@0.2.0-candidate",
+          "portraitSelection": "vivid-sticker-performance@0.2.0-candidate",
+          "preview": "assets/demos/05-A.gif",
+          "demo": "assets/demos/05-A.mp4",
+          "guide": "references/vivid-sticker-template.md",
+          "requires": [
+            "本期口播、文案与真实关键词时码",
+            "交接组：三幅获授权贴纸，准备者/物件/接收者",
+            "显式纹理与固定SHA的Geist/GeistMono字体"
+          ],
+          "scope": "三个完整组；源码局部对照、横竖屏静音容量和构建流程通过，新口播连续声画及独立使用待验收",
+          "previewBasis": "7.1秒交接局部；本次编写的矢量示意素材与占位人物，排除源人物/原插图/字幕/录音",
+          "demoAudio": "none; silent synthetic-layout preview",
+          "layouts": {
+            "landscape": {
+              "width": 1920,
+              "height": 1080,
+              "selection": "vivid-sticker-performance@0.2.0-candidate",
+              "status": "candidate"
+            },
+            "portrait": {
+              "width": 1080,
+              "height": 1920,
+              "selection": "vivid-sticker-performance@0.2.0-candidate",
+              "status": "candidate"
+            }
+          },
+          "historicalSelections": {
+            "landscape": "vivid-sticker-performance@0.1.1-candidate",
+            "portrait": "vivid-sticker-performance@0.1.1-candidate"
+          },
+          "acceptance": "technical candidate; human episode AV review pending"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "活力色彩",
+      "styles": [
+        {
+          "id": "06-A",
+          "title": "原生竖屏",
+          "status": "candidate",
+          "selection": "vibrant-color-performance@0.1.0-candidate",
+          "portraitSelection": "vibrant-color-performance@0.1.0-candidate",
+          "preview": "assets/demos/06-A.gif",
+          "demo": "assets/demos/06-A.mp4",
+          "guide": "references/vibrant-color-template.md",
+          "requires": [
+            "本期口播、文案与准确动作时码",
+            "grainTexture与固定SHA的Anton/Geist Mono字体",
+            "当前平台可用且许可明确的中文字体"
+          ],
+          "scope": "四组原编舞与三组基础动画，仅原生竖屏；源码/换稿与构建验证按记录，不宣称整片或独立声画验收",
+          "previewBasis": "静音新文案与占位人物布局示意，不含源人物/字幕/配乐",
+          "demoAudio": "none; silent synthetic-layout preview",
+          "layouts": {
+            "portrait": {
+              "width": 1080,
+              "height": 1920,
+              "status": "candidate",
+              "selection": "vibrant-color-performance@0.1.0-candidate"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "releaseVersion": "3.12.0"
+}

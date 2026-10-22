@@ -1,0 +1,5 @@
+{
+  "browser": "auto",
+  "playwright": "current installed motion/node_modules/playwright-core",
+  "output": "current user project"
+}

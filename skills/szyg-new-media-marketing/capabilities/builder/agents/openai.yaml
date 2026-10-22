@@ -1,0 +1,4 @@
+interface:
+  display_name: "szyg-数字员工搭建师"
+  short_description: "按岗位建库并接入工作技能，让员工从反馈中改进方法、工具与验收"
+  default_prompt: "使用 $szyg-digital-employee-builder，根据我的上下文和岗位 skill，在指定文件夹搭建数字员工。"

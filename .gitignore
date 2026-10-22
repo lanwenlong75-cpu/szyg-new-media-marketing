@@ -1,0 +1,13 @@
+# Runtime and recipient business data
+**/.venv/
+**/node_modules/
+**/__pycache__/
+*.pyc
+.DS_Store
+*.log
+*.tmp
+*.bak
+team/
+workspaces/
+.env
+.env.*

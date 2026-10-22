@@ -1,0 +1,4 @@
+interface:
+  display_name: "szyg-单条视频采集归档"
+  short_description: "用社媒助手采集视频，完整转写并分类沉淀到当前使用者知识库"
+  default_prompt: "使用 $szyg-archive-social-video 从社媒助手采集这条视频，完成全文转写、语义核验、分类编译和当前使用者知识库归档，再基于证据分析内容。"

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>新媒体运营数字员工</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<aside class="sidebar">
+  <a class="brand" href="#home"><span class="brand-symbol">媒</span><span><b id="team-name">我的内容团队</b><small>新媒体数字员工</small></span></a>
+  <div class="side-label">我的工作台</div>
+  <nav aria-label="工作台导航">
+    <button data-view="home" class="active"><span>◈</span> 今日工作</button>
+    <button data-view="content"><span>▤</span> 内容流水线 <i id="content-count"></i></button>
+    <button data-view="analytics"><span>▥</span> 数据与复盘</button>
+    <button data-view="ideas"><span>✳</span> 选题与素材</button>
+    <button data-view="tasks"><span>☷</span> 任务与记录 <i id="task-count"></i></button>
+  </nav>
+  <div class="employee"><div class="employee-avatar">✦</div><b>你的新媒体运营</b><p>素材到成片，发布到复盘。<br>所有进展都在这里。</p><div class="status-line"><span></span> 本机工作台已连接</div><small>任务提交后，交给AI助手执行</small></div>
+  <a class="old-entry" href="#sources">↗ 原有工具与台账</a>
+  <div class="side-user"><span>媒</span><div>我的内容团队<small>本机私有工作台</small></div></div>
+</aside>
+<div class="shell">
+ <header><div><span class="breadcrumb">工作台 / </span><b id="page-name">今日工作</b></div><div class="header-right"><span id="sync-label">正在读取数据…</span><button id="refresh" class="button secondary">↻ 同步数据</button></div></header>
+ <main id="main"><div class="loading">正在连接你的内容库和账号数据…</div></main>
+ <footer>新媒体运营数字员工 <span>剪辑 → 审阅 → 发布 → 复盘 → 下一轮选题</span></footer>
+</div>
+<dialog id="drawer"><div id="drawer-content"></div></dialog>
+<dialog id="form-dialog"><div id="form-content"></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="/app.js"></script>
+<script src="/cover-editor.js"></script>
+</body></html>

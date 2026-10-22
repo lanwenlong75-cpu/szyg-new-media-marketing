@@ -1,0 +1,37 @@
+[
+  {
+    "file": "SourceHanSansCN-Regular.otf",
+    "originalInFabritor": "bundled assets/fonts; see licenses",
+    "sha256": "14ec9d09dad83098938370be17170a747d63084022b05710e3d34b4ddb359091",
+    "embeddedNames": {
+      "0": "Copyright © 2014 Adobe Systems Incorporated. All Rights Reserved.",
+      "1": "Source Han Sans CN Regular",
+      "5": "Version 1.000;PS 1;hotconv 1.0.78;makeotf.lib2.5.61930",
+      "13": "Copyright © 2014 Adobe Systems Incorporated\r\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.html\r\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.\r\n",
+      "14": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    },
+    "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.html"
+  },
+  {
+    "file": "SourceHanSerifCN-Regular.ttf",
+    "originalInFabritor": "bundled assets/fonts; see licenses",
+    "sha256": "da293f645cabeaba88468ef3aab9d0326a679fc0c3539cbf0797c6f5c0121f80",
+    "embeddedNames": {
+      "0": "Copyright © 2017 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.",
+      "1": "Source Han Serif CN",
+      "5": "Version 1.001;PS 1.001;hotconv 16.6.54;makeotf.lib2.5.65590",
+      "13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+      "14": "http://scripts.sil.org/OFL"
+    },
+    "licenseUrl": "https://raw.githubusercontent.com/adobe-fonts/source-han-serif/master/LICENSE.txt"
+  },
+  {
+    "file": "MaShanZheng-Regular.ttf",
+    "source": "https://github.com/google/fonts/tree/main/ofl/mashanzheng",
+    "license": "SIL Open Font License 1.1",
+    "licenseFile": "licenses/ma-shan-zheng-OFL.txt",
+    "copyright": "Copyright 2018 The Ma Shan Zheng Project Authors",
+    "sha256": "6d2546bb189c732a8ca29af9e22457b152387d158aa459e4ac2ce1e51788b7fb",
+    "changes": "原始文件未修改"
+  }
+]

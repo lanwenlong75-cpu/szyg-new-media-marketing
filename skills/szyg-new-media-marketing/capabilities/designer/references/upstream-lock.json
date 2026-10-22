@@ -1,0 +1,42 @@
+{
+  "verifiedOn": "2026-10-14",
+  "projects": [
+    {
+      "repo": "howardz27/poster-generator-skill",
+      "url": "https://github.com/howardz27/poster-generator-skill",
+      "commit": "fa2a40bf0943c14dbcf2dfd86a2efe66fa8b4cbc",
+      "lastCommitDate": "2026-09-24",
+      "downloadScope": "完整浅克隆",
+      "mainLicense": "MIT",
+      "licenseFile": "08-开源设计项目\\poster-generator-skill\\LICENSE",
+      "licenseSha256": "57d02c542cc9d0cff93ce5f91c4f87b46fb8db748acf7b73f603c30b9e778589",
+      "upstreamWorkingTreeClean": true
+    },
+    {
+      "repo": "nexu-io/open-design",
+      "url": "https://github.com/nexu-io/open-design",
+      "commit": "1343f374c63d7866f4f3ff5d48ef038eba647f1b",
+      "lastCommitDate": "2026-10-13",
+      "downloadScope": "精选7个模板目录的稀疏浅克隆",
+      "mainLicense": "Apache-2.0；部分模板另有MIT",
+      "licenseFile": "08-开源设计项目\\open-design\\LICENSE",
+      "licenseSha256": "5af3e43224f112bc45788d510afd3e1c0eec60bbc54e9a95b9171e54d750f4b0",
+      "upstreamWorkingTreeClean": true
+    },
+    {
+      "repo": "sleepy-zone/fabritor-web",
+      "url": "https://github.com/sleepy-zone/fabritor-web",
+      "commit": "af35a0118362dbbce5036c759ade0d34aec3ff08",
+      "lastCommitDate": "2024-08-30",
+      "downloadScope": "上游快照完整浅克隆；独立运行版",
+      "mainLicense": "MIT；字体另按具体许可",
+      "licenseFile": "08-开源设计项目\\fabritor-web\\LICENSE",
+      "licenseSha256": "68a1389c955ffa363fbcc8e7cf4727db1f733569727588e88c790ce50fa4046b",
+      "upstreamWorkingTreeClean": true
+    }
+  ],
+  "runtimePatch": "_管理/patch_fabritor_windows_path.py",
+  "editorVerification": "_管理/fabritor-实测/verification.json",
+  "newSkill": "szyg-poster-designer",
+  "licensingNote": "代码主许可不能推断字体、素材或单独模板的许可"
+}

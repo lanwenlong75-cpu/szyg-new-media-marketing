@@ -1,0 +1,7 @@
+# pip chooses wheels compatible with the running Python/OS.
+# Historical exact validation versions remain in the release evidence.
+numpy>=1.26,<3
+pillow>=10,<13
+scipy>=1.11,<2
+opencv-python-headless>=4.8,<6
+fonttools>=4.50,<5

@@ -1,0 +1,83 @@
+{
+  "schema": "video-cover-style/1",
+  "id": "real-scene-white-serif-1",
+  "observedLook": [
+    "真实人物、白板、屏幕、对谈或资料场景铺满底图",
+    "背景整体压暗，仍能辨认人物与情境",
+    "纯白宋体风格短标题，按意思分为2至3行",
+    "每行横向居中，字块靠近画面中部，整页保持一致"
+  ],
+  "reproductionStartingPoint": {
+    "status": "复现起点，不能视为原作者工程参数或新封面验收结果",
+    "canvas": {
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4"
+    },
+    "font": {
+      "family": "Source Han Serif CN",
+      "file": "bundled designer/assets/fonts/SourceHanSerifCN-Regular.ttf",
+      "sizePxRange": [
+        120,
+        180
+      ],
+      "sourceFontIdentified": false
+    },
+    "color": "#FFFFFF",
+    "lineHeightRange": [
+      1.25,
+      1.45
+    ],
+    "alignment": "center each line by actual glyph extent",
+    "centerX": 540,
+    "initialBlockCenterYRatio": 0.48,
+    "adaptiveBlockCenterYRatio": [
+      0.4,
+      0.58
+    ],
+    "maximumTextWidthRatio": 0.85,
+    "minimumSideMarginRatio": 0.08,
+    "backgroundDarkening": "按实际底图调整亮度或半透明黑色覆盖，保证白字可读且情境可辨认"
+  },
+  "copyRules": [
+    "从完整文案提炼一个核心问题、判断或动作，题文一致",
+    "优先2至3行、约8至16字；内容需要时灵活调整",
+    "断行保留词组，不拆AI、Token或数字，不靠生硬换行凑版式",
+    "标题与底图都来自当前视频或当前IP的真实可用材料，不照搬参考数字与人物"
+  ],
+  "excludeFromCover": [
+    "爱心和点赞数",
+    "共创及多图角标",
+    "平台卡片圆角",
+    "主页下方视频标题"
+  ],
+  "deliverables": [
+    "独立PNG",
+    "独立文案与断行、完整提示词；整张生图不称独立文字层",
+    "底图来源和时点、输入角色",
+    "生成方式、实际尺寸与字体风格；未知字体文件如实注明",
+    "视频版本绑定",
+    "手机缩略预览与检查记录"
+  ],
+  "qa": [
+    "原尺寸核对文字、人物、来源与版本",
+    "约200x267及120x160缩略图检查可读性和居中",
+    "多张并排检查字号密度与明暗一致"
+  ],
+  "productionMethod": {
+    "mode": "whole-image generation",
+    "textLayerEditable": false,
+    "actualSizeCheckRequired": true,
+    "productionTarget": [
+      1080,
+      1440
+    ]
+  },
+  "source_visual_relative_sizing": {
+    "textWidthRatio": 0.7302,
+    "blockCenterYRatio": 0.5079,
+    "blockHeightRatio": 0.2652
+  },
+  "private_reference_excluded": true,
+  "initial_standard": "保持暗底白宋体、真实底图、语义断行、逐行居中与手机缩略验收；原私有样例未分发"
+}

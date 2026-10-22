@@ -1,0 +1,13 @@
+{
+  "legacy_export_schemas": [
+    "adu-motion-video-export/v1"
+  ],
+  "legacy_library_folders": [
+    "adu-motion-video"
+  ],
+  "environment_aliases": {
+    "ADU_MOTION_VIDEO_ROOT": "DULI_MOTION_VIDEO_ROOT",
+    "ADU_PYTHON": "DULI_PYTHON",
+    "ADU_PLAYWRIGHT_MODULE": "DULI_PLAYWRIGHT_MODULE"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "flat-source-intake/1",
+  "directory": "待剪素材",
+  "flat": true,
+  "filenamePattern": "{内容编号}_原片_{两位序号}{原扩展名小写}",
+  "example": "V-001_原片_01.mp4",
+  "assignId": "复用已有V编号；未登记素材取下一个顺序编号，扫描临时ID保留映射",
+  "sourceRegistry": "发布管理/原片登记.json",
+  "entry": "使用总入口capabilities/director/scripts/source_intake.py --root 当前项目 --apply",
+  "beforeEditing": true,
+  "backgroundWatch": false,
+  "preserveBytes": true,
+  "titleInLedger": true
+}

@@ -1,0 +1,22 @@
+{
+  "name": "szyg-duli-motion-video",
+  "version": "3.14.0-rc.1",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "check": "node --check scripts/render_project.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "Local video authoring, motion graphics and hand-drawn animation skill with runnable examples",
+  "dependencies": {
+    "acorn": "8.15.0",
+    "playwright-core": "1.58"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  }
+}

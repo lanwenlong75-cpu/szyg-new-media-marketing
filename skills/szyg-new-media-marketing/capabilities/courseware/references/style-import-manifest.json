@@ -1,0 +1,16 @@
+{
+  "schema": "public-style-assets/1",
+  "scope": "generic re-creation for open-source distribution",
+  "private_originals_included": false,
+  "palette": {
+    "background": "#161819",
+    "foreground": "#F4F2EC",
+    "accent": "#F9BE4E",
+    "muted": "#A7ABAF",
+    "line": "#52595C",
+    "panel": "#222628",
+    "panelStrong": "#303538"
+  },
+  "example_deck": "assets/dark-yellow-layouts.pptx",
+  "source_version": "0.2.0"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "szyg-短视频编导"
+  short_description: "按当前IP策划选题、脚本和分镜，推进真实制作、验收与反馈改进"
+  default_prompt: "使用 $szyg-short-video-director，读取当前项目的员工配置和IP知识，为本次目标完成短视频编导工作。"

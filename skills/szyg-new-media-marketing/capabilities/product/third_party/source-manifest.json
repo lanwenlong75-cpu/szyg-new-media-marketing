@@ -1,0 +1,141 @@
+{
+  "retrieved_on": "2026-10-18",
+  "scope": "selected MIT source material; pinned versions; no remote updater",
+  "files": [
+    {
+      "repository": "phuryn/pm-skills",
+      "commit": "07b34f64ee828df08953f505b7f747aef85ae7c6",
+      "original_path": "pm-product-discovery/skills/brainstorm-experiments-existing/SKILL.md",
+      "local_path": "third_party/phuryn-pm-skills/brainstorm-experiments-existing/METHOD.md",
+      "sha256": "d72da1f4f08d5514662d7bad37dfc3ed4ef11fcc5b5ddec6ca5a8ac0e47f45c5",
+      "bytes": 2408,
+      "original_bytes_preserved": true
+    },
+    {
+      "repository": "phuryn/pm-skills",
+      "commit": "07b34f64ee828df08953f505b7f747aef85ae7c6",
+      "original_path": "pm-product-discovery/skills/brainstorm-ideas-existing/SKILL.md",
+      "local_path": "third_party/phuryn-pm-skills/brainstorm-ideas-existing/METHOD.md",
+      "sha256": "cf950494541bd9b47e60054f1a917cef02094fe8c769d5feca86603282e2bd5b",
+      "bytes": 2951,
+      "original_bytes_preserved": true
+    },
+    {
+      "repository": "phuryn/pm-skills",
+      "commit": "07b34f64ee828df08953f505b7f747aef85ae7c6",
+      "original_path": "pm-product-discovery/skills/brainstorm-ideas-new/SKILL.md",
+      "local_path": "third_party/phuryn-pm-skills/brainstorm-ideas-new/METHOD.md",
+      "sha256": "400e5e0760d6dc52bfe34953d90db6223df532ce720d7e85568696ab5c3d34d2",
+      "bytes": 2437,
+      "original_bytes_preserved": true
+    },
+    {
+      "repository": "phuryn/pm-skills",
+      "commit": "07b34f64ee828df08953f505b7f747aef85ae7c6",
+      "original_path": "pm-product-discovery/skills/identify-assumptions-existing/SKILL.md",
+      "local_path": "third_party/phuryn-pm-skills/identify-assumptions-existing/METHOD.md",
+      "sha256": "59d788213014552ac64f589c71ce82b135f9ef4b84fec457446ad90795fd439f",
+      "bytes": 2102,
+      "original_bytes_preserved": true
+    },
+    {
+      "repository": "phuryn/pm-skills",
+      "commit": "07b34f64ee828df08953f505b7f747aef85ae7c6",
+      "original_path": "pm-product-discovery/skills/interview-script/SKILL.md",
+      "local_path": "third_party/phuryn-pm-skills/interview-script/METHOD.md",
+      "sha256": "892ca53da9852d4e6516d2305f0c0eb2db370bf39693c6c6797154b44bec9b4c",
+      "bytes": 4817,
+      "original_bytes_preserved": true
+    },
+    {
+      "repository": "phuryn/pm-skills",
+      "commit": "07b34f64ee828df08953f505b7f747aef85ae7c6",
+      "original_path": "pm-product-discovery/skills/opportunity-solution-tree/SKILL.md",
+      "local_path": "third_party/phuryn-pm-skills/opportunity-solution-tree/METHOD.md",
+      "sha256": "6b23e44a5ace86aa20d64cc130322265ace6a53a29831cc403b974098a379bcc",
+      "bytes": 4281,
+      "original_bytes_preserved": true
+    },
+    {
+      "repository": "phuryn/pm-skills",
+      "commit": "07b34f64ee828df08953f505b7f747aef85ae7c6",
+      "original_path": "pm-product-discovery/skills/prioritize-assumptions/SKILL.md",
+      "local_path": "third_party/phuryn-pm-skills/prioritize-assumptions/METHOD.md",
+      "sha256": "18160a0138c788790c9dd22995ffdcfac485c1f0599c170d8668678e59766073",
+      "bytes": 2311,
+      "original_bytes_preserved": true
+    },
+    {
+      "repository": "phuryn/pm-skills",
+      "commit": "07b34f64ee828df08953f505b7f747aef85ae7c6",
+      "original_path": "LICENSE",
+      "local_path": "third_party/phuryn-pm-skills/LICENSE",
+      "sha256": "a2c922f9b81b4f40347ddfa79c38eda0f1278b5a6d108bd4099b4da254c774ee",
+      "bytes": 1068,
+      "original_bytes_preserved": true
+    },
+    {
+      "repository": "alirezarezvani/claude-skills",
+      "commit": "19392f7a08264ed00486a251f5b2098321771f94",
+      "original_path": "product-team/skills/product-discovery/references/discovery-frameworks.md",
+      "local_path": "third_party/alireza-product-discovery/product-discovery/references/discovery-frameworks.md",
+      "sha256": "2d1e59f597c9d1f09a201ec7c12bdc9a816c0707b585f32080db31dfd6b44bab",
+      "bytes": 1849,
+      "original_bytes_preserved": true
+    },
+    {
+      "repository": "alirezarezvani/claude-skills",
+      "commit": "19392f7a08264ed00486a251f5b2098321771f94",
+      "original_path": "product-team/skills/product-discovery/scripts/assumption_mapper.py",
+      "local_path": "third_party/alireza-product-discovery/product-discovery/scripts/assumption_mapper.py",
+      "sha256": "158e0348d347f8877b6e791e20920596f45bcef1269cc836fdb68ccd83e9503d",
+      "bytes": 4062,
+      "original_bytes_preserved": true
+    },
+    {
+      "repository": "alirezarezvani/claude-skills",
+      "commit": "19392f7a08264ed00486a251f5b2098321771f94",
+      "original_path": "product-team/skills/product-discovery/SKILL.md",
+      "local_path": "third_party/alireza-product-discovery/product-discovery/METHOD.md",
+      "sha256": "52d492cb9eefe2136b21a295a9041bc60e11d7261f3f8ce84f3b58d83c8e75e4",
+      "bytes": 3312,
+      "original_bytes_preserved": true
+    },
+    {
+      "repository": "alirezarezvani/claude-skills",
+      "commit": "19392f7a08264ed00486a251f5b2098321771f94",
+      "original_path": "LICENSE",
+      "local_path": "third_party/alireza-product-discovery/LICENSE",
+      "sha256": "a20126646f93d32a8989c3cf4772d59194f405034f7babe7daebeac22b8ab151",
+      "bytes": 1072,
+      "original_bytes_preserved": true
+    },
+    {
+      "repository": "bmad-code-org/BMAD-METHOD",
+      "commit": "85186edf6b5918152af9f99101a13307865ec7b8",
+      "original_path": "LICENSE",
+      "local_path": "third_party/bmad-brainstorming/LICENSE",
+      "sha256": "0aa79baf6328b4a1e694ce10a12ffc36d7666554da128dff0e8fcda0fc536a66",
+      "bytes": 1572,
+      "original_bytes_preserved": true
+    },
+    {
+      "repository": "bmad-code-org/BMAD-METHOD",
+      "commit": "85186edf6b5918152af9f99101a13307865ec7b8",
+      "original_path": "skills/bmad-brainstorming/assets/brain-methods.csv",
+      "local_path": "third_party/bmad-brainstorming/brain-methods.csv",
+      "sha256": "fff112eabca1a9cb8b190f8314bc47678becc5782a2372e11c83daa0e33b6dfd",
+      "bytes": 19519,
+      "original_bytes_preserved": true
+    },
+    {
+      "repository": "bmad-code-org/BMAD-METHOD",
+      "commit": "85186edf6b5918152af9f99101a13307865ec7b8",
+      "original_path": "CONTRIBUTORS.md",
+      "local_path": "third_party/bmad-brainstorming/CONTRIBUTORS.md",
+      "sha256": "1f0d0736ff06fcea2c504834b9d13196f37ca57fae5cf9054899dcec4ed36ad4",
+      "bytes": 1331,
+      "original_bytes_preserved": true
+    }
+  ]
+}

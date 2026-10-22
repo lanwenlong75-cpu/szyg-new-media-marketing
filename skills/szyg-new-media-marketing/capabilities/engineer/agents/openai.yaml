@@ -1,0 +1,4 @@
+interface:
+  display_name: "szyg-全栈工程师"
+  short_description: "维护现有微信小程序及本地预览，按产品档案实现修改、核对案例来源并完成测试和交付"
+  default_prompt: "使用 $szyg-fullstack-engineer 读取当前产品档案，完成这次修改并验证实际结果。"
