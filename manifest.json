@@ -1,7 +1,7 @@
 {
   "schema": "unified-skill-release/1",
   "skill": "szyg-new-media-marketing",
-  "release": "2026.10.22.1",
+  "release": "2026.10.22.2",
   "source_entry_version": "0.2.7",
   "modules": 14,
   "files": [
@@ -27,8 +27,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "2bba38c461fe4ded9568f135f77d4e6923ccaca4e94e23a1fa6e21fb9f0a7a38",
-      "bytes": 2340
+      "sha256": "ef553a33f4bef77397413431dad958f51cdd1265f5911a386f69de371eb02daa",
+      "bytes": 7356
     },
     {
       "path": "SELF-TEST.md",
@@ -37,7 +37,7 @@
     },
     {
       "path": "SOURCE-VERSIONS.json",
-      "sha256": "29b4361a031ab68ab2a19542a2034bffaa5527455a1704532b6f4cc59b793b46",
+      "sha256": "1721553dc6d07960a2ff7881abafa4ba87d1a33d4ba155cf1f995569520c3f08",
       "bytes": 4746
     },
     {
@@ -52,7 +52,7 @@
     },
     {
       "path": "install.py",
-      "sha256": "5425831b73fe5fdb205b1478394b7eee19d8cb3ad77ddaa4786da9164280708e",
+      "sha256": "1b48d939d97f53c7260658fcba8ce3f8615e8604b5639caffbb1a85d9493a137",
       "bytes": 8610
     },
     {
@@ -5327,12 +5327,12 @@
     },
     {
       "path": "开始使用.md",
-      "sha256": "3a077e379a83498d0befda0015db444ff359220abbe8fdf2b90fac6c877d0bf3",
+      "sha256": "2794493de08d0f3e3a09d2c0fe01620351308f29fbf497e402d6e5aafd086607",
       "bytes": 5036
     },
     {
       "path": "验收与边界.md",
-      "sha256": "3ca1a10edd52893b4213013062614d952e9e1e8192cab6acbb05b600f07e51a5",
+      "sha256": "4caa93cebc64761593b3e5b1fcf2cd256f163053e21680d75482af63f054d645",
       "bytes": 2606
     }
   ]
