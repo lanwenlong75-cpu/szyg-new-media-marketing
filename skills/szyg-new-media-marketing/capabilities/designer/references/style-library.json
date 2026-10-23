@@ -1,0 +1,74 @@
+{
+  "schema": "poster-active-style-library-v2",
+  "active_count": 7,
+  "active_styles": [
+    {
+      "id": "neo-brutalist",
+      "code": "S02",
+      "name": "粗野大字",
+      "method": "styles/neo-brutalist.md",
+      "approval": "retained_for_library"
+    },
+    {
+      "id": "futurist-gradient",
+      "code": "S10",
+      "name": "未来渐变",
+      "method": "styles/futurist-gradient.md",
+      "approval": "retained_for_library"
+    },
+    {
+      "id": "editorial-collage",
+      "code": "S11",
+      "name": "编辑拼贴",
+      "method": "styles/editorial-collage.md",
+      "approval": "retained_for_library"
+    },
+    {
+      "id": "japanese-ma",
+      "code": "S12",
+      "name": "日式留白",
+      "method": "styles/japanese-ma.md",
+      "approval": "retained_for_library"
+    },
+    {
+      "id": "surreal-3d-editorial",
+      "code": "S17",
+      "name": "超现实立体",
+      "method": "styles/surreal-3d-editorial.md",
+      "approval": "retained_for_library"
+    },
+    {
+      "id": "retro-futurism",
+      "code": "S18",
+      "name": "复古未来",
+      "method": "styles/retro-futurism.md",
+      "approval": "retained_for_library"
+    },
+    {
+      "id": "hyperreal-product",
+      "code": "S20",
+      "name": "写实产品",
+      "method": "styles/hyperreal-product.md",
+      "approval": "retained_for_library"
+    }
+  ],
+  "removed_style_ids": [
+    "swiss-editorial",
+    "luxury-minimal",
+    "constructivist-impact",
+    "bauhaus-modular",
+    "pop-commercial",
+    "cinematic-key-art",
+    "data-editorial",
+    "organic-craft",
+    "monochrome-typographic",
+    "art-deco-luxe",
+    "risograph-zine",
+    "glassmorphism-ui",
+    "botanical-premium"
+  ],
+  "policy": "7种基础风格与50个外部参考均已确认保留，统一从curated-library.json按用途选型。已删除13种不自动恢复。保留允许入库使用，不代表任何未来成品、品牌事实或最终视觉自动通过。",
+  "composite_reference_board": "private_project_archive_only_not_for_sharing",
+  "retained_reference_library": "curated-library.json",
+  "retained_total": 57
+}

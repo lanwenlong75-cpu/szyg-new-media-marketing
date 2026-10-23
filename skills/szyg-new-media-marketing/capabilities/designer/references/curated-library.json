@@ -1,0 +1,1524 @@
+{
+  "schema": "poster-retained-reference-library-v1",
+  "count": 57,
+  "style_count": 7,
+  "external_reference_count": 50,
+  "scope": "generic_design_methods",
+  "retention_scope": "库内保留与调用；每次成图仍按当前品牌、用途和实际结果验收。",
+  "distribution": "通用方法、空白简报与作者出处；不含品牌资料、成品、参考原图或机器配置。",
+  "entries": [
+    {
+      "id": "S02",
+      "kind": "style",
+      "title": "粗野大字",
+      "category": "基础风格",
+      "retention": "keep",
+      "observation": "大字、硬边、强烈黑黄反差",
+      "purposes": [
+        "活动",
+        "倒计时",
+        "观点"
+      ],
+      "text_density": [
+        "低",
+        "中"
+      ],
+      "adaptation": "用一个大标题或真实时间数字统领画面，以硬边块和清楚的信息尾区组织层级；高反差按当前品牌配色实现。",
+      "check": "硬边与大字不能把价格条件、日期或入口挤出画面。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "method": "styles/neo-brutalist.md",
+      "source": {
+        "author": "howardz27/poster-generator-skill",
+        "url": "https://github.com/howardz27/poster-generator-skill",
+        "commit": "fa2a40bf0943c14dbcf2dfd86a2efe66fa8b4cbc",
+        "distribution": "method_under_MIT",
+        "license_file": "../licenses/poster-generator-MIT.txt"
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "style",
+      "title": "未来渐变",
+      "category": "基础风格",
+      "retention": "keep",
+      "observation": "光线、数字空间、科技流动感",
+      "purposes": [
+        "产品",
+        "活动",
+        "品牌"
+      ],
+      "text_density": [
+        "低",
+        "中"
+      ],
+      "adaptation": "用光线或渐变空间连接主题与主体，正文落在稳定的暗面或浅面；颜色读取当前品牌。",
+      "check": "发光不能吞掉文字边缘，科技气质不能替代产品说明。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "method": "styles/futurist-gradient.md",
+      "source": {
+        "author": "howardz27/poster-generator-skill",
+        "url": "https://github.com/howardz27/poster-generator-skill",
+        "commit": "fa2a40bf0943c14dbcf2dfd86a2efe66fa8b4cbc",
+        "distribution": "method_under_MIT",
+        "license_file": "../licenses/poster-generator-MIT.txt"
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "style",
+      "title": "编辑拼贴",
+      "category": "基础风格",
+      "retention": "keep",
+      "observation": "撕纸、叠层、剪贴与粗细字反差",
+      "purposes": [
+        "课程",
+        "活动",
+        "观点"
+      ],
+      "text_density": [
+        "低",
+        "中"
+      ],
+      "adaptation": "让纸片、剪影与标题形成穿插；一条信息对应一种纸片作用，保留明确阅读轴。",
+      "check": "贴纸和撕边须承载内容，避免装饰盖过主体。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "method": "styles/editorial-collage.md",
+      "source": {
+        "author": "howardz27/poster-generator-skill",
+        "url": "https://github.com/howardz27/poster-generator-skill",
+        "commit": "fa2a40bf0943c14dbcf2dfd86a2efe66fa8b4cbc",
+        "distribution": "method_under_MIT",
+        "license_file": "../licenses/poster-generator-MIT.txt"
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "style",
+      "title": "日式留白",
+      "category": "基础风格",
+      "retention": "keep",
+      "observation": "安静比例、细字、克制的空间",
+      "purposes": [
+        "品牌",
+        "产品",
+        "观点"
+      ],
+      "text_density": [
+        "低"
+      ],
+      "adaptation": "用少量文字、克制对齐与大块留白建立节奏，主体只保留必要部分。",
+      "check": "信息不足不靠假文案补足；手机小字不能因追求细腻而过小。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "method": "styles/japanese-ma.md",
+      "source": {
+        "author": "howardz27/poster-generator-skill",
+        "url": "https://github.com/howardz27/poster-generator-skill",
+        "commit": "fa2a40bf0943c14dbcf2dfd86a2efe66fa8b4cbc",
+        "distribution": "method_under_MIT",
+        "license_file": "../licenses/poster-generator-MIT.txt"
+      }
+    },
+    {
+      "id": "S17",
+      "kind": "style",
+      "title": "超现实立体",
+      "category": "基础风格",
+      "retention": "keep",
+      "observation": "异常物件、柔和材质、想象空间",
+      "purposes": [
+        "产品",
+        "活动",
+        "品牌"
+      ],
+      "text_density": [
+        "低"
+      ],
+      "adaptation": "选一个与主题相关的异常物件或空间关系，用材质和尺度反差承托主标题。",
+      "check": "概念演绎物不能冒充真实产品功能、材质或现场证据。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "method": "styles/surreal-3d-editorial.md",
+      "source": {
+        "author": "howardz27/poster-generator-skill",
+        "url": "https://github.com/howardz27/poster-generator-skill",
+        "commit": "fa2a40bf0943c14dbcf2dfd86a2efe66fa8b4cbc",
+        "distribution": "method_under_MIT",
+        "license_file": "../licenses/poster-generator-MIT.txt"
+      }
+    },
+    {
+      "id": "S18",
+      "kind": "style",
+      "title": "复古未来",
+      "category": "基础风格",
+      "retention": "keep",
+      "observation": "旧科技、荧光文字、复古数字感",
+      "purposes": [
+        "活动",
+        "产品",
+        "观点"
+      ],
+      "text_density": [
+        "低",
+        "中"
+      ],
+      "adaptation": "把旧科技字形、数字质感和当代内容结合，正文使用更稳定的字形保持可读。",
+      "check": "复古噪点与荧光只服务焦点，别把全部小字做成实验字。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "method": "styles/retro-futurism.md",
+      "source": {
+        "author": "howardz27/poster-generator-skill",
+        "url": "https://github.com/howardz27/poster-generator-skill",
+        "commit": "fa2a40bf0943c14dbcf2dfd86a2efe66fa8b4cbc",
+        "distribution": "method_under_MIT",
+        "license_file": "../licenses/poster-generator-MIT.txt"
+      }
+    },
+    {
+      "id": "S20",
+      "kind": "style",
+      "title": "写实产品",
+      "category": "基础风格",
+      "retention": "keep",
+      "observation": "真实材质、产品尺度、摄影光线",
+      "purposes": [
+        "产品",
+        "品牌"
+      ],
+      "text_density": [
+        "低",
+        "中"
+      ],
+      "adaptation": "真实产品占据主要视域，以摄影光线呈现尺度和材质；规格与条件独立成组。",
+      "check": "不能借生成图虚构产品外观、包装、效果或真实材质。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "method": "styles/hyperreal-product.md",
+      "source": {
+        "author": "howardz27/poster-generator-skill",
+        "url": "https://github.com/howardz27/poster-generator-skill",
+        "commit": "fa2a40bf0943c14dbcf2dfd86a2efe66fa8b4cbc",
+        "distribution": "method_under_MIT",
+        "license_file": "../licenses/poster-generator-MIT.txt"
+      }
+    },
+    {
+      "id": "R01",
+      "kind": "reference",
+      "title": "断行大字与斜向切面",
+      "category": "主标题",
+      "retention": "keep",
+      "observation": "ARTIST被切成数段，黑字跨过灰色和荧光斜面，时间缩在底边；标题本身就是主体。",
+      "purposes": [
+        "活动",
+        "倒计时",
+        "观点"
+      ],
+      "text_density": [
+        "低"
+      ],
+      "adaptation": "把一个短标题分成可连读的几段，以斜向切面产生方向；必要信息归并到底部。",
+      "check": "中文断行按词义处理，避免每行都成为互不相连的字块。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Tomorrow Design Office",
+        "work_title": "Artist at Work 3",
+        "url": "https://www.typographicposters.com/tomorrow/6aaa6bc4721bc439ca76f180",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R02",
+      "kind": "reference",
+      "title": "渐变地形与分区标题",
+      "category": "图文关系",
+      "retention": "keep",
+      "observation": "宋体中文、英文黑体和点阵渐变地形共存；上方标题与下方日期之间有明显呼吸。",
+      "purposes": [
+        "课程",
+        "活动",
+        "品牌"
+      ],
+      "text_density": [
+        "低",
+        "中"
+      ],
+      "adaptation": "让标题和时间分别占据上下读区，以地形或渐变图形连接中部；中英字体承担不同层级。",
+      "check": "主标题附近留净区，不让渐变纹理降低字的对比。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Tomorrow Design Office",
+        "work_title": "Growing Happiness",
+        "url": "https://www.typographicposters.com/tomorrow/68ba887ad318f00bca412d93",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R03",
+      "kind": "reference",
+      "title": "流动圆环与竖排主字",
+      "category": "空间结构",
+      "retention": "keep",
+      "observation": "右侧大字竖向展开，灰黑圆环在左侧及底部流动；少量说明靠边收拢。",
+      "purposes": [
+        "活动",
+        "品牌"
+      ],
+      "text_density": [
+        "低"
+      ],
+      "adaptation": "竖向标题与环形主视觉分居两侧，用环的开口引向说明区。",
+      "check": "中文竖排检查读序，说明不沿曲线缩到难读。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Tomorrow Design Office",
+        "work_title": "Years – Ceramic Works by Rachel Cheung",
+        "url": "https://www.typographicposters.com/tomorrow/68ba8803d318f00bca3e0723",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R04",
+      "kind": "reference",
+      "title": "三维骨架与文字底网",
+      "category": "数字实验",
+      "retention": "keep",
+      "observation": "银色骨架横贯画面，后层黑字重复成文字网；前后层的密度形成冲突。",
+      "purposes": [
+        "产品",
+        "活动",
+        "品牌"
+      ],
+      "text_density": [
+        "低"
+      ],
+      "adaptation": "立体主题物置于前景，重复文字只作次级空间底网；核心文案放在不受遮挡处。",
+      "check": "重复底字不得混入事实文案，前后层不能同样抢眼。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Ou Zhang",
+        "work_title": "Ong by One",
+        "url": "https://www.typographicposters.com/ou-zhang/682733eb56e083016db2b05d",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R05",
+      "kind": "reference",
+      "title": "像素轮廓与路径排版",
+      "category": "字形实验",
+      "retention": "keep",
+      "observation": "粗蓝像素轮廓围出巨大的字形，细橙线在内部穿行，说明沿边分布。",
+      "purposes": [
+        "活动",
+        "观点"
+      ],
+      "text_density": [
+        "低"
+      ],
+      "adaptation": "把短字或主题轮廓放大为像素主体，以一条细路径引导阅读，信息靠边归组。",
+      "check": "轮廓实验只用于标题，不让关键信息也沿复杂路径分散。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Ou Zhang",
+        "work_title": "ODE: Winter Tour 2024 Japan",
+        "url": "https://www.typographicposters.com/ou-zhang/69035352499f50f1ada9c567",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R06",
+      "kind": "reference",
+      "title": "像素标题与表单索引",
+      "category": "资料目录",
+      "retention": "keep",
+      "observation": "黑色像素大字集中在上部；细粉色表格与裁切标记提供“正在整理内容”的感觉。",
+      "purposes": [
+        "课程",
+        "排期",
+        "活动"
+      ],
+      "text_density": [
+        "中",
+        "高"
+      ],
+      "adaptation": "像素主标题负责识别，下方以表单索引安排真实条目；标题与信息表分工。",
+      "check": "细格线和裁切感只作辅助，长清单必要时另页。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Ou Zhang",
+        "work_title": "Only Choices",
+        "url": "https://www.typographicposters.com/ou-zhang/6827353656e083016dbe724f",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R07",
+      "kind": "reference",
+      "title": "半透明色块与窄长文字",
+      "category": "图文关系",
+      "retention": "keep",
+      "observation": "风景摄影被半透明圆角色块罩住，极窄粉字纵向伸展，说明落在几处稳定空隙。",
+      "purposes": [
+        "品牌",
+        "活动",
+        "产品"
+      ],
+      "text_density": [
+        "低",
+        "中"
+      ],
+      "adaptation": "授权摄影作主体，半透明色面划出净读区，窄长主字形成纵向节奏。",
+      "check": "叠色不能掩盖产品或人物的重要特征。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Wu, Mu-Chang",
+        "work_title": "WANDER ABOUT TUVA",
+        "url": "https://www.typographicposters.com/mu-chang-wu/6856ec4c4722bb4bb7cf6853",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R08",
+      "kind": "reference",
+      "title": "自然实物与票据贴纸",
+      "category": "图文拼贴",
+      "retention": "keep",
+      "observation": "柿子、山林、白色标题、票据和位置符号拼接在一起，活动信息被当成可贴上的纸片。",
+      "purposes": [
+        "活动",
+        "产品",
+        "课程"
+      ],
+      "text_density": [
+        "低",
+        "中"
+      ],
+      "adaptation": "以真实物件或地点素材建立主题，时间地点做成少量票据纸片嵌入画面。",
+      "check": "地图、位置和票据内容须来自当前事实，避免伪造活动凭证。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Wu, Mu-Chang",
+        "work_title": "秋・來部落聽菇柿",
+        "url": "https://www.typographicposters.com/mu-chang-wu/6856edbf37cfb8d943e6b4ab",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R09",
+      "kind": "reference",
+      "title": "刷印椭圆与跨区标题",
+      "category": "空间结构",
+      "retention": "keep",
+      "observation": "三个绿色刷印椭圆纵向叠放，字和线稿跨越色块边缘，粗糙材料形成节奏。",
+      "purposes": [
+        "活动",
+        "观点"
+      ],
+      "text_density": [
+        "低",
+        "中"
+      ],
+      "adaptation": "用纵向重复的刷印形状建立段落节奏，标题跨过边界但保留可读的字形。",
+      "check": "粗糙边缘不能侵入关键小字，重复模块不必每块都填满。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Wu, Mu-Chang",
+        "work_title": "ONE HUNDRED FLAVORS FESTIVAL",
+        "url": "https://www.typographicposters.com/mu-chang-wu/6856ed2a37cfb8d943e39d0d",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R10",
+      "kind": "reference",
+      "title": "单一剪影与双侧标题",
+      "category": "主标题",
+      "retention": "keep",
+      "observation": "橙黑占大面积，鸟形剪影与四季文字共用同一结构，少量粉色点出视觉重心。",
+      "purposes": [
+        "品牌",
+        "活动",
+        "观点"
+      ],
+      "text_density": [
+        "低"
+      ],
+      "adaptation": "用一个与主题有关的剪影固定视觉中心，两侧文字相互平衡，重点色只点一次。",
+      "check": "剪影需要与内容相关，不照搬原作标志性主体。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Cheng Peng",
+        "work_title": "four seasons",
+        "url": "https://www.typographicposters.com/cheng-peng/63d636f66387a908f18ccb37",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R11",
+      "kind": "reference",
+      "title": "中文笔画变成主图",
+      "category": "字形实验",
+      "retention": "keep",
+      "observation": "中文笔画被放大、倾斜和拆开，少量英文与小字贴着结构走；几乎不依赖插图。",
+      "purposes": [
+        "观点",
+        "活动",
+        "品牌"
+      ],
+      "text_density": [
+        "低"
+      ],
+      "adaptation": "选一个能代表主题的短词，以中文笔画放大和倾斜形成主视觉；释义保持常规排法。",
+      "check": "保留字的辨识度与语义，不能把所有正文拆成笔画。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Cheng Peng",
+        "work_title": "Food Series",
+        "url": "https://www.typographicposters.com/cheng-peng/63d634bbac6e0fb2afbd03dc",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R12",
+      "kind": "reference",
+      "title": "紧密字块与局部小符号",
+      "category": "主标题",
+      "retention": "keep",
+      "observation": "圆润窄字挤成上下两块，圣诞符号只占极小面积，大字与淡色底保持很强反差。",
+      "purposes": [
+        "活动",
+        "倒计时",
+        "观点"
+      ],
+      "text_density": [
+        "低"
+      ],
+      "adaptation": "把短标题压成两个紧凑字块，用极少量主题符号提示场景。",
+      "check": "紧排后检查字间关系，条件与入口留在正常字距的信息区。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Quentin Li",
+        "work_title": "Merry Xmas",
+        "url": "https://www.typographicposters.com/quentin-li/67618955673fa3ce8936d55c",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R13",
+      "kind": "reference",
+      "title": "异形标题与放射留缝",
+      "category": "字形实验",
+      "retention": "keep",
+      "observation": "主字像被挤压后弹开，细字沿上边及放射形缝隙排布，黑白形成强冲击。",
+      "purposes": [
+        "活动",
+        "观点"
+      ],
+      "text_density": [
+        "低"
+      ],
+      "adaptation": "异形主字围出放射留缝，把辅助说明集中在少数稳定边缘。",
+      "check": "主字可实验，日期和地点须维持常规可读形态。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Junki Hong",
+        "work_title": "Baddie",
+        "url": "https://www.typographicposters.com/junki-hong/68731167a36e72e1c8c89284",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R14",
+      "kind": "reference",
+      "title": "一字一格与正负反转",
+      "category": "资料目录",
+      "retention": "keep",
+      "observation": "上半是巨大的A，下半以黑白反转分格安放字母；极小注释形成尺度对比。",
+      "purposes": [
+        "课程",
+        "排期",
+        "活动"
+      ],
+      "text_density": [
+        "中"
+      ],
+      "adaptation": "主符号统领上半区，下半分格索引真实内容，以正负反色区别层级。",
+      "check": "一格一内容，不为凑格数拆散同一语义。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Junki Hong",
+        "work_title": "I AM",
+        "url": "https://www.typographicposters.com/junki-hong/687311831e19e78425bab512",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R15",
+      "kind": "reference",
+      "title": "带状文字与反向穿插",
+      "category": "字形实验",
+      "retention": "keep",
+      "observation": "黑白文字条从不同方向穿过，粗窄字形成密集节拍，背景与前景通过反色分开。",
+      "purposes": [
+        "活动",
+        "观点"
+      ],
+      "text_density": [
+        "低",
+        "中"
+      ],
+      "adaptation": "以少量反向文字带制造穿插，保留一条连续的主标题阅读线。",
+      "check": "反向处理限于装饰层，固定文案不镜像、不倒置。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Junki Hong",
+        "work_title": "Kitsch",
+        "url": "https://www.typographicposters.com/junki-hong/68731184f652860d89730976",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R16",
+      "kind": "reference",
+      "title": "放射线框与信息内框",
+      "category": "空间结构",
+      "retention": "keep",
+      "observation": "粉色放射线形成扇形外壳，正文位于中间稳定矩形；下方绿线再次打开空间。",
+      "purposes": [
+        "课程",
+        "活动",
+        "产品"
+      ],
+      "text_density": [
+        "中"
+      ],
+      "adaptation": "外围放射线提供动势，中间稳定内框承载解释、安排或条件。",
+      "check": "放射线不穿过正文，信息内框不能被压得过窄。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Jaemin Lee",
+        "work_title": "Lesser Fullness Market 2026",
+        "url": "https://www.typographicposters.com/jaemin-lee/6a1a92698a44cbc25acfc0dd",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R17",
+      "kind": "reference",
+      "title": "人物剪影与错向大字",
+      "category": "图文关系",
+      "retention": "keep",
+      "observation": "两个人物剪影与放大衬线字交错，字有横有竖，粉底把多个元素统一起来。",
+      "purposes": [
+        "课程",
+        "活动",
+        "品牌"
+      ],
+      "text_density": [
+        "低",
+        "中"
+      ],
+      "adaptation": "授权人物剪影与大字交错，字的横竖变化配合人物朝向形成关系。",
+      "check": "保护脸部和身份特征，不移植参考中的人物或服装身份。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Jaemin Lee",
+        "work_title": "Today is the Message: 6 June 2026 — omm.. & Woohuijun Live at Echo System HQ",
+        "url": "https://www.typographicposters.com/jaemin-lee/6a1a8fe1213b855f35b30cd4",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R18",
+      "kind": "reference",
+      "title": "折线框架与内容分层",
+      "category": "资料目录",
+      "retention": "keep",
+      "observation": "浅色立体折线把上部撑成折页空间，细网格向下延伸，整张有明确的信息分区。",
+      "purposes": [
+        "课程",
+        "产品",
+        "排期"
+      ],
+      "text_density": [
+        "中",
+        "高"
+      ],
+      "adaptation": "折页空间用于总主题，向下延伸的网格用于条目和说明，形成从总到分的读序。",
+      "check": "立体装饰不改变项目顺序，密集内容可拆成详情页。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Jaemin Lee",
+        "work_title": "Side by Side by Side",
+        "url": "https://www.typographicposters.com/jaemin-lee/6a1a8efa3a2f97c757b22dac",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R19",
+      "kind": "reference",
+      "title": "金属字形与棋盘节拍",
+      "category": "数字实验",
+      "retention": "keep",
+      "observation": "字形由银色条带和粉绿光面组成，几何棋盘与圆点穿插，画面近乎满版。",
+      "purposes": [
+        "活动",
+        "产品",
+        "品牌"
+      ],
+      "text_density": [
+        "低"
+      ],
+      "adaptation": "金属或光面主题字与少量几何节拍形成满版视觉，真实信息另留干净区域。",
+      "check": "满版材质适合短主图，不用于承载整页课程目录。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Studio Hik",
+        "work_title": "New-Eoureum",
+        "url": "https://www.typographicposters.com/studio-hik/695b656798e320f6121c52a6",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R20",
+      "kind": "reference",
+      "title": "半透明质感与浮起主字",
+      "category": "数字实验",
+      "retention": "keep",
+      "observation": "淡色模糊背景上浮着立体中英文字，细线、阴影和底部说明形成轻重层级。",
+      "purposes": [
+        "产品",
+        "活动",
+        "品牌"
+      ],
+      "text_density": [
+        "低",
+        "中"
+      ],
+      "adaptation": "让立体主字从柔和背景中浮起，细线和说明贴合主字的空间关系。",
+      "check": "透明和模糊效果不得降低标题与正文对比。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Studio Hik",
+        "work_title": "No Time to Die: Inert Liquid Assemby",
+        "url": "https://www.typographicposters.com/studio-hik/695b63ff3646a8696c67bf87",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R21",
+      "kind": "reference",
+      "title": "错位衬线与低饱和影像",
+      "category": "图文关系",
+      "retention": "keep",
+      "observation": "大衬线字被拆散错位，半透明蓝紫图像叠在后层，底部信息以细白字集中。",
+      "purposes": [
+        "活动",
+        "品牌",
+        "观点"
+      ],
+      "text_density": [
+        "低"
+      ],
+      "adaptation": "大衬线标题作有节制的错位，低饱和影像保持后景，说明集中到底部。",
+      "check": "错位不改变拼写，中文长标题避免逐字离散。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Studio Hik",
+        "work_title": "Muted Hums",
+        "url": "https://www.typographicposters.com/studio-hik/695b637f98e320f612102d71",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R22",
+      "kind": "reference",
+      "title": "文字链条与节点关系",
+      "category": "资料目录",
+      "retention": "keep",
+      "observation": "蓝色链节跨越粉色大字，链节上也带有内容；曲线与编号形成具体连接关系。",
+      "purposes": [
+        "课程",
+        "产品",
+        "排期"
+      ],
+      "text_density": [
+        "中"
+      ],
+      "adaptation": "把真实步骤、主题或模块作为节点，用链条或曲线表达它们的具体关系。",
+      "check": "只有内容确有连接时才连线，不用链条虚构因果或流程。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Woong Studio",
+        "work_title": "New Year's poster for 2025",
+        "url": "https://www.typographicposters.com/woong/67a37c32df8e6c6f7744c91e",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R23",
+      "kind": "reference",
+      "title": "纵向重复与大小文字",
+      "category": "空间结构",
+      "retention": "keep",
+      "observation": "细长条和花形反复组成底网，超大字母穿过其间，正文收在底部小网格。",
+      "purposes": [
+        "活动",
+        "品牌"
+      ],
+      "text_density": [
+        "低",
+        "中"
+      ],
+      "adaptation": "重复的细长条或图形构成底网，大标题穿过其间，说明落入稳定小网格。",
+      "check": "正文不参与高频重复，降低底网干扰。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Woong Studio",
+        "work_title": "Sacred Day of the Resurrection of Koreans",
+        "url": "https://www.typographicposters.com/woong/67a624fb24c6b45785aa50eb",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R24",
+      "kind": "reference",
+      "title": "X形渐层与中心交点",
+      "category": "主标题",
+      "retention": "keep",
+      "observation": "黑色X由多层灰带向中间聚拢，粉色信息集中在两侧交点附近，白底留得很干净。",
+      "purposes": [
+        "活动",
+        "品牌",
+        "观点"
+      ],
+      "text_density": [
+        "低"
+      ],
+      "adaptation": "用交叉渐层把注意力收向交点，主题和说明布在交点附近的干净区域。",
+      "check": "交叉形须服务主题，避免机械复制原图的识别符号。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "erik desombere",
+        "work_title": "x from expo",
+        "url": "https://www.typographicposters.com/erik-desombere/6a21601e0cef8a14cc9b93a0",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R25",
+      "kind": "reference",
+      "title": "时间词叠排与下部清单",
+      "category": "分享排期",
+      "retention": "keep",
+      "observation": "月份英文一行一个，占据绝大部分黑底；真正的活动说明压在下方规则小行中。",
+      "purposes": [
+        "排期",
+        "活动",
+        "倒计时"
+      ],
+      "text_density": [
+        "中",
+        "高"
+      ],
+      "adaptation": "月份或日期作为大字节奏，下部清单列出对应真实安排，时间与条目一一对应。",
+      "check": "原作下部小字不能照尺寸搬用，按手机尺度放大安排。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "erik desombere",
+        "work_title": "united",
+        "url": "https://www.typographicposters.com/erik-desombere/698d8b0df46453e8fc5c0493",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R26",
+      "kind": "reference",
+      "title": "多线字形与大小节奏",
+      "category": "字形实验",
+      "retention": "keep",
+      "observation": "红粉色多重轮廓构成字母，字母高低错开；时间地点在少量空隙里形成次级信息。",
+      "purposes": [
+        "活动",
+        "观点"
+      ],
+      "text_density": [
+        "低"
+      ],
+      "adaptation": "多重轮廓构成短标题，通过高低变化建立节奏，时间地点落在稳定空隙。",
+      "check": "重复轮廓不能造成重影误读，数字使用清晰字形。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Uma Grotrian-Steinweg",
+        "work_title": "Radau Lounge",
+        "url": "https://www.typographicposters.com/uma-grotrian-steinweg/6846fd369417bdd2c83777f9",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R27",
+      "kind": "reference",
+      "title": "微图案填字与圆形注释",
+      "category": "资料目录",
+      "retention": "keep",
+      "observation": "巨大的字由细密圆点图案组成，底部圆形注释嵌入结构，远看是字、近看有细节。",
+      "purposes": [
+        "品牌",
+        "课程",
+        "活动"
+      ],
+      "text_density": [
+        "低",
+        "中"
+      ],
+      "adaptation": "远看形成主题字，近看呈现细图案；底部注释作为解释层。",
+      "check": "缩略图仍须读出主题，纹理中不塞入必须被阅读的正文。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Uma Grotrian-Steinweg",
+        "work_title": "Voice Layers",
+        "url": "https://www.typographicposters.com/uma-grotrian-steinweg/6818c4f91a8a84f7c54144e5",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R28",
+      "kind": "reference",
+      "title": "立体折面字与斜向空间",
+      "category": "字形实验",
+      "retention": "keep",
+      "observation": "白色字像折起来的阶梯，斜向占据黑底，左上仅保留很小的活动信息。",
+      "purposes": [
+        "活动",
+        "产品",
+        "品牌"
+      ],
+      "text_density": [
+        "低"
+      ],
+      "adaptation": "把短主题字转为折面或阶梯物体，以斜向尺度形成空间。",
+      "check": "只借立体构字机制，不以难辨字承载规格或行动条件。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Uma Grotrian-Steinweg",
+        "work_title": "Radau im P.ara",
+        "url": "https://www.typographicposters.com/uma-grotrian-steinweg/6818c4f7bdcdee34be888e51",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R29",
+      "kind": "reference",
+      "title": "枝状网络与大字覆盖",
+      "category": "数字实验",
+      "retention": "keep",
+      "observation": "分叉的细枝状结构铺在青色底上，浅粉大字横跨其中，活动信息顺势放在下部。",
+      "purposes": [
+        "课程",
+        "产品",
+        "活动"
+      ],
+      "text_density": [
+        "低",
+        "中"
+      ],
+      "adaptation": "枝状网络表现主题之间的结构，大标题跨越网络，必要说明在下部聚合。",
+      "check": "连接不能暗示未证实关系，线条须避开正文。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "NODE Berlin Oslo",
+        "work_title": "Amphibian Drift / MIT Future Fest",
+        "url": "https://www.typographicposters.com/node/6aa90a660be007beef112cc1",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R30",
+      "kind": "reference",
+      "title": "错版叠印与整块标题",
+      "category": "主标题",
+      "retention": "keep",
+      "observation": "红蓝大字轻微错位叠印，主标题和活动说明保持同一中轴，形成视觉上的震动。",
+      "purposes": [
+        "活动",
+        "倒计时",
+        "观点"
+      ],
+      "text_density": [
+        "低",
+        "中"
+      ],
+      "adaptation": "主标题保持整块，以轻微错版色层制造震动；活动说明沿同一轴组织。",
+      "check": "错版范围控制在标题装饰层，关键数字不重影。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "NODE Berlin Oslo",
+        "work_title": "Claiming Common Spaces VIII: Shift the Vibe",
+        "url": "https://www.typographicposters.com/node/6a522d5abd4d916adeb1f391",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R31",
+      "kind": "reference",
+      "title": "锯齿空心与边缘信息",
+      "category": "空间结构",
+      "retention": "keep",
+      "observation": "黑色锯齿围成空心圆，绿底几乎没有多余图像；上下两端负责解释活动。",
+      "purposes": [
+        "品牌",
+        "活动"
+      ],
+      "text_density": [
+        "低"
+      ],
+      "adaptation": "围合形状建立一个强中心，空心区保留视觉停顿，上下两端承担必要说明。",
+      "check": "中心留空须有目的，不把所有信息挤到难读的窄边。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "BANK™",
+        "work_title": "Gegenöffentlichkeit generieren? Kunst, KI und rechte Dynamiken",
+        "url": "https://www.typographicposters.com/bank/6a9551c4443de61c32ef1008",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R32",
+      "kind": "reference",
+      "title": "全文铺排与高亮词组",
+      "category": "资料目录",
+      "retention": "keep",
+      "observation": "整段文字铺满画面，少数加粗词与粉色模糊高亮打破连续性，视觉像经过阅读批注的页面。",
+      "purposes": [
+        "观点",
+        "课程"
+      ],
+      "text_density": [
+        "高"
+      ],
+      "adaptation": "正文形成连续文本面，以少量高亮词建立扫读路径；核心结论在缩略图仍能识别。",
+      "check": "仅在文本本身是主题时使用，招生主图不要铺满全文。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "BANK™",
+        "work_title": "Architecture Summer Talks 2026 – Poetic Pragmatism",
+        "url": "https://www.typographicposters.com/bank/6a954ee9443de61c32ef0ff3",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R33",
+      "kind": "reference",
+      "title": "噪点底材与阶梯模块",
+      "category": "空间结构",
+      "retention": "keep",
+      "observation": "金色阶梯在灰蓝噪点上向上延伸，标题与节目类别分别落在左上和右下两个角。",
+      "purposes": [
+        "课程",
+        "活动",
+        "品牌"
+      ],
+      "text_density": [
+        "低",
+        "中"
+      ],
+      "adaptation": "阶梯模块带出递进方向，标题与类别分置两角，噪点保持后景。",
+      "check": "阶梯只在内容有递进时承担语义，否则作为纯视觉并说明。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Atelier Tout va bien",
+        "work_title": "Propagations 5",
+        "url": "https://www.typographicposters.com/tout-va-bien/683da6a8456bbc93bcda1f19",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R34",
+      "kind": "reference",
+      "title": "自由曲线与地块分区",
+      "category": "图文拼贴",
+      "retention": "keep",
+      "observation": "粉橙蓝绿形成不规则地块，细白线越过多个色区，活动名称与日期分别贴边。",
+      "purposes": [
+        "活动",
+        "课程",
+        "品牌"
+      ],
+      "text_density": [
+        "低",
+        "中"
+      ],
+      "adaptation": "色块形成主题分区，一条自由曲线连接阅读，名称与日期贴近清楚的边缘。",
+      "check": "分区按内容决定，不能让色区数量反过来拆分业务。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Atelier Tout va bien",
+        "work_title": "Festival MV #11",
+        "url": "https://www.typographicposters.com/tout-va-bien/67653e5d6d6cb6ad73b98562",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R35",
+      "kind": "reference",
+      "title": "椭圆容器与浮动词语",
+      "category": "数字实验",
+      "retention": "keep",
+      "observation": "黑色大椭圆占据蓝底中央，金属字像漂浮的零件，标题读序被故意拆开。",
+      "purposes": [
+        "活动",
+        "品牌"
+      ],
+      "text_density": [
+        "低"
+      ],
+      "adaptation": "中央容器约束浮动的主题字或物件，用明显的主次恢复阅读起点。",
+      "check": "实验读序适合短主题，不用于严肃条件与复杂说明。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Elya Akateva",
+        "work_title": "Like Poster",
+        "url": "https://www.itsnicethat.com/articles/elya-akateva-graphic-design-discover-190625",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R36",
+      "kind": "reference",
+      "title": "小型字形与大块留空",
+      "category": "字形实验",
+      "retention": "keep",
+      "observation": "黄底上小字以不规则字形分散排列，留白比文字更抢眼，底部小字作为稳定支点。",
+      "purposes": [
+        "品牌",
+        "观点"
+      ],
+      "text_density": [
+        "低"
+      ],
+      "adaptation": "以大块留空衬托少量主题字，底部信息作为稳定支点；手机尺度可放大主字。",
+      "check": "不能机械复制原作的小字比例，留白不等于弱识别。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Elya Akateva",
+        "work_title": "Fake of Duty",
+        "url": "https://www.itsnicethat.com/articles/elya-akateva-graphic-design-discover-190625",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R37",
+      "kind": "reference",
+      "title": "巨大黑字与纸片标注",
+      "category": "图文拼贴",
+      "retention": "keep",
+      "observation": "黑色异形字叠在浅黄纸面上，小标签像临时贴上，构图有明显手工碰撞感。",
+      "purposes": [
+        "观点",
+        "活动",
+        "课程"
+      ],
+      "text_density": [
+        "低",
+        "中"
+      ],
+      "adaptation": "巨大主字与少量纸片标注形成手工碰撞，标注只补充关键条件或解释。",
+      "check": "标注不能盖住主字，也不为填空增加无关贴纸。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Elya Akateva",
+        "work_title": "Imposter",
+        "url": "https://www.itsnicethat.com/articles/elya-akateva-graphic-design-discover-190625",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R38",
+      "kind": "reference",
+      "title": "监控窗口与事件看板",
+      "category": "数字界面",
+      "retention": "keep",
+      "observation": "多个视频窗口、侧栏与黄色底部横幅合成一个监控式界面，细节都服务同一事件。",
+      "purposes": [
+        "活动",
+        "产品",
+        "案例"
+      ],
+      "text_density": [
+        "中",
+        "高"
+      ],
+      "adaptation": "多个窗口围绕同一事件组织，侧栏索引与底部横幅分别承担导航和结论。",
+      "check": "案例窗口须用真实授权证据，不能生成假监控或假软件界面当实证。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Jean Pierre Consuegra",
+        "work_title": "Child Support",
+        "url": "https://www.itsnicethat.com/articles/jean-pierre-consuegra-graphic-design-discover-250225",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R39",
+      "kind": "reference",
+      "title": "裁切窗口与说明连线",
+      "category": "数字界面",
+      "retention": "keep",
+      "observation": "多个人像裁切窗通过蓝色线与短标签连接，白底保留大量空隙，信息像可被检索的档案。",
+      "purposes": [
+        "课程",
+        "活动",
+        "案例"
+      ],
+      "text_density": [
+        "中"
+      ],
+      "adaptation": "裁切窗与短标签建立可检索的档案结构，连线只连接真实对应的信息。",
+      "check": "真实人物身份与案例来源逐项核对，不能生成虚构客户档案。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Jean Pierre Consuegra",
+        "work_title": "Meatcrft",
+        "url": "https://www.itsnicethat.com/articles/jean-pierre-consuegra-graphic-design-discover-250225",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R40",
+      "kind": "reference",
+      "title": "桌面多窗与活动清单",
+      "category": "数字界面",
+      "retention": "keep",
+      "observation": "复古桌面层层叠窗，网页窗口负责活动标题与名单，地图和文件夹承担次要信息。",
+      "purposes": [
+        "活动",
+        "排期",
+        "产品"
+      ],
+      "text_density": [
+        "中",
+        "高"
+      ],
+      "adaptation": "桌面窗口分装主题、名单与安排，最前窗口承担主信息，其余控制为辅助层。",
+      "check": "界面只作视觉比喻；真实产品宣传使用实际界面并说明编辑范围。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Jean Pierre Consuegra",
+        "work_title": "Sport Mode London",
+        "url": "https://www.itsnicethat.com/articles/jean-pierre-consuegra-graphic-design-discover-250225",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R41",
+      "kind": "reference",
+      "title": "软焦点与上下两区",
+      "category": "图文关系",
+      "retention": "keep",
+      "observation": "上半是模糊交叉色带与黑圆，下半是绿色雾状渐变，标题夹在两区交接处。",
+      "purposes": [
+        "品牌",
+        "活动",
+        "观点"
+      ],
+      "text_density": [
+        "低"
+      ],
+      "adaptation": "上下两种柔焦色区在标题位置交接，主字作为全图最清楚的元素。",
+      "check": "模糊仅作用于背景，必要信息保持清晰边缘。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Tristan Huschke",
+        "work_title": "Crauzone · 活动海报",
+        "url": "https://www.itsnicethat.com/articles/tristan-huschke-graphic-design-discover-040626",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R42",
+      "kind": "reference",
+      "title": "几何格室与节目分区",
+      "category": "分享排期",
+      "retention": "keep",
+      "observation": "灰橙几何被拆成上下格室，中部活动时间和名单在深底上集中出现，底部再补图形。",
+      "purposes": [
+        "排期",
+        "课程",
+        "活动"
+      ],
+      "text_density": [
+        "中",
+        "高"
+      ],
+      "adaptation": "几何格室承载不同信息组，时间与名单集中在稳定深底区。",
+      "check": "按实际安排确定格数，不能因几何整齐省略条件。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Tristan Huschke",
+        "work_title": "Legal Spezial Dayrave",
+        "url": "https://www.itsnicethat.com/articles/tristan-huschke-graphic-design-discover-040626",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R43",
+      "kind": "reference",
+      "title": "细格线与分栏图形",
+      "category": "资料目录",
+      "retention": "keep",
+      "observation": "粉黑蓝色块被细网格切开，几何图形占不同宽度，主标题是一条醒目的水平带。",
+      "purposes": [
+        "产品",
+        "课程",
+        "排期"
+      ],
+      "text_density": [
+        "中",
+        "高"
+      ],
+      "adaptation": "用不同列宽的细网格组织图形与条目，一条主标题带建立总入口。",
+      "check": "分栏要符合阅读顺序，小字不沿网格压缩。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Tristan Huschke",
+        "work_title": "Peach and Ciel at Standard Time",
+        "url": "https://www.itsnicethat.com/articles/tristan-huschke-graphic-design-discover-040626",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R44",
+      "kind": "reference",
+      "title": "粗糙表面与阶梯日期",
+      "category": "图文拼贴",
+      "retention": "keep",
+      "observation": "蓝红粗糙纹理配灰色弯折形，日期和地点放在左上，底部文字呈阶梯状扩展。",
+      "purposes": [
+        "活动",
+        "排期",
+        "观点"
+      ],
+      "text_density": [
+        "低",
+        "中"
+      ],
+      "adaptation": "粗糙材料建立气质，日期和地点保持清楚，底部文本以阶梯形成节奏。",
+      "check": "纹理降低到不影响数字辨识，日期阶梯按时间顺序。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Emir Karyo",
+        "work_title": "Goodness · 7 Years",
+        "url": "https://www.itsnicethat.com/articles/emir-karyo-graphic-design-discover-100225",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R45",
+      "kind": "reference",
+      "title": "对称裂缝与手工字形",
+      "category": "字形实验",
+      "retention": "keep",
+      "observation": "上下不规则文字被中央裂缝隔开，蓝灰黑相互挤压；白色活动条成为少量干净读区。",
+      "purposes": [
+        "活动",
+        "观点"
+      ],
+      "text_density": [
+        "低"
+      ],
+      "adaptation": "中央裂缝分开两个主题字块，少量干净信息条为阅读提供落点。",
+      "check": "不规则字只用于短标题，正文留常规字体。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Emir Karyo",
+        "work_title": "Goodness UK Posters",
+        "url": "https://www.itsnicethat.com/articles/emir-karyo-graphic-design-discover-100225",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R46",
+      "kind": "reference",
+      "title": "线稿涂鸦与半幅色块",
+      "category": "图文拼贴",
+      "retention": "keep",
+      "observation": "上半浅底、下半棕底，一条手绘线穿过全图，标题像涂画后又被重新标记。",
+      "purposes": [
+        "活动",
+        "课程",
+        "观点"
+      ],
+      "text_density": [
+        "低",
+        "中"
+      ],
+      "adaptation": "上下半幅色面划分内容，手绘线穿过全图连接主题与说明。",
+      "check": "手绘线有明确指向，不穿过眼睛、数字或入口。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Emir Karyo",
+        "work_title": "Dungeon Keepers",
+        "url": "https://www.itsnicethat.com/articles/emir-karyo-graphic-design-discover-100225",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R47",
+      "kind": "reference",
+      "title": "透视放射与中心圆盘",
+      "category": "空间结构",
+      "retention": "keep",
+      "observation": "黑白尖形从边缘冲向中间椭圆盘，黄色标题极小而集中，几何制造很强的空间方向。",
+      "purposes": [
+        "活动",
+        "倒计时",
+        "品牌"
+      ],
+      "text_density": [
+        "低"
+      ],
+      "adaptation": "放射几何把视线集中到中央盘，中央承载一个主题或真实时间数字。",
+      "check": "原作极小标题比例不照搬，中心文字须手机可读。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Nguyen Gobber",
+        "work_title": "Salon skug · April",
+        "url": "https://www.itsnicethat.com/articles/nguyen-gobber-salon-skug-graphic-design-project-180626",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R48",
+      "kind": "reference",
+      "title": "圆点字母与大小索引",
+      "category": "资料目录",
+      "retention": "keep",
+      "observation": "字母各占一个圆，行与行逐渐缩小，黑色空圆作为停顿；日期与场地也纳入圆点系统。",
+      "purposes": [
+        "排期",
+        "课程",
+        "活动"
+      ],
+      "text_density": [
+        "中"
+      ],
+      "adaptation": "以圆形单元建立大小索引，标题、日期与场地进入同一信息系统。",
+      "check": "圆内长中文容易挤压，调整容器或拆行而非无限缩字。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Nguyen Gobber",
+        "work_title": "Salon skug · September",
+        "url": "https://www.itsnicethat.com/articles/nguyen-gobber-salon-skug-graphic-design-project-180626",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R49",
+      "kind": "reference",
+      "title": "递进格网与横条日期",
+      "category": "分享排期",
+      "retention": "keep",
+      "observation": "红黄网格从上到下逐层细分，黑色短条是标题和日期，结构由宽逐步变细。",
+      "purposes": [
+        "排期",
+        "活动",
+        "课程"
+      ],
+      "text_density": [
+        "中",
+        "高"
+      ],
+      "adaptation": "网格逐级细分表达从总到分，横条标识主题、日期和分组。",
+      "check": "细分层级控制在能理解的范围，清单仍按真实顺序。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Nguyen Gobber",
+        "work_title": "Salon skug · March",
+        "url": "https://www.itsnicethat.com/articles/nguyen-gobber-salon-skug-graphic-design-project-180626",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    },
+    {
+      "id": "R50",
+      "kind": "reference",
+      "title": "城市环景与底部日程",
+      "category": "图文关系",
+      "retention": "keep",
+      "observation": "人物、城市、飞机和弯曲道路形成一个环形场景，名称和日期留在下方浅色区域。",
+      "purposes": [
+        "活动",
+        "品牌",
+        "课程"
+      ],
+      "text_density": [
+        "低",
+        "中"
+      ],
+      "adaptation": "授权人物与场景组成环形主视觉，下方浅色区单独列名称和日程。",
+      "check": "生成场景不冒充真实活动现场，城市与地点不能暗示未确认的举办地。",
+      "applicability_basis": "design_interpretation",
+      "editable_template": false,
+      "source": {
+        "author": "Ben Wood Studio",
+        "work_title": "Taylah Elaine · Tour Poster",
+        "url": "https://www.itsnicethat.com/articles/ben-wood-graphic-design-discover-170925",
+        "distribution": "link_and_method_only_no_image_license_confirmed"
+      }
+    }
+  ]
+}

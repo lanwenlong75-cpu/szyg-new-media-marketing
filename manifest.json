@@ -1,7 +1,7 @@
 {
   "schema": "unified-skill-release/1",
   "skill": "szyg-new-media-marketing",
-  "release": "2026.10.22.2",
+  "release": "2026.10.23.1",
   "source_entry_version": "0.2.7",
   "modules": 14,
   "files": [
@@ -16,6 +16,11 @@
       "bytes": 145
     },
     {
+      "path": "CHANGELOG.md",
+      "sha256": "73aa59373aa68b308f383137c66a63c06cba9e0e0121fbf3894a65c798f6e65f",
+      "bytes": 866
+    },
+    {
       "path": "Install-Codex-Windows.cmd",
       "sha256": "a71640ce73185c9522e2d19e01488de5a2890e560ed88648736202849e3351ab",
       "bytes": 269
@@ -27,8 +32,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "ef553a33f4bef77397413431dad958f51cdd1265f5911a386f69de371eb02daa",
-      "bytes": 7356
+      "sha256": "803dbd9cc0ab4e140ab578050ca73c4aa0c367e68319b60d58099b665390df33",
+      "bytes": 7654
     },
     {
       "path": "SELF-TEST.md",
@@ -37,8 +42,8 @@
     },
     {
       "path": "SOURCE-VERSIONS.json",
-      "sha256": "1721553dc6d07960a2ff7881abafa4ba87d1a33d4ba155cf1f995569520c3f08",
-      "bytes": 4746
+      "sha256": "dd8e99a90426fd62cf6da136112ab89fa89d846ba18d24b50c1f2a39fff21e7e",
+      "bytes": 4747
     },
     {
       "path": "THIRD_PARTY.md",
@@ -52,7 +57,7 @@
     },
     {
       "path": "install.py",
-      "sha256": "1b48d939d97f53c7260658fcba8ce3f8615e8604b5639caffbb1a85d9493a137",
+      "sha256": "031c8b6e2c993293bec1140827596c89da777f108fa0c2d751e83835fe71c126",
       "bytes": 8610
     },
     {
@@ -347,8 +352,8 @@
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/GUIDE.md",
-      "sha256": "ea8f14fd1a5b1f8a5d484408dd5761e7c529e8720cd18c466a5e35f679f1ad7b",
-      "bytes": 9551
+      "sha256": "a354d114b3d73f1440d2c6575a2746a570a816e548ee2d22eed801f41f7e26e8",
+      "bytes": 4163
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/agents/openai.yaml",
@@ -371,16 +376,6 @@
       "bytes": 14495132
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/designer/assets/references/20种海报风格.jpg",
-      "sha256": "ded49fcb8b19e7d1e8cf20f9a047ce108b8cb2358e2ba9f5bb39d91de800bffe",
-      "bytes": 613998
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/designer/assets/references/bauhaus-modular.jpg",
-      "sha256": "d817747c9e8f9fe9ed003fcb184e25151c2ba706ed797c6d7d64c5b40479a61f",
-      "bytes": 368749
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/assets/references/editorial-collage.jpg",
       "sha256": "03d4427d7a52ba6ddff7b506436f0cd351f02d74acdcc05b445932e8177e7d57",
       "bytes": 883207
@@ -391,24 +386,14 @@
       "bytes": 196752
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/designer/assets/references/luxury-minimal.jpg",
-      "sha256": "fbf14ef7bdfba8dc7a72ea5cda82d6768edc189541e0227565f4716a2d000fa7",
-      "bytes": 269143
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/assets/references/neo-brutalist.jpg",
       "sha256": "bf8e631d8c6f840b56945078906c352ce921198854c8fab9f4b6d2ac93e71bd3",
       "bytes": 954182
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/designer/assets/references/swiss-editorial.jpg",
-      "sha256": "28dc41afb29dfc41ddf5111c19476522c1b0b0d9a455eaea5605fcaf84fe9ba8",
-      "bytes": 463284
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/assets/templates/poster-brief.md",
-      "sha256": "b78d88f3ce99addd20188f625ac06b56ebe6ceb139dede46e9e7e034494c6428",
-      "bytes": 2243
+      "sha256": "455cb11147cac583a86ea2dfd5d37e99594b0b6241b09c03430cbc679ef8033b",
+      "bytes": 2424
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/assets/templates/poster.html",
@@ -457,23 +442,28 @@
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/references/art-direction.md",
-      "sha256": "a2b2335a0cddcb24b226a6e034d58fd33100bd912fa66f562f2c710463fbcb75",
-      "bytes": 2430
+      "sha256": "cb16c4e605d8046fead1d472ac341e3ff6b9c37be8b20a80699d4994ae6b5335",
+      "bytes": 862
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/references/character-identity.md",
-      "sha256": "009340be5bcb6516daaf64b34bacdeb12a9164e709beedd105a2567557917d7c",
-      "bytes": 3052
+      "sha256": "ee412c0dee6de0e8d788ad733570196275e17a68610e8abf7d4404e785487923",
+      "bytes": 2414
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/references/company-project-templates.md",
-      "sha256": "875e5d907352373c80e05c48f1fc438971f1e546d8e946888cffedf4fead37d8",
-      "bytes": 3563
+      "sha256": "841a66115d27f6424a288cbbbded6c9e5adc11485e45dba4c4f3088fff40cbc0",
+      "bytes": 3869
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/references/conversation-to-poster.md",
       "sha256": "e4b32628c0af876f85d1f9b011c2b2ee316cda15a491a209cacaf27f7de6fcce",
       "bytes": 5225
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/designer/references/curated-library.json",
+      "sha256": "053f8270e897fbc9d8bc0c82d9ed2d440ca4eb2ef95cd68522c642ffeb194cd7",
+      "bytes": 57330
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/references/fonts-provenance.json",
@@ -482,13 +472,13 @@
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/references/inherited-standards.md",
-      "sha256": "a376db349bb933b2201db1f662a5eb69311761afbf5e60cd6bbc983df23567d7",
-      "bytes": 4752
+      "sha256": "00b6746ef20b48cd0c144da869d52d825483b726cde4d54485ae667f95725f8e",
+      "bytes": 4879
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/references/local-resources.md",
-      "sha256": "8a64f2e687f399cb358a53e47908477dfc6cb344315b404de38b0886bb95b61b",
-      "bytes": 1151
+      "sha256": "6eafd33778b7685ac8628dc8d4e8304c28ab343f0fc4ade0279409a45eda796d",
+      "bytes": 1274
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/references/production.md",
@@ -502,13 +492,18 @@
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/references/reference-led-design.md",
-      "sha256": "5a4a481816081933eea936e2a4d4af1bb7e8bf1c5b0579f705f509afd93f42c2",
-      "bytes": 4938
+      "sha256": "6988aaa8f9301d441f60cff511f1f0a2ab74c7323d55e42c0242f56541be27e2",
+      "bytes": 3120
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/designer/references/reference-library.md",
+      "sha256": "764a43a608c2504131dfe4d5a90850b6616761407c87ab096caca2e6b3ff6edf",
+      "bytes": 6479
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/references/review.md",
-      "sha256": "50bc1542edde936d9d4de1d21f7130a65846dc92bd0ded1f0e448368485fed8b",
-      "bytes": 3552
+      "sha256": "210d6f03c19093d133306cbeddcc23be76bb55300688e7b3c06c24e3eaaf0ac9",
+      "bytes": 2815
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/references/runtime-config.json",
@@ -516,34 +511,9 @@
       "bytes": 133
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/designer/references/styles/art-deco-luxe.md",
-      "sha256": "11bd4d29cd5be1e25a2669bbcf28c96778a8b12081e0f8457983937f265ee851",
-      "bytes": 1057
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/designer/references/styles/bauhaus-modular.md",
-      "sha256": "7890d2a7f8159bfea11e9dc700a39d21600da8b4642e4ff587ee77fa61c493a4",
-      "bytes": 1042
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/designer/references/styles/botanical-premium.md",
-      "sha256": "520b014cf86b32693e27da065c6b26a1a5db117e474e6d9c99697d91c01789bd",
-      "bytes": 1037
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/designer/references/styles/cinematic-key-art.md",
-      "sha256": "963e3dd04b3a13df884b006a56a98a5de1c871cf4b4f940f3845b4101cd0f086",
-      "bytes": 1082
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/designer/references/styles/constructivist-impact.md",
-      "sha256": "bde331e790a4b73521e3b25deba7553f6678a241ef20d06db126c7c8d2e1bcc8",
-      "bytes": 1065
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/designer/references/styles/data-editorial.md",
-      "sha256": "d227c96c5008cb4d3f7c2527ac8f44eb5f5b3b513a54006146307455e9d2cdd2",
-      "bytes": 1121
+      "path": "skills/szyg-new-media-marketing/capabilities/designer/references/style-library.json",
+      "sha256": "ce337eea158e8c78ac1cac99484ce360488b74d7ef1f4e3620bac27fdc6895f6",
+      "bytes": 2121
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/references/styles/editorial-collage.md",
@@ -556,11 +526,6 @@
       "bytes": 1134
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/designer/references/styles/glassmorphism-ui.md",
-      "sha256": "b1a32d188c6ea34c0c8a69a9a925bbeaa96c341f90ae592a3af3e05090aa8840",
-      "bytes": 1263
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/references/styles/hyperreal-product.md",
       "sha256": "4954b2789e8c043bcfa767ef9760bab6334c705a39a1d271b41c9af0ea478b71",
       "bytes": 1268
@@ -571,29 +536,9 @@
       "bytes": 1095
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/designer/references/styles/luxury-minimal.md",
-      "sha256": "659abd2946fdada574a07a80284eee0acaaa9ca4dc465705bc59d8f8838176f1",
-      "bytes": 1170
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/designer/references/styles/monochrome-typographic.md",
-      "sha256": "8fbb7e6d2329befa061f53aeedac0978cd56cd63270d6dd35dd1e1a1afc13a94",
-      "bytes": 1049
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/references/styles/neo-brutalist.md",
       "sha256": "8a6d75e7413af8ba293fd16f36d9e047e6d65c360134cd722856a4ea107a7739",
       "bytes": 1235
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/designer/references/styles/organic-craft.md",
-      "sha256": "115f3a2782f866a64c180bd7261f43e865532d5d18f1498a20e44f898a70fbc3",
-      "bytes": 1050
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/designer/references/styles/pop-commercial.md",
-      "sha256": "e0a451c6be30f2ab036125e51102ad81e41cd49cf3ee2a846b2edb1302f94aaf",
-      "bytes": 1207
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/references/styles/retro-futurism.md",
@@ -601,19 +546,14 @@
       "bytes": 1079
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/designer/references/styles/risograph-zine.md",
-      "sha256": "9ec695889aa5b1f67d8262e6baf5560ece888d18ff909144868e98f2f98f79b8",
-      "bytes": 1039
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/references/styles/surreal-3d-editorial.md",
       "sha256": "84a6e9eaa813357def80f20539e6a5c68f40808bde9f9017dbc346a33d372f90",
       "bytes": 1136
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/designer/references/styles/swiss-editorial.md",
-      "sha256": "7cd287e33ae5bf294a2cdf2d66e3252951db100aea1dbd7ed2a0eb076d2818b0",
-      "bytes": 1144
+      "path": "skills/szyg-new-media-marketing/capabilities/designer/references/template-library-and-sharing.md",
+      "sha256": "d9003e1916a8e2cd0aa569cefdb35d00512a929de2aebcd1a14274200230daac",
+      "bytes": 2109
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/references/text-coverage-check.md",
@@ -632,8 +572,8 @@
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/references/whole-poster-generation.md",
-      "sha256": "cc235cb9230dcacc9815a7634eb5cc51217a66625723dc3703c96190b8507039",
-      "bytes": 4212
+      "sha256": "55982f62bd49ac8f4e4d173cf6a42ebddfd93ed58996a651c7f261475b7af51a",
+      "bytes": 3783
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/references/数字员工确认规则.md",
@@ -659,6 +599,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/designer/scripts/render_poster.cjs",
       "sha256": "ed2c960199c4b9d455c8a769dcd5c8d10c5c796ac7210ebaf7ed27871ffb9598",
       "bytes": 4167
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/designer/scripts/select_references.py",
+      "sha256": "ef6c82172315b1f1d53df917700cc16fa8b39112c8a4ced0d5a5420b2c2b784b",
+      "bytes": 1892
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/director/GUIDE.md",
@@ -687,8 +632,8 @@
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/director/references/inherited-standards.md",
-      "sha256": "ef4e4b2f5da33a2a710183130675f89b61d154c7dcad00adba712a559f9f6601",
-      "bytes": 7650
+      "sha256": "c73d04c900c5a8202e340011dc19a9c2faadeaf63d3f7d6f219b66d644efdfdc",
+      "bytes": 8349
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/director/references/landscape-to-portrait.md",
@@ -752,23 +697,33 @@
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/editor/GUIDE.md",
-      "sha256": "71b5ffd0d48174824a7d5c2dde3e5c6a253d1ba634dcc0837efb2b376904eb8c",
-      "bytes": 7302
+      "sha256": "70395b954cd3e9f4994963dc32789a58afc76b8ed06db1f54d2c472ddf87ea43",
+      "bytes": 8468
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/editor/agents/openai.yaml",
-      "sha256": "5ebee8ad6433c44e28b4ca2302184e6d5ee14a9c57b0219f664570ce9094f6d1",
-      "bytes": 155
+      "sha256": "f8905b12df7219900609eef0449badf3be3ee1a433ce403ebf98de95bd0cbdfd",
+      "bytes": 167
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/editor/assets/article-style-sampler.js",
+      "sha256": "f3b3053b0b4a456362b5b09496f5881edc711ae869f44c5819c451c0b68cfb19",
+      "bytes": 2207
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/editor/assets/文章交付模板.md",
-      "sha256": "32c6e37c51893115f7e15c737ccc71ae6166ce297fc41a2534be23fb33a67395",
-      "bytes": 763
+      "sha256": "d6b177aa92cde02471530004c7bd253e00d8eac695dccc240a90b64f3a25c4aa",
+      "bytes": 1020
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/editor/assets/文章拆解报告模板.md",
+      "sha256": "a53318c42acbfa99b4a870f95d0fa0862b6c707f9d53f78346f7ed8e9a44c309",
+      "bytes": 3229
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/editor/references/inherited-standards.md",
-      "sha256": "a873c9f076351c802f10dfb81c51c24a6791f3ff76ce1747b6503b72f1f8d8a3",
-      "bytes": 1124
+      "sha256": "023bb38cfb3df714e4ad381059e477f1ae9db758ad0582bffcb3e745130f1da5",
+      "bytes": 2016
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/editor/references/事实与素材使用.md",
@@ -776,9 +731,19 @@
       "bytes": 2591
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/editor/references/公众号文末钩子.md",
+      "sha256": "45446f7e815a31c4ce7d8a3d34f70d65260b423331702f07a26d8fecb624346d",
+      "bytes": 2985
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/editor/references/公众号文章详细拆解.md",
+      "sha256": "798b38dbf2f250100b88295ba7aabcfae9b5458cca2fa7bde04b7cba32bc6e87",
+      "bytes": 7165
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/editor/references/图文排版与配图.md",
-      "sha256": "5a567f3a12e8d5e01c6817406f09f654adac274064f1ca5874d84491a1f59511",
-      "bytes": 2881
+      "sha256": "4e7be864fbb09a2737011e3fa8e733cdf07da8e0aca08a8fa5f22e4bafde29f1",
+      "bytes": 2874
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/editor/references/数字员工确认规则.md",
@@ -787,8 +752,8 @@
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/editor/references/编辑流程.md",
-      "sha256": "b4cc81ea28298878c6a3b0c933ae08c230da159ff0d494bc7c87609943134a02",
-      "bytes": 3364
+      "sha256": "188c6b387d6660e55504e7c14fa722b2c0d3e890da6e8bddaadea1ca046992e5",
+      "bytes": 3603
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/editor/references/视频一鱼多吃.md",
@@ -799,6 +764,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/editor/scripts/build_video_pool.py",
       "sha256": "24fb1305cd88e14ad0516a904c543b299bb7b7d3cb20704621b63bbd8c705736",
       "bytes": 9758
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/editor/scripts/check_article_analysis.py",
+      "sha256": "33a863fdaf8f838179fe845bea2ed8d3da166ad4688d1c3ab55dd0af1ccd56ab",
+      "bytes": 7886
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/engineer/GUIDE.md",
@@ -5297,8 +5267,8 @@
     },
     {
       "path": "skills/szyg-new-media-marketing/references/inherited-rules.json",
-      "sha256": "ab64beb342b3722cea0fd7b7c8ae20219e673797ef724122f7f4661bad69b2d5",
-      "bytes": 20523
+      "sha256": "68dfc2437af140307749744cb957237f2142d0f7cb65f880f8b08e17a4523767",
+      "bytes": 23034
     },
     {
       "path": "skills/szyg-new-media-marketing/references/project-and-capability.md",
@@ -5327,12 +5297,12 @@
     },
     {
       "path": "开始使用.md",
-      "sha256": "2794493de08d0f3e3a09d2c0fe01620351308f29fbf497e402d6e5aafd086607",
+      "sha256": "fcec870a6de9a1b5e7679ac5a93fcb1dadf1817aacf2fce7dd5cbd29ce63814d",
       "bytes": 5036
     },
     {
       "path": "验收与边界.md",
-      "sha256": "4caa93cebc64761593b3e5b1fcf2cd256f163053e21680d75482af63f054d645",
+      "sha256": "970ff9488a1eb1baf9260dab6215f4bbd15d05824089821d6c38b3218529c31b",
       "bytes": 2606
     }
   ]

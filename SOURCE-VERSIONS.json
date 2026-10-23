@@ -1,30 +1,30 @@
 {
   "source_entry_version": "0.2.7",
-  "release": "2026.10.22.2",
+  "release": "2026.10.23.1",
   "modules": [
     {
       "id": "DIRECTOR",
       "name": "短视频编导",
       "source_version": "1.1.0",
-      "source_entry_sha256": "27f25883d8d4b409adfc1a5ca58c29f48ca1a49556a3556de0dd3af2991f7f50",
+      "source_entry_sha256": "959916bb0733574363b2f53d42f44fa8831e8409b1849249f6774aecbd1944fe",
       "public_entry_sha256": "6888b968c593e506c7e121dee2f53c9c161d74f84b5db3dbaffcd0965f8684c5",
-      "inherited_rules": 19
+      "inherited_rules": 20
     },
     {
       "id": "EDITOR",
       "name": "公众号编辑",
-      "source_version": "0.3.0",
-      "source_entry_sha256": "39b8662350c2d9c0a8592e2acfcf431b7bea686a07d5d40231590edb450b9f7c",
-      "public_entry_sha256": "71b5ffd0d48174824a7d5c2dde3e5c6a253d1ba634dcc0837efb2b376904eb8c",
-      "inherited_rules": 2
+      "source_version": "0.4.1",
+      "source_entry_sha256": "b34e3b0d1a6b2fce5e4f40c34dbeda99096bfd6212b0261c108009e689348c8a",
+      "public_entry_sha256": "9046167358baf151bb99629adc027a290b2ff7db559528cc9f047ca843baf262",
+      "inherited_rules": 4
     },
     {
       "id": "DESIGNER",
       "name": "海报设计师",
       "source_version": null,
-      "source_entry_sha256": "f81cf2386bd1ab09072dce9d8b1f273149518200af59a72bc845995903f6ac47",
-      "public_entry_sha256": "ea8f14fd1a5b1f8a5d484408dd5761e7c529e8720cd18c466a5e35f679f1ad7b",
-      "inherited_rules": 9
+      "source_entry_sha256": "ab1db542d501ffedff681a7a39041f43061f4d9b55ba599f3e650e7e43a41160",
+      "public_entry_sha256": "7c2310ce02dc707f37bb68cc5719690645dd313388d4d8b018e70072f3faf421",
+      "inherited_rules": 11
     },
     {
       "id": "ENGINEER",

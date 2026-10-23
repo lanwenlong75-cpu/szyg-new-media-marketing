@@ -6,13 +6,17 @@
 
 Portable Codex skill for new-media teams: content planning, design, video production, operations and skill governance.
 
-[快速开始](#快速开始) · [看一次完整协作](#一条需求如何被处理) · [下载固定版本](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/tag/v0.2.7-public.2026.10.22.2) · [查看能力版本](SOURCE-VERSIONS.json)
+[快速开始](#快速开始) · [看一次完整协作](#一条需求如何被处理) · [下载固定版本](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/tag/v0.2.7-public.2026.10.23.1) · [查看能力版本](SOURCE-VERSIONS.json)
 
 ---
 
 你可能遇到过：同一条口播，在一台电脑上剪得对味；把 Skill 装到另一台电脑，节奏、字幕、画面却变了。原因往往是判断方法、参考工程、字体和验收要求散落在不同地方，安装时只带走了其中一部分。
 
 这个项目把**岗位方法、风格选择、制作工具和验收规则**收进一个统一入口。接入项目后，你照常提出需求，Codex 会先识别当前项目的角色和资料，再按任务读取需要的能力。新媒体主管负责跨岗位交接、版本核对与方法同步；你的客户、账号、产品和素材仍由你自己的项目提供。
+
+## 本次更新
+
+`2026.10.23.1` 同步海报57项参考目录与按用途检索、公众号文章四维拆解与可选文末承接流程，并补充编导的营销框架推导方法。完整变化见 [发行变更](CHANGELOG.md)。总入口仍为0.2.7，各模块源版本与摘要分别记录。
 
 ## 它能帮你做什么
 
@@ -66,7 +70,7 @@ flowchart LR
 
 **方法二：下载固定版本或克隆仓库安装。**
 
-从 [Releases](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/tag/v0.2.7-public.2026.10.22.2) 下载 ZIP 并解压，或运行：
+从 [Releases](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/tag/v0.2.7-public.2026.10.23.1) 下载 ZIP 并解压，或运行：
 
 ```powershell
 git clone https://github.com/lanwenlong75-cpu/szyg-new-media-marketing.git
