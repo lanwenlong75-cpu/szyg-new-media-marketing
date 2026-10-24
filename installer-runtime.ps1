@@ -15,9 +15,12 @@ function Receive-SzygFile {
 function Assert-SzygHash {
     param([string]$Path, [string]$Expected)
     if ($Expected -notmatch '^[a-fA-F0-9]{64}$') { throw 'The expected SHA-256 is missing or invalid.' }
-    if ((Get-FileHash -LiteralPath $Path -Algorithm SHA256).Hash -ne $Expected) {
-        throw ('SHA-256 verification failed: ' + $Path)
-    }
+    $stream = [IO.File]::OpenRead($Path)
+    $algorithm = [Security.Cryptography.SHA256]::Create()
+    try {
+        $actual = [BitConverter]::ToString($algorithm.ComputeHash($stream)).Replace('-', '').ToLowerInvariant()
+        if ($actual -ne $Expected.ToLowerInvariant()) { throw ('SHA-256 verification failed: ' + $Path) }
+    } finally { $algorithm.Dispose(); $stream.Dispose() }
 }
 
 function Assert-SzygPlainPath {

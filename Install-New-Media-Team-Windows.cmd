@@ -25,9 +25,12 @@ function Receive-SzygFile {
 function Assert-SzygHash {
     param([string]$Path, [string]$Expected)
     if ($Expected -notmatch '^[a-fA-F0-9]{64}$') { throw 'The expected SHA-256 is missing or invalid.' }
-    if ((Get-FileHash -LiteralPath $Path -Algorithm SHA256).Hash -ne $Expected) {
-        throw ('SHA-256 verification failed: ' + $Path)
-    }
+    $stream = [IO.File]::OpenRead($Path)
+    $algorithm = [Security.Cryptography.SHA256]::Create()
+    try {
+        $actual = [BitConverter]::ToString($algorithm.ComputeHash($stream)).Replace('-', '').ToLowerInvariant()
+        if ($actual -ne $Expected.ToLowerInvariant()) { throw ('SHA-256 verification failed: ' + $Path) }
+    } finally { $algorithm.Dispose(); $stream.Dispose() }
 }
 
 function Assert-SzygPlainPath {
@@ -133,8 +136,8 @@ if (-not (Get-Command Assert-SzygHash -ErrorAction SilentlyContinue)) {
 
 function Get-SzygReleaseBundle {
     param([string]$CacheRoot)
-    $tag = 'v0.2.7-public.2026.10.24.1'
-    $name = 'szyg-new-media-marketing-codex-2026.10.24.1.zip'
+    $tag = 'v0.2.7-public.2026.10.24.2'
+    $name = 'szyg-new-media-marketing-codex-2026.10.24.2.zip'
     [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
     $release = Invoke-RestMethod -Uri ('https://api.github.com/repos/lanwenlong75-cpu/szyg-new-media-marketing/releases/tags/' + $tag) -Headers @{'User-Agent'='Szyg-New-Media-Installer'}
     if ($release.tag_name -ne $tag -or $release.draft -or $release.prerelease) { throw 'The fixed public release is unavailable.' }

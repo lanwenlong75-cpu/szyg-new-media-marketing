@@ -1,7 +1,7 @@
 {
   "schema": "unified-skill-release/1",
   "skill": "szyg-new-media-marketing",
-  "release": "2026.10.24.1",
+  "release": "2026.10.24.2",
   "source_entry_version": "0.2.7",
   "modules": 14,
   "files": [
@@ -17,7 +17,7 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "26ca8ec2d893518e60e4c9bb7d4fed2fa34de8c39591d03abe896654fb6e331b",
+      "sha256": "1bb97fc82b6c37b784d2dd43d9ebdb4564c13947768b4efb805caa433c8945b7",
       "bytes": 1151
     },
     {
@@ -32,8 +32,8 @@
     },
     {
       "path": "Install-New-Media-Team-Windows.cmd",
-      "sha256": "3ecaf8bb29cb70bf0de335299c01ce1ebdd8af235b2fb66870dd5c5809205866",
-      "bytes": 9672
+      "sha256": "1af61f747767945827de3d9421e6cee38d41761109f14d05466d0ae65c5e5326",
+      "bytes": 9916
     },
     {
       "path": "LICENSE",
@@ -42,7 +42,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "8b62ad976adf150674e76d1102ff7cf794c0e9791617f46c8581f33e296e41de",
+      "sha256": "9fa21f65ed353362ca68c5501bcddd1215417ac731b449c08352041f64b2871d",
       "bytes": 11849
     },
     {
@@ -52,7 +52,7 @@
     },
     {
       "path": "SOURCE-VERSIONS.json",
-      "sha256": "c681d02581f66a40b8b7415d091de8d86750f382006191b53b91abfa18711f39",
+      "sha256": "e1c75b7dad89263d93217827074607d28ff2256ddfbd7aef9979fe1c124f2e24",
       "bytes": 4747
     },
     {
@@ -62,7 +62,7 @@
     },
     {
       "path": "install-online.ps1",
-      "sha256": "be3c7c2bceac9d37ab49e4a1744bd16e54c1f921ae6de9a6f7454e29944d3bf2",
+      "sha256": "9c4586424ba1880d2b84ff69a6453f82a9915ece5e9d1d580851b4faaae4a9b2",
       "bytes": 3206
     },
     {
@@ -72,7 +72,7 @@
     },
     {
       "path": "install.py",
-      "sha256": "eae6228f6bfe1ccdba6a35d94b504e0aa2d5c74fa33ffdf1493f016c221e7fe2",
+      "sha256": "139720ae4bb146be04eacd2b228a2940527d24cf59f7d442c4b48131ae65e474",
       "bytes": 11183
     },
     {
@@ -82,8 +82,8 @@
     },
     {
       "path": "installer-runtime.ps1",
-      "sha256": "fab8f53738ebe4767e57a3127c553ebcd1edff708fa7b3343d0259335993a92b",
-      "bytes": 5897
+      "sha256": "fcb9e2c79444f7ca3f60e388a61a24c18dae64f3e6897be7b9f1a82f79af9891",
+      "bytes": 6138
     },
     {
       "path": "skills/szyg-new-media-marketing/SKILL.md",
@@ -5317,12 +5317,12 @@
     },
     {
       "path": "开始使用.md",
-      "sha256": "e645fb3e61a314985fecddc1bd3d6f47480dac32669fb0bcd0ea88e0a2c8d9b9",
+      "sha256": "d01cf201025d17f1e724d99333e2cbba502b8563979a65cd197eb172e5d677a7",
       "bytes": 7509
     },
     {
       "path": "验收与边界.md",
-      "sha256": "713acc4e34a9da4216e74d2300a12790c4b550b307834cc0ee69ecc52bfda5d2",
+      "sha256": "1c20391ba58e074af29c23107b7079948becee59d4b50edf7c9c34de707b31f7",
       "bytes": 2606
     }
   ]

@@ -18,7 +18,7 @@ def default_skills(home=None):
  if active:return active[0]
  return Path(os.environ['CODEX_HOME']).expanduser()/'skills' if os.environ.get('CODEX_HOME') else choices[0]
 def validate_bundle(bundle):
- manifest=read(bundle/'manifest.json');require(manifest['skill']==NAME and manifest['release']=='2026.10.24.1','安装包标识无效')
+ manifest=read(bundle/'manifest.json');require(manifest['skill']==NAME and manifest['release']=='2026.10.24.2','安装包标识无效')
  seen=set()
  for item in manifest['files']:
   value=item['path'];p=PurePosixPath(value);require(not p.is_absolute() and '..' not in p.parts and '\\' not in value and ':' not in value and value not in seen,'安装包路径不合法')
