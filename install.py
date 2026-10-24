@@ -18,7 +18,7 @@ def default_skills(home=None):
  if active:return active[0]
  return Path(os.environ['CODEX_HOME']).expanduser()/'skills' if os.environ.get('CODEX_HOME') else choices[0]
 def validate_bundle(bundle):
- manifest=read(bundle/'manifest.json');require(manifest['skill']==NAME and manifest['release']=='2026.10.23.1','安装包标识无效')
+ manifest=read(bundle/'manifest.json');require(manifest['skill']==NAME and manifest['release']=='2026.10.24.1','安装包标识无效')
  seen=set()
  for item in manifest['files']:
   value=item['path'];p=PurePosixPath(value);require(not p.is_absolute() and '..' not in p.parts and '\\' not in value and ':' not in value and value not in seen,'安装包路径不合法')
@@ -78,10 +78,34 @@ def install(bundle,skills_root,workspace,upgrade=False,archive_legacy=False,home
   raise
  finally:
   if stage.exists():remove_created(stage,skills_root.parent,'.new-media-stage-')
+def write_start_guide(receipt):
+ team=Path(receipt['team']);guide=team/'START-HERE.md'
+ if not guide.exists():
+  projects=read(team/'.new-media-team.json')['projects']
+  lines=['# 你的数字员工团队已经准备好','','## 先打开这个团队','',
+   '在Codex中添加本地项目，选择这个实际文件夹：','',str(team),'',
+   '项目名称可填写“我的数字员工团队”。如想先使用主管，也可以只添加下表的新媒体主管文件夹。',
+   '本安装器创建磁盘工作区和角色绑定；首次在Codex侧栏添加项目由你选择文件夹完成。','',
+   '## 像岗位列表一样创建项目','', '| 建议项目显示名 | 选择的文件夹 |','|---|---|']
+  for row in projects:lines.append('| 数字员工-'+row['root'].replace('\\','/').rsplit('/',1)[-1]+' | '+row['root']+' |')
+  lines += ['','添加时选对应岗位目录，先把它设为主文件夹；资料保持原位。项目名称与磁盘文件夹名称可以不同。','',
+   '## 命名和重命名','',
+   '新项目在名称栏填写“数字员工-短视频编导”等便于识别的名称。已有项目从名称旁菜单的“重命名/编辑项目”调整显示名称，入口以当前版本界面为准；保持已绑定文件夹不变。',
+   '要移动或改磁盘文件夹名称时，先让主管核对岗位注册表、项目配置和旧路径引用，迁移后检查；不要把只改侧栏显示名当成磁盘迁移。','',
+   '## 发出第一条需求','',
+   '在主管项目发：请读取本项目配置和总入口，检查团队十四项能力与岗位绑定，列出缺少的工具。先帮我梳理本次任务需要的岗位，服务对象和账号从我的资料读取。','',
+   '在编导项目发：你作为本项目短视频编导，先读当前角色和方法。我接下来会提供自己的资料，请先核对素材再推进本次内容。','',
+   '## 添加已有业务目录','',
+   '把这句交给Codex并替换目录与岗位：请将我的已有目录接入当前数字员工团队，岗位为EDITOR。使用已安装入口scripts/portable.py bind，主管目录读取本团队实际位置。保留已有AGENTS、资料与本地方法，完成后运行hub.py check。','',
+   'Skill未出现时新建一条聊天或重新打开Codex。缺少剪辑、图像或发布条件时按安装回执补齐；已安装不代表真实成品已经验收。','']
+  guide.write_text('\n'.join(lines),encoding='utf-8')
+ receipt['start_here']=str(guide);save(team/'安装回执.json',receipt)
+ return receipt
+
 def main():
  p=argparse.ArgumentParser(description=__doc__);p.add_argument('--skills-root',type=Path);p.add_argument('--workspace-root',type=Path);p.add_argument('--upgrade-existing',action='store_true');p.add_argument('--archive-legacy',action='store_true');p.add_argument('--home',type=Path,help=argparse.SUPPRESS);a=p.parse_args()
  try:
   home=(a.home or Path.home()).expanduser().resolve();skills=a.skills_root or default_skills(home);workspace=a.workspace_root or home/'数字员工团队/Codex新媒体'
-  print(json.dumps(install(Path(__file__).resolve().parent,skills,workspace,a.upgrade_existing,a.archive_legacy,home),ensure_ascii=False,indent=2))
+  print(json.dumps(write_start_guide(install(Path(__file__).resolve().parent,skills,workspace,a.upgrade_existing,a.archive_legacy,home)),ensure_ascii=False,indent=2))
  except (OSError,ValueError,KeyError,TypeError) as e:p.exit(2,str(e)+'\n')
 if __name__=='__main__':main()

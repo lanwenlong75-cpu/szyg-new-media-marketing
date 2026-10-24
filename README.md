@@ -6,7 +6,7 @@
 
 Portable Codex skill for new-media teams: content planning, design, video production, operations and skill governance.
 
-[快速开始](#快速开始) · [看一次完整协作](#一条需求如何被处理) · [下载固定版本](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/tag/v0.2.7-public.2026.10.23.1) · [查看能力版本](SOURCE-VERSIONS.json)
+[快速开始](#快速开始) · [看一次完整协作](#一条需求如何被处理) · [下载固定版本](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/tag/v0.2.7-public.2026.10.24.1) · [查看能力版本](SOURCE-VERSIONS.json)
 
 ---
 
@@ -16,7 +16,7 @@ Portable Codex skill for new-media teams: content planning, design, video produc
 
 ## 本次更新
 
-`2026.10.23.1` 同步海报57项参考目录与按用途检索、公众号文章四维拆解与可选文末承接流程，并补充编导的营销框架推导方法。完整变化见 [发行变更](CHANGELOG.md)。总入口仍为0.2.7，各模块源版本与摘要分别记录。
+`2026.10.24.1` 同步海报57项参考目录、公众号文章四维拆解与编导营销方法；新增 Windows 一键安装、自动准备 Python、十四岗位工作区创建与项目命名指引。完整变化见 [发行变更](CHANGELOG.md)。总入口仍为0.2.7，各模块源版本与摘要分别记录。
 
 ## 它能帮你做什么
 
@@ -64,23 +64,70 @@ flowchart LR
 
 ## 快速开始
 
-**方法一：把仓库链接交给 Codex。**
+### 1. 安装并创建自己的员工团队
 
-> 帮我安装 `https://github.com/lanwenlong75-cpu/szyg-new-media-marketing` 里的 `skills/szyg-new-media-marketing`，按 README 初始化我的团队与项目，并运行安装后检查。已有同名 Skill 或本地改进时先比对，保留我的工作区和资料。
+**Windows 推荐：[下载一键安装器](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/download/v0.2.7-public.2026.10.24.1/Install-New-Media-Team-Windows.cmd)。** 保存这个 `.cmd` 文件后双击，等待窗口提示完成；无需先装 Git，也无需手动输入命令。前提是已安装并登录 Codex，网络能访问 GitHub；缺少 Python 时还会访问 python.org。
 
-**方法二：下载固定版本或克隆仓库安装。**
+安装器会下载本固定发行的完整包、核对 GitHub 提供的 SHA-256，优先使用电脑已有 Python；缺少时自动准备官方便携 Python，随后安装 Skill、创建 **14 个岗位工作区**、运行环境预检并打开团队文件夹。打开其中的 **`START-HERE.md`**，里面有你这台电脑的实际路径和可复制的第一条需求。
 
-从 [Releases](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/tag/v0.2.7-public.2026.10.23.1) 下载 ZIP 并解压，或运行：
+也可 [下载完整 ZIP](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/download/v0.2.7-public.2026.10.24.1/szyg-new-media-marketing-codex-2026.10.24.1.zip)，**完整解压**后双击 `Install-Codex-Windows.cmd`。macOS / Linux 可把下方安装指令交给 Codex，或按[开始使用](开始使用.md)运行 Python 安装器。
 
-```powershell
-git clone https://github.com/lanwenlong75-cpu/szyg-new-media-marketing.git
-cd szyg-new-media-marketing
-python install.py --archive-legacy
+默认团队位置是用户主目录下的 `数字员工团队/Codex新媒体`，里面有 `新媒体主管`、`短视频编导`、`公众号编辑`、`海报设计师`、`课件打造师`等目录。每个岗位有独立知识、任务和反馈目录，初始服务对象与账号为空。这个步骤创建磁盘工作区；首次加入 Codex 侧栏时，继续下面一步选择文件夹。
+
+### 2. 在 Codex 里创建项目，命名成员工列表
+
+先在 Codex 的项目入口新建或添加一个**本地项目**，添加安装后生成的实际文件夹。可以先只添加团队根目录，命名为“我的数字员工团队”，让主管统筹；也可以像下面这样逐岗添加。
+
+| 项目名称可填写 | 选择的实际文件夹 |
+|---|---|
+| 数字员工-新媒体主管 | `数字员工团队/Codex新媒体/新媒体主管` |
+| 数字员工-短视频编导 | `数字员工团队/Codex新媒体/短视频编导` |
+| 数字员工-公众号编辑 | `数字员工团队/Codex新媒体/公众号编辑` |
+| 数字员工-海报设计师 | `数字员工团队/Codex新媒体/海报设计师` |
+| 数字员工-小红书运营 | `数字员工团队/Codex新媒体/小红书运营` |
+| 数字员工-产品经理 | `数字员工团队/Codex新媒体/产品经理` |
+| 数字员工-课件打造师 | `数字员工团队/Codex新媒体/课件打造师` |
+
+其他岗位用同样的方法添加。选择该岗位目录作为项目主文件夹，然后在这个项目里新建聊天。后续添加或调整文件夹可从项目菜单的“编辑项目 / Edit project”进入；当前版本入口与文字以界面为准。参见 [OpenAI 项目说明](https://learn.chatgpt.com/docs/projects)。
+
+**重命名时区分三处：** 项目名称是侧栏标签，聊天标题是项目里的某次任务名，磁盘文件夹是资料和绑定的实际位置。新建时可直接填写上表名称；已有项目从名称旁菜单的“重命名 / 编辑项目”调整显示名称，具体入口以当前版本为准。保持已绑定文件夹不变。需要改磁盘目录名或搬位置时，先让主管迁移注册表与路径配置，再运行检查。
+
+### 3. 发出第一条需求
+
+在“数字员工-新媒体主管”项目新建聊天，复制：
+
+```text
+请读取本项目配置和新媒体营销总入口，检查十四项能力与岗位绑定，告诉我缺哪些工具。接下来按我的真实资料完成任务，服务对象和账号先保持为空，不套用别人的品牌或案例。
 ```
 
-Windows 也可运行 `Install-Codex-Windows.cmd`。安装器会校验包内文件、把旧独立入口归档到技能扫描目录外，并初始化一个**不预填客户、账号或业务事实**的团队工作区。已有统一入口的本地修改或跨发行版升级需要先比对迁移，安装器会保留现状并停止。详细步骤见[开始使用](开始使用.md)。
+后续直接说“帮我策划这条短视频”“把这份资料做成课件”等实际需求即可。项目里可以开多条聊天：项目名用岗位，聊天名用本次交付，例如“规划下月选题”。Skill 列表未刷新时先新建聊天，仍未出现再重新打开 Codex。
 
-安装后运行 `python <已安装Skill目录>/scripts/portable.py doctor` 检查本机工具；现有项目用 `portable.py bind` 接入。视频制作按需准备 Python、FFmpeg、Node、浏览器与转写环境，具体清单见[接收电脑自检](SELF-TEST.md)。
+<details>
+<summary>让 Codex 代为安装 / 自定义安装位置 / 接入已有项目</summary>
+
+把这段交给 Codex：
+
+```text
+请安装 https://github.com/lanwenlong75-cpu/szyg-new-media-marketing 的固定发行 2026.10.24.1。
+完整下载并读取开始使用.md，运行包内安装器校验文件，初始化我自己的团队和岗位工作区。
+已有同名 Skill、本地改进或业务目录时先比对合并并保留资料，完成后把 START-HERE.md 的实际路径告诉我。
+```
+
+Windows 自定义位置（从完整解压目录执行）：
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -WorkspaceRoot "D:\我的数字员工团队"
+```
+
+macOS / Linux 已有 Python 3.10+ 时：`python3 install.py --archive-legacy`。
+
+已有项目请让 Codex 使用已安装 Skill 的 `scripts/portable.py bind --project-root <现有目录> --role <岗位ID> --governance-root <团队/新媒体主管>` 接入，再运行 `scripts/hub.py check --project-root <现有目录>`。示例岗位ID：`EDITOR`公众号、`DIRECTOR`编导、`DESIGNER`海报、`COURSEWARE`课件。
+
+已有统一入口的跨版本升级或本地改进会触发保护，请交给 Codex 比对迁移；保留已学方法和原业务目录。完整说明见[开始使用](开始使用.md)。
+
+</details>
+
+安装完成后，按真实任务补齐 FFmpeg、Node、浏览器、转写环境或图像工具；它们不随一键安装自动全部配置，详见[接收电脑自检](SELF-TEST.md)。
 
 ## 这套方法从哪里来
 

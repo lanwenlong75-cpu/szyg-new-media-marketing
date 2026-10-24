@@ -1,7 +1,7 @@
 {
   "schema": "unified-skill-release/1",
   "skill": "szyg-new-media-marketing",
-  "release": "2026.10.23.1",
+  "release": "2026.10.24.1",
   "source_entry_version": "0.2.7",
   "modules": 14,
   "files": [
@@ -17,13 +17,23 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "73aa59373aa68b308f383137c66a63c06cba9e0e0121fbf3894a65c798f6e65f",
-      "bytes": 866
+      "sha256": "26ca8ec2d893518e60e4c9bb7d4fed2fa34de8c39591d03abe896654fb6e331b",
+      "bytes": 1151
+    },
+    {
+      "path": "INSTALLER-SOURCES.json",
+      "sha256": "ecc484c8b30eb1e0a3386573ec5cf5a306cfc70addf5da37397b3d594dc4e339",
+      "bytes": 767
     },
     {
       "path": "Install-Codex-Windows.cmd",
-      "sha256": "a71640ce73185c9522e2d19e01488de5a2890e560ed88648736202849e3351ab",
-      "bytes": 269
+      "sha256": "52a1351f2c1da67bdd00361528033ae3c7c21ff9d72505724830d7227685611c",
+      "bytes": 272
+    },
+    {
+      "path": "Install-New-Media-Team-Windows.cmd",
+      "sha256": "3ecaf8bb29cb70bf0de335299c01ce1ebdd8af235b2fb66870dd5c5809205866",
+      "bytes": 9672
     },
     {
       "path": "LICENSE",
@@ -32,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "803dbd9cc0ab4e140ab578050ca73c4aa0c367e68319b60d58099b665390df33",
-      "bytes": 7654
+      "sha256": "8b62ad976adf150674e76d1102ff7cf794c0e9791617f46c8581f33e296e41de",
+      "bytes": 11849
     },
     {
       "path": "SELF-TEST.md",
@@ -42,28 +52,38 @@
     },
     {
       "path": "SOURCE-VERSIONS.json",
-      "sha256": "dd8e99a90426fd62cf6da136112ab89fa89d846ba18d24b50c1f2a39fff21e7e",
+      "sha256": "c681d02581f66a40b8b7415d091de8d86750f382006191b53b91abfa18711f39",
       "bytes": 4747
     },
     {
       "path": "THIRD_PARTY.md",
-      "sha256": "33f1e451b734ed6b1a2b4a8b86dcdab57a27e60740e136606a75ac27ce0d53bf",
-      "bytes": 672
+      "sha256": "09a851cfcabfd625a8377a0795d14a1c189020e0df0281f8eae8265b6c7e2bfa",
+      "bytes": 1008
+    },
+    {
+      "path": "install-online.ps1",
+      "sha256": "be3c7c2bceac9d37ab49e4a1744bd16e54c1f921ae6de9a6f7454e29944d3bf2",
+      "bytes": 3206
     },
     {
       "path": "install.ps1",
-      "sha256": "9641db76d3ea55527a875462abd955278461f4c47e19c75d20312b16e13af38a",
-      "bytes": 1051
+      "sha256": "944b312ea53b4c3a2d805189a84ff1215400a8b10fed88bf1ae57e6cc639f157",
+      "bytes": 1221
     },
     {
       "path": "install.py",
-      "sha256": "031c8b6e2c993293bec1140827596c89da777f108fa0c2d751e83835fe71c126",
-      "bytes": 8610
+      "sha256": "eae6228f6bfe1ccdba6a35d94b504e0aa2d5c74fa33ffdf1493f016c221e7fe2",
+      "bytes": 11183
     },
     {
       "path": "install.sh",
       "sha256": "ff6bf2680f48fdf3ebc823ce14a0e1870d7ce9e5bdb9f6fb48b3ee1cf4c26ce0",
       "bytes": 115
+    },
+    {
+      "path": "installer-runtime.ps1",
+      "sha256": "fab8f53738ebe4767e57a3127c553ebcd1edff708fa7b3343d0259335993a92b",
+      "bytes": 5897
     },
     {
       "path": "skills/szyg-new-media-marketing/SKILL.md",
@@ -5297,12 +5317,12 @@
     },
     {
       "path": "开始使用.md",
-      "sha256": "fcec870a6de9a1b5e7679ac5a93fcb1dadf1817aacf2fce7dd5cbd29ce63814d",
-      "bytes": 5036
+      "sha256": "e645fb3e61a314985fecddc1bd3d6f47480dac32669fb0bcd0ea88e0a2c8d9b9",
+      "bytes": 7509
     },
     {
       "path": "验收与边界.md",
-      "sha256": "970ff9488a1eb1baf9260dab6215f4bbd15d05824089821d6c38b3218529c31b",
+      "sha256": "713acc4e34a9da4216e74d2300a12790c4b550b307834cc0ee69ecc52bfda5d2",
       "bytes": 2606
     }
   ]
