@@ -1,7 +1,7 @@
 {
   "schema": "unified-skill-release/1",
   "skill": "szyg-new-media-marketing",
-  "release": "2026.10.24.2",
+  "release": "2026.10.25.1",
   "source_entry_version": "0.2.7",
   "modules": 14,
   "files": [
@@ -17,8 +17,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "1bb97fc82b6c37b784d2dd43d9ebdb4564c13947768b4efb805caa433c8945b7",
-      "bytes": 1151
+      "sha256": "4c2e2c5af81da1923973365d939aaa26bdb19800793fdedad31071180e1bcea6",
+      "bytes": 1585
+    },
+    {
+      "path": "INSTALL-PROMPT.md",
+      "sha256": "fd6d1ae2f7fa5d405b2db168dbc6575cd5c51797eb0537758329741447a1ad72",
+      "bytes": 1652
     },
     {
       "path": "INSTALLER-SOURCES.json",
@@ -32,7 +37,7 @@
     },
     {
       "path": "Install-New-Media-Team-Windows.cmd",
-      "sha256": "1af61f747767945827de3d9421e6cee38d41761109f14d05466d0ae65c5e5326",
+      "sha256": "f50e275221dfa469baae570fed1c4719a1067d69cda1b79493397fe145383fd6",
       "bytes": 9916
     },
     {
@@ -42,8 +47,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "9fa21f65ed353362ca68c5501bcddd1215417ac731b449c08352041f64b2871d",
-      "bytes": 11849
+      "sha256": "cd9f0ef2cc6048bc16c638957b6b693e8d8e89bd5feda46af8cabacb5e6aab0b",
+      "bytes": 13056
     },
     {
       "path": "SELF-TEST.md",
@@ -52,7 +57,7 @@
     },
     {
       "path": "SOURCE-VERSIONS.json",
-      "sha256": "e1c75b7dad89263d93217827074607d28ff2256ddfbd7aef9979fe1c124f2e24",
+      "sha256": "6d43ddced437d73929eda766e481526e172cf77685ee4d284b63a9d07f342fd0",
       "bytes": 4747
     },
     {
@@ -62,7 +67,7 @@
     },
     {
       "path": "install-online.ps1",
-      "sha256": "9c4586424ba1880d2b84ff69a6453f82a9915ece5e9d1d580851b4faaae4a9b2",
+      "sha256": "de5fd918ab410ccd777b9203df797dfae5abcb6397cf66ac1f43c4b81ef21874",
       "bytes": 3206
     },
     {
@@ -72,7 +77,7 @@
     },
     {
       "path": "install.py",
-      "sha256": "139720ae4bb146be04eacd2b228a2940527d24cf59f7d442c4b48131ae65e474",
+      "sha256": "9e794e4d0be783898addeb47119c0096cee8ad4d755f7736a513cd64dc4190ea",
       "bytes": 11183
     },
     {
@@ -5317,12 +5322,12 @@
     },
     {
       "path": "开始使用.md",
-      "sha256": "d01cf201025d17f1e724d99333e2cbba502b8563979a65cd197eb172e5d677a7",
-      "bytes": 7509
+      "sha256": "efd276763327181d578ff16032e255a3c1bc45ee3100aaf56100ee3604c05bcf",
+      "bytes": 8994
     },
     {
       "path": "验收与边界.md",
-      "sha256": "1c20391ba58e074af29c23107b7079948becee59d4b50edf7c9c34de707b31f7",
+      "sha256": "a5a9b27a5eea611c5251903ad5b9c6125889d89990cdfb47b4af7b8c361ea289",
       "bytes": 2606
     }
   ]

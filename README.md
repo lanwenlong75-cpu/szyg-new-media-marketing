@@ -6,7 +6,7 @@
 
 Portable Codex skill for new-media teams: content planning, design, video production, operations and skill governance.
 
-[快速开始](#快速开始) · [看一次完整协作](#一条需求如何被处理) · [下载固定版本](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/tag/v0.2.7-public.2026.10.24.2) · [查看能力版本](SOURCE-VERSIONS.json)
+[快速开始](#快速开始) · [看一次完整协作](#一条需求如何被处理) · [下载固定版本](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/tag/v0.2.7-public.2026.10.25.1) · [查看能力版本](SOURCE-VERSIONS.json)
 
 ---
 
@@ -16,7 +16,7 @@ Portable Codex skill for new-media teams: content planning, design, video produc
 
 ## 本次更新
 
-`2026.10.24.2` 同步海报57项参考目录、公众号文章四维拆解与编导营销方法；新增 Windows 一键安装、自动准备 Python、十四岗位工作区创建与项目命名指引。完整变化见 [发行变更](CHANGELOG.md)。总入口仍为0.2.7，各模块源版本与摘要分别记录。
+`2026.10.25.1` 将“复制提示词，交给 Codex 完整下载安装”放在快速开始首位，并提供独立[安装提示词](INSTALL-PROMPT.md)。本版保留上一版全部岗位方法与安装功能，完整变化见 [发行变更](CHANGELOG.md)。
 
 ## 它能帮你做什么
 
@@ -64,13 +64,30 @@ flowchart LR
 
 ## 快速开始
 
-### 1. 安装并创建自己的员工团队
+### 1. 复制这段提示词，让 Codex 完整安装
 
-**Windows 推荐：[下载一键安装器](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/download/v0.2.7-public.2026.10.24.2/Install-New-Media-Team-Windows.cmd)。** 保存这个 `.cmd` 文件后双击，等待窗口提示完成；无需先装 Git，也无需手动输入命令。前提是已安装并登录 Codex，网络能访问 GitHub；缺少 Python 时还会访问 python.org。
+打开已安装并登录的 **Codex 本地聊天**，复制下面整段发送。Codex 需要能访问 GitHub，并有本机文件和终端权限；你无需先下载附件或手动解压。
+
+```text
+请直接帮我从 GitHub 下载并安装“新媒体营销数字员工”完整 Skill。
+仓库：https://github.com/lanwenlong75-cpu/szyg-new-media-marketing
+
+1. 获取 Releases 最新正式版，下载其中的 szyg-new-media-marketing-codex-*.zip 完整安装包，核对 SHA-256 后完整解压。必须包含统一入口、14项能力及随包脚本、模板、字体和引用文件，不能只下载 SKILL.md。
+2. 读取包内“开始使用.md”和安装脚本，根据我的系统运行包内安装器：Windows 使用 install.ps1；macOS/Linux 使用 Python 3.10+ 运行 install.py。安装统一入口并创建我自己的14个岗位工作区；缺少基础运行环境时按包内说明准备。
+3. 已有同名 Skill、本地改进或业务目录时，先备份、比对并迁移，保留我的资料和已学方法，不强制覆盖。
+4. 安装后核对文件完整性、14项能力及岗位绑定，告诉我安装版本、Skill与团队实际路径、START-HERE.md入口和缺少的工具，并指导我添加“数字员工-岗位名”的 Codex 本地项目。
+5. 使用我自己的业务资料，服务对象和账号先留空。请直接执行安装；如果网络或权限受限，说明真实报错和未完成项。
+```
+
+也可直接转发[独立安装提示词](INSTALL-PROMPT.md)。它会要求 Codex 获取当时的最新正式版；若要复现本页固定版本，可将“最新正式版”改成“固定发行 2026.10.25.1”。
+
+#### 其他安装方式
+
+**Windows 双击安装：[下载一键安装器](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/download/v0.2.7-public.2026.10.25.1/Install-New-Media-Team-Windows.cmd)。** 保存这个 `.cmd` 文件后双击，等待窗口提示完成；无需先装 Git，也无需手动输入命令。前提是已安装并登录 Codex，网络能访问 GitHub；缺少 Python 时还会访问 python.org。
 
 安装器会下载本固定发行的完整包、核对 GitHub 提供的 SHA-256，优先使用电脑已有 Python；缺少时自动准备官方便携 Python，随后安装 Skill、创建 **14 个岗位工作区**、运行环境预检并打开团队文件夹。打开其中的 **`START-HERE.md`**，里面有你这台电脑的实际路径和可复制的第一条需求。
 
-也可 [下载完整 ZIP](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/download/v0.2.7-public.2026.10.24.2/szyg-new-media-marketing-codex-2026.10.24.2.zip)，**完整解压**后双击 `Install-Codex-Windows.cmd`。macOS / Linux 可把下方安装指令交给 Codex，或按[开始使用](开始使用.md)运行 Python 安装器。
+也可 [下载完整 ZIP](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/download/v0.2.7-public.2026.10.25.1/szyg-new-media-marketing-codex-2026.10.25.1.zip)，**完整解压**后双击 `Install-Codex-Windows.cmd`。macOS / Linux 可使用上方提示词，或按[开始使用](开始使用.md)运行 Python 安装器。
 
 默认团队位置是用户主目录下的 `数字员工团队/Codex新媒体`，里面有 `新媒体主管`、`短视频编导`、`公众号编辑`、`海报设计师`、`课件打造师`等目录。每个岗位有独立知识、任务和反馈目录，初始服务对象与账号为空。这个步骤创建磁盘工作区；首次加入 Codex 侧栏时，继续下面一步选择文件夹。
 
@@ -103,15 +120,7 @@ flowchart LR
 后续直接说“帮我策划这条短视频”“把这份资料做成课件”等实际需求即可。项目里可以开多条聊天：项目名用岗位，聊天名用本次交付，例如“规划下月选题”。Skill 列表未刷新时先新建聊天，仍未出现再重新打开 Codex。
 
 <details>
-<summary>让 Codex 代为安装 / 自定义安装位置 / 接入已有项目</summary>
-
-把这段交给 Codex：
-
-```text
-请安装 https://github.com/lanwenlong75-cpu/szyg-new-media-marketing 的固定发行 2026.10.24.2。
-完整下载并读取开始使用.md，运行包内安装器校验文件，初始化我自己的团队和岗位工作区。
-已有同名 Skill、本地改进或业务目录时先比对合并并保留资料，完成后把 START-HERE.md 的实际路径告诉我。
-```
+<summary>自定义安装位置 / 接入已有项目</summary>
 
 Windows 自定义位置（从完整解压目录执行）：
 
