@@ -18,7 +18,7 @@ def default_skills(home=None):
  if active:return active[0]
  return Path(os.environ['CODEX_HOME']).expanduser()/'skills' if os.environ.get('CODEX_HOME') else choices[0]
 def validate_bundle(bundle):
- manifest=read(bundle/'manifest.json');require(manifest['skill']==NAME and manifest['release']=='2026.10.25.1','安装包标识无效')
+ manifest=read(bundle/'manifest.json');require(manifest['skill']==NAME and manifest['release']=='2026.10.26.1','安装包标识无效')
  seen=set()
  for item in manifest['files']:
   value=item['path'];p=PurePosixPath(value);require(not p.is_absolute() and '..' not in p.parts and '\\' not in value and ':' not in value and value not in seen,'安装包路径不合法')
@@ -68,7 +68,7 @@ def install(bundle,skills_root,workspace,upgrade=False,archive_legacy=False,home
    result=subprocess.run([sys.executable,'-X','utf8','-B',str(target/'scripts/portable.py'),'init','--root',str(workspace)],capture_output=True,text=True,encoding='utf-8')
    require(result.returncode==0,'团队初始化失败：'+result.stderr[-1400:]);initialization=json.loads(result.stdout)
   result=subprocess.run([sys.executable,'-X','utf8','-B',str(target/'scripts/portable.py'),'doctor'],capture_output=True,text=True,encoding='utf-8');require(result.returncode==0,'安装后体检无法运行')
-  receipt={'installed':True,'skill':str(target),'release':manifest['release'],'source_entry_version':manifest['source_entry_version'],'team':str(workspace),'governance':str(workspace/'新媒体主管'),'old_entry_backups':[{'original':str(a),'backup':str(b)} for a,b in moved],'initialization':initialization,'preflight':json.loads(result.stdout),'source_standards_preserved':True,'recipient_business_accepted':False,'next':'在Codex打开团队目录或相应岗位项目，下一轮会话读取新入口；缺依赖按预检报告配置，先以同事真实素材做代表段验收'}
+  receipt={'installed':True,'skill':str(target),'release':manifest['release'],'method_content_sha256':read(bundle/'VERSION.json')['method_content_sha256'],'source_entry_version':manifest['source_entry_version'],'team':str(workspace),'governance':str(workspace/'新媒体主管'),'old_entry_backups':[{'original':str(a),'backup':str(b)} for a,b in moved],'initialization':initialization,'preflight':json.loads(result.stdout),'source_standards_preserved':True,'recipient_business_accepted':False,'next':'在Codex打开团队目录或相应岗位项目，下一轮会话读取新入口；缺依赖按预检报告配置，先以同事真实素材做代表段验收'}
   save(workspace/'安装回执.json',receipt);return receipt
  except Exception:
   if installed and target.exists():remove_created(target,skills_root,NAME)
@@ -82,7 +82,7 @@ def write_start_guide(receipt):
  team=Path(receipt['team']);guide=team/'START-HERE.md'
  if not guide.exists():
   projects=read(team/'.new-media-team.json')['projects']
-  lines=['# 你的数字员工团队已经准备好','','## 先打开这个团队','',
+  lines=['# 你的数字员工团队 · '+receipt['release'],'','## 先打开这个团队','',
    '在Codex中添加本地项目，选择这个实际文件夹：','',str(team),'',
    '项目名称可填写“我的数字员工团队”。如想先使用主管，也可以只添加下表的新媒体主管文件夹。',
    '本安装器创建磁盘工作区和角色绑定；首次在Codex侧栏添加项目由你选择文件夹完成。','',

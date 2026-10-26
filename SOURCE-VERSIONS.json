@@ -1,6 +1,6 @@
 {
   "source_entry_version": "0.2.7",
-  "release": "2026.10.25.1",
+  "release": "2026.10.26.1",
   "modules": [
     {
       "id": "DIRECTOR",
@@ -15,16 +15,16 @@
       "name": "公众号编辑",
       "source_version": "0.4.1",
       "source_entry_sha256": "b34e3b0d1a6b2fce5e4f40c34dbeda99096bfd6212b0261c108009e689348c8a",
-      "public_entry_sha256": "9046167358baf151bb99629adc027a290b2ff7db559528cc9f047ca843baf262",
+      "public_entry_sha256": "70395b954cd3e9f4994963dc32789a58afc76b8ed06db1f54d2c472ddf87ea43",
       "inherited_rules": 4
     },
     {
       "id": "DESIGNER",
       "name": "海报设计师",
       "source_version": null,
-      "source_entry_sha256": "ab1db542d501ffedff681a7a39041f43061f4d9b55ba599f3e650e7e43a41160",
-      "public_entry_sha256": "7c2310ce02dc707f37bb68cc5719690645dd313388d4d8b018e70072f3faf421",
-      "inherited_rules": 11
+      "source_entry_sha256": "03c23279efcf1a4b6af452cadafe0d84f43f7700e58e8a858ba120d565e2a446",
+      "public_entry_sha256": "a354d114b3d73f1440d2c6575a2746a570a816e548ee2d22eed801f41f7e26e8",
+      "inherited_rules": 12
     },
     {
       "id": "ENGINEER",
@@ -70,9 +70,9 @@
       "id": "SUPERVISOR",
       "name": "新媒体主管",
       "source_version": "1.1.0",
-      "source_entry_sha256": "b1ecf0cfcfa60c8f2f2ee5cc07ff37a23dd8826413e530443957c002fe4fe191",
-      "public_entry_sha256": "2ac3908eda6555cde00e1428e039dba8abae09be95b8820612f9e0c36016e460",
-      "inherited_rules": 1
+      "source_entry_sha256": "66c1a6261f285f4cfec62fdd79a9c330b7fb38f1792afd7859040ddfb9716b85",
+      "public_entry_sha256": "730d219b4e20c93c5c10e672d0c7ab28df8614e4156b65b400969be6d99fd86c",
+      "inherited_rules": 2
     },
     {
       "id": "ARCHIVE_VIDEO",

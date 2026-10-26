@@ -6,7 +6,7 @@
 
 Portable Codex skill for new-media teams: content planning, design, video production, operations and skill governance.
 
-[快速开始](#快速开始) · [看一次完整协作](#一条需求如何被处理) · [下载固定版本](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/tag/v0.2.7-public.2026.10.25.1) · [查看能力版本](SOURCE-VERSIONS.json)
+[快速开始](#快速开始) · [看一次完整协作](#一条需求如何被处理) · [下载固定版本](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/tag/v0.2.7-public.2026.10.26.1) · [查看能力版本](SOURCE-VERSIONS.json)
 
 ---
 
@@ -16,7 +16,9 @@ Portable Codex skill for new-media teams: content planning, design, video produc
 
 ## 本次更新
 
-`2026.10.25.1` 将“复制提示词，交给 Codex 完整下载安装”放在快速开始首位，并提供独立[安装提示词](INSTALL-PROMPT.md)。本版保留上一版全部岗位方法与安装功能，完整变化见 [发行变更](CHANGELOG.md)。
+**统一发行号：2026.10.26.1。** GitHub附件与微信发送的本地安装包使用同一发行号，同宿主包字节一致。Codex与WorkBuddy共用同一公开岗位方法快照，分别适配安装入口。所有包内均有版本信息，旧版按发行保留。
+
+新增可直接转发的WorkBuddy Windows离线总包，含官方Python及十四岗位初始化工具；接入当前项目可选启用的采纳物料归档方法，补齐统一发行、渠道一致性和接收者版本回执标准。模块源版本及许可证继续保留，详情见[变更](CHANGELOG.md)与[版本管理](VERSIONING.md)。
 
 ## 它能帮你做什么
 
@@ -64,79 +66,44 @@ flowchart LR
 
 ## 快速开始
 
-### 1. 复制这段提示词，让 Codex 完整安装
+### 1. 选择使用的软件，发送同版压缩包和提示词
 
-打开已安装并登录的 **Codex 本地聊天**，复制下面整段发送。Codex 需要能访问 GitHub，并有本机文件和终端权限；你无需先下载附件或手动解压。
+当前只认**总发行号 2026.10.26.1**。微信分发保留版本号和宿主名，后续更新时发送新版，旧包归档。
 
-```text
-请直接帮我从 GitHub 下载并安装“新媒体营销数字员工”完整 Skill。
-仓库：https://github.com/lanwenlong75-cpu/szyg-new-media-marketing
+| 使用的软件 | 完整安装包 | 微信发送时的文件名 |
+|---|---|---|
+| WorkBuddy | [下载WorkBuddy离线总包](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/download/v0.2.7-public.2026.10.26.1/szyg-new-media-marketing-workbuddy-2026.10.26.1.zip) | 新媒体数字员工_2026.10.26.1_WorkBuddy版.zip |
+| Codex | [下载Codex完整包](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/download/v0.2.7-public.2026.10.26.1/szyg-new-media-marketing-codex-2026.10.26.1.zip) | 新媒体数字员工_2026.10.26.1_Codex版.zip |
 
-1. 获取 Releases 最新正式版，下载其中的 szyg-new-media-marketing-codex-*.zip 完整安装包，核对 SHA-256 后完整解压。必须包含统一入口、14项能力及随包脚本、模板、字体和引用文件，不能只下载 SKILL.md。
-2. 读取包内“开始使用.md”和安装脚本，根据我的系统运行包内安装器：Windows 使用 install.ps1；macOS/Linux 使用 Python 3.10+ 运行 install.py。安装统一入口并创建我自己的14个岗位工作区；缺少基础运行环境时按包内说明准备。
-3. 已有同名 Skill、本地改进或业务目录时，先备份、比对并迁移，保留我的资料和已学方法，不强制覆盖。
-4. 安装后核对文件完整性、14项能力及岗位绑定，告诉我安装版本、Skill与团队实际路径、START-HERE.md入口和缺少的工具，并指导我添加“数字员工-岗位名”的 Codex 本地项目。
-5. 使用我自己的业务资料，服务对象和账号先留空。请直接执行安装；如果网络或权限受限，说明真实报错和未完成项。
-```
+两个宿主包的岗位方法相同。只向对方发送其使用的软件对应的包和下面的提示词；WorkBuddy总包里包括Skill ZIP和Windows Python运行时。完整解压总包，内层Skill ZIP用于WorkBuddy“添加技能 → 上传技能”，按实际客户端完成安全检查和确认。
 
-也可直接转发[独立安装提示词](INSTALL-PROMPT.md)。它会要求 Codex 获取当时的最新正式版；若要复现本页固定版本，可将“最新正式版”改成“固定发行 2026.10.25.1”。
-
-#### 其他安装方式
-
-**Windows 双击安装：[下载一键安装器](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/download/v0.2.7-public.2026.10.25.1/Install-New-Media-Team-Windows.cmd)。** 保存这个 `.cmd` 文件后双击，等待窗口提示完成；无需先装 Git，也无需手动输入命令。前提是已安装并登录 Codex，网络能访问 GitHub；缺少 Python 时还会访问 python.org。
-
-安装器会下载本固定发行的完整包、核对 GitHub 提供的 SHA-256，优先使用电脑已有 Python；缺少时自动准备官方便携 Python，随后安装 Skill、创建 **14 个岗位工作区**、运行环境预检并打开团队文件夹。打开其中的 **`START-HERE.md`**，里面有你这台电脑的实际路径和可复制的第一条需求。
-
-也可 [下载完整 ZIP](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/download/v0.2.7-public.2026.10.25.1/szyg-new-media-marketing-codex-2026.10.25.1.zip)，**完整解压**后双击 `Install-Codex-Windows.cmd`。macOS / Linux 可使用上方提示词，或按[开始使用](开始使用.md)运行 Python 安装器。
-
-默认团队位置是用户主目录下的 `数字员工团队/Codex新媒体`，里面有 `新媒体主管`、`短视频编导`、`公众号编辑`、`海报设计师`、`课件打造师`等目录。每个岗位有独立知识、任务和反馈目录，初始服务对象与账号为空。这个步骤创建磁盘工作区；首次加入 Codex 侧栏时，继续下面一步选择文件夹。
-
-### 2. 在 Codex 里创建项目，命名成员工列表
-
-先在 Codex 的项目入口新建或添加一个**本地项目**，添加安装后生成的实际文件夹。可以先只添加团队根目录，命名为“我的数字员工团队”，让主管统筹；也可以像下面这样逐岗添加。
-
-| 项目名称可填写 | 选择的实际文件夹 |
-|---|---|
-| 数字员工-新媒体主管 | `数字员工团队/Codex新媒体/新媒体主管` |
-| 数字员工-短视频编导 | `数字员工团队/Codex新媒体/短视频编导` |
-| 数字员工-公众号编辑 | `数字员工团队/Codex新媒体/公众号编辑` |
-| 数字员工-海报设计师 | `数字员工团队/Codex新媒体/海报设计师` |
-| 数字员工-小红书运营 | `数字员工团队/Codex新媒体/小红书运营` |
-| 数字员工-产品经理 | `数字员工团队/Codex新媒体/产品经理` |
-| 数字员工-课件打造师 | `数字员工团队/Codex新媒体/课件打造师` |
-
-其他岗位用同样的方法添加。选择该岗位目录作为项目主文件夹，然后在这个项目里新建聊天。后续添加或调整文件夹可从项目菜单的“编辑项目 / Edit project”进入；当前版本入口与文字以界面为准。参见 [OpenAI 项目说明](https://learn.chatgpt.com/docs/projects)。
-
-**重命名时区分三处：** 项目名称是侧栏标签，聊天标题是项目里的某次任务名，磁盘文件夹是资料和绑定的实际位置。新建时可直接填写上表名称；已有项目从名称旁菜单的“重命名 / 编辑项目”调整显示名称，具体入口以当前版本为准。保持已绑定文件夹不变。需要改磁盘目录名或搬位置时，先让主管迁移注册表与路径配置，再运行检查。
-
-### 3. 发出第一条需求
-
-在“数字员工-新媒体主管”项目新建聊天，复制：
+**给WorkBuddy：**
 
 ```text
-请读取本项目配置和新媒体营销总入口，检查十四项能力与岗位绑定，告诉我缺哪些工具。接下来按我的真实资料完成任务，服务对象和账号先保持为空，不套用别人的品牌或案例。
+请帮我把《新媒体数字员工_2026.10.26.1_WorkBuddy版.zip》安装或升级到WorkBuddy。完整解压并按包内说明完成技能导入、十四个岗位工作区的创建和检查，保留我已有的资料与本地改进。需要我操作界面时告诉我具体步骤；完成后告诉我实际安装版本、使用入口和缺少的工具。
 ```
 
-后续直接说“帮我策划这条短视频”“把这份资料做成课件”等实际需求即可。项目里可以开多条聊天：项目名用岗位，聊天名用本次交付，例如“规划下月选题”。Skill 列表未刷新时先新建聊天，仍未出现再重新打开 Codex。
+**给Codex：**
 
-<details>
-<summary>自定义安装位置 / 接入已有项目</summary>
-
-Windows 自定义位置（从完整解压目录执行）：
-
-```powershell
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -WorkspaceRoot "D:\我的数字员工团队"
+```text
+请帮我把《新媒体数字员工_2026.10.26.1_Codex版.zip》安装或升级到Codex。完整解压并按包内说明安装统一Skill、创建并检查十四个岗位工作区，保留已有资料和本地改进。完成后告诉我实际安装版本、使用入口和缺少的工具。
 ```
 
-macOS / Linux 已有 Python 3.10+ 时：`python3 install.py --archive-legacy`。
+希望由Codex直接联网下载时，可复制[在线安装提示词](INSTALL-PROMPT.md)，也可[下载Windows在线启动器](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/download/v0.2.7-public.2026.10.26.1/Install-New-Media-Team-Windows.cmd)。GitHub不可达时，由发送者提供本地完整包。
 
-已有项目请让 Codex 使用已安装 Skill 的 `scripts/portable.py bind --project-root <现有目录> --role <岗位ID> --governance-root <团队/新媒体主管>` 接入，再运行 `scripts/hub.py check --project-root <现有目录>`。示例岗位ID：`EDITOR`公众号、`DIRECTOR`编导、`DESIGNER`海报、`COURSEWARE`课件。
+### 2. 选择自己的岗位工作区
 
-已有统一入口的跨版本升级或本地改进会触发保护，请交给 Codex 比对迁移；保留已学方法和原业务目录。完整说明见[开始使用](开始使用.md)。
+安装回执会列出团队实际目录、Skill入口和缺少的工具。WorkBuddy查看START-HERE-WorkBuddy.md，Codex查看START-HERE.md。首次添加项目或选择工作区时，使用回执中的真实目录。项目显示名可填“数字员工-新媒体主管”“数字员工-短视频编导”“数字员工-课件打造师”等，聊天或任务名填写本次交付。
 
-</details>
+改显示名时保持磁盘绑定路径；搬迁文件夹时先迁移注册表与项目配置，再检查。已有不同版本或本地方法先备份和比对迁移，不能直接覆盖。源包更新不会自动改动已经装到别人电脑上的版本。
 
-安装完成后，按真实任务补齐 FFmpeg、Node、浏览器、转写环境或图像工具；它们不随一键安装自动全部配置，详见[接收电脑自检](SELF-TEST.md)。
+### 3. 发出真实任务
+
+```text
+请读取当前项目配置和新媒体营销总入口，按我的真实资料完成接下来的任务，先检查岗位绑定和需要的工具。服务对象和账号先保持为空。
+```
+
+包内审美、经验、模板与标准继续使用；技术安装、宿主实际调用、专业成品验收分别确认。完整说明见[开始使用](开始使用.md)。
 
 ## 这套方法从哪里来
 

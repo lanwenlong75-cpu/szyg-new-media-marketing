@@ -1,0 +1,8 @@
+{
+  "schema": "new-media-release/1",
+  "release": "2026.10.26.1",
+  "source_entry_version": "0.2.7",
+  "method_content_sha256": "18e7472292b10904b2491a6098654fe4130a01a7b5b255eed123396d0aed648d",
+  "capabilities": 14,
+  "source_policy": "Same audited public method snapshot for all host packages; private business data excluded."
+}
