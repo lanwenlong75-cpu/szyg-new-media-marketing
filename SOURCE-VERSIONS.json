@@ -1,6 +1,6 @@
 {
   "source_entry_version": "0.2.7",
-  "release": "2026.10.26.1",
+  "release": "2026.10.31.1",
   "modules": [
     {
       "id": "DIRECTOR",
@@ -8,7 +8,7 @@
       "source_version": "1.1.0",
       "source_entry_sha256": "959916bb0733574363b2f53d42f44fa8831e8409b1849249f6774aecbd1944fe",
       "public_entry_sha256": "6888b968c593e506c7e121dee2f53c9c161d74f84b5db3dbaffcd0965f8684c5",
-      "inherited_rules": 20
+      "inherited_rules": 23
     },
     {
       "id": "EDITOR",

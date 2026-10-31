@@ -1,7 +1,7 @@
 {
   "schema": "unified-skill-release/1",
   "skill": "szyg-new-media-marketing",
-  "release": "2026.10.26.1",
+  "release": "2026.10.31.1",
   "source_entry_version": "0.2.7",
   "modules": 14,
   "files": [
@@ -17,12 +17,12 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "29713c81027e654f5b974564b67952a335339d8fc6879fb5ba1b930e97f26b56",
-      "bytes": 2156
+      "sha256": "2b7a71bbff53428c525c1edcfe1a4f6d6d738d5272399080ed3433cbefedaa3b",
+      "bytes": 2644
     },
     {
       "path": "INSTALL-PROMPT.md",
-      "sha256": "c7d1c283d2f994c364bed12862aa0fb3693b014ebaa68759b9a72979dc9701d8",
+      "sha256": "3ae807a8b66e4b86d9ab2d8255020ac64f7cc4058722825b47b6c4c562f0413b",
       "bytes": 620
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "path": "Install-New-Media-Team-Windows.cmd",
-      "sha256": "01dc54df6635727a25ae683e22e69ce5b42756889b8d55dba974c26384a3d105",
+      "sha256": "3375deb127514f127ef6bb2bcac40cead8cbda836f01836b343e74c9e4dbc46f",
       "bytes": 9916
     },
     {
@@ -47,8 +47,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "9390649b42788025929560935983583a7c906c02cc7fce02c2507c55e4c7f3bb",
-      "bytes": 9870
+      "sha256": "f25ed3bba45ce71af7870049e1db63b6588f55e9558966d272f3f5f9e6505e72",
+      "bytes": 9787
     },
     {
       "path": "SELF-TEST.md",
@@ -57,7 +57,7 @@
     },
     {
       "path": "SOURCE-VERSIONS.json",
-      "sha256": "a3afec6d959374a6411932afb24b36a21f03f06851782b5ff57ba60c2eaf7712",
+      "sha256": "05f76f726b25b59f4d56d7f64cc30642f847837b7e8a92035912c2729ef2a39c",
       "bytes": 4747
     },
     {
@@ -67,12 +67,12 @@
     },
     {
       "path": "VERSION.json",
-      "sha256": "c617f1f57197ea078b4caa00030547c2fe57651aaa4f93b6b5daae11953b1330",
+      "sha256": "a394ba2fbd1a7ed4f5d66d69af036820c33fe9f000fbd2cae418ab7b2eb4cbc6",
       "bytes": 332
     },
     {
       "path": "VERSIONING.md",
-      "sha256": "94e6f1cc62243cb4b54d5b8c9f6dda467bd382188f541bd447cf8256fc7fa1cb",
+      "sha256": "5ee2bc12740070264fbd13fb5f96bf95561b6da84e762289ff4ac95e9a449b05",
       "bytes": 1502
     },
     {
@@ -92,7 +92,7 @@
     },
     {
       "path": "install-online.ps1",
-      "sha256": "5f39849aa951249a8e9c9509a052af71fe6c9ff111af6770be98908ebeb17fe6",
+      "sha256": "a20c8f3968af21cad17926d40f5209551e00b32fdb6217cda3806f1057d36f08",
       "bytes": 3206
     },
     {
@@ -102,7 +102,7 @@
     },
     {
       "path": "install.py",
-      "sha256": "316cb562050d611222e9cc5ed0e2c946462179244ca006799f946dbc41400ac5",
+      "sha256": "67f702b6c12d4ccd006b2c7c446f5f10d7883a2bf55f8957fd4afacf2fa0b93d",
       "bytes": 11268
     },
     {
@@ -117,7 +117,7 @@
     },
     {
       "path": "skills/szyg-new-media-marketing/SKILL.md",
-      "sha256": "b441722bff8104d73bc9b36579731326a464147f09c35f7188a100fc8f3d6b8e",
+      "sha256": "2a41e3cb870cf245c69a052a420801d638437c81ae2d1704eada9f853aaae09b",
       "bytes": 7741
     },
     {
@@ -682,8 +682,8 @@
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/director/references/inherited-standards.md",
-      "sha256": "c73d04c900c5a8202e340011dc19a9c2faadeaf63d3f7d6f219b66d644efdfdc",
-      "bytes": 8349
+      "sha256": "603724036660ec1e2840cdba5bae04d3e00eb17972a388df872faf8a5632b7ee",
+      "bytes": 9556
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/director/references/landscape-to-portrait.md",
@@ -5317,8 +5317,8 @@
     },
     {
       "path": "skills/szyg-new-media-marketing/references/inherited-rules.json",
-      "sha256": "504ee7fd4ccb43aa2ee2e43e243139c9e98066129e033717c7961c0bd8b6e55c",
-      "bytes": 24288
+      "sha256": "4d83a41624ad00ce4561239a1a59ce1af4923ebc426327f3c4b01a88b801c6f2",
+      "bytes": 25705
     },
     {
       "path": "skills/szyg-new-media-marketing/references/project-and-capability.md",
@@ -5347,12 +5347,12 @@
     },
     {
       "path": "skills/szyg-new-media-marketing/版本信息.json",
-      "sha256": "c617f1f57197ea078b4caa00030547c2fe57651aaa4f93b6b5daae11953b1330",
+      "sha256": "a394ba2fbd1a7ed4f5d66d69af036820c33fe9f000fbd2cae418ab7b2eb4cbc6",
       "bytes": 332
     },
     {
       "path": "开始使用.md",
-      "sha256": "5edf015e7db6db9d370593d7439f4ded55f0028c4ac3582c55d56cac4af3fbc0",
+      "sha256": "235710fda0c8aacb90352e52cc2bd6a91320aa1c0bfeb90948e2e288b474d7df",
       "bytes": 9334
     },
     {
@@ -5362,7 +5362,7 @@
     },
     {
       "path": "验收与边界.md",
-      "sha256": "53b595fa73214f7ba9d12d2f0b1720a96c023278b47a3c60278207c37a257cc8",
+      "sha256": "7943a4d711e9f4e95a41b4cea2f428f9804927d9dcb225f2a1588613a2046fef",
       "bytes": 2606
     }
   ]

@@ -6,8 +6,8 @@ if (-not (Get-Command Assert-SzygHash -ErrorAction SilentlyContinue)) {
 
 function Get-SzygReleaseBundle {
     param([string]$CacheRoot)
-    $tag = 'v0.2.7-public.2026.10.26.1'
-    $name = 'szyg-new-media-marketing-codex-2026.10.26.1.zip'
+    $tag = 'v0.2.7-public.2026.10.31.1'
+    $name = 'szyg-new-media-marketing-codex-2026.10.31.1.zip'
     [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
     $release = Invoke-RestMethod -Uri ('https://api.github.com/repos/lanwenlong75-cpu/szyg-new-media-marketing/releases/tags/' + $tag) -Headers @{'User-Agent'='Szyg-New-Media-Installer'}
     if ($release.tag_name -ne $tag -or $release.draft -or $release.prerelease) { throw 'The fixed public release is unavailable.' }

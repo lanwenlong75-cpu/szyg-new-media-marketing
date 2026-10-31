@@ -6,7 +6,7 @@
 
 Portable Codex skill for new-media teams: content planning, design, video production, operations and skill governance.
 
-[快速开始](#快速开始) · [看一次完整协作](#一条需求如何被处理) · [下载固定版本](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/tag/v0.2.7-public.2026.10.26.1) · [查看能力版本](SOURCE-VERSIONS.json)
+[快速开始](#快速开始) · [看一次完整协作](#一条需求如何被处理) · [下载固定版本](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/tag/v0.2.7-public.2026.10.31.1) · [查看能力版本](SOURCE-VERSIONS.json)
 
 ---
 
@@ -16,9 +16,9 @@ Portable Codex skill for new-media teams: content planning, design, video produc
 
 ## 本次更新
 
-**统一发行号：2026.10.26.1。** GitHub附件与微信发送的本地安装包使用同一发行号，同宿主包字节一致。Codex与WorkBuddy共用同一公开岗位方法快照，分别适配安装入口。所有包内均有版本信息，旧版按发行保留。
+**统一发行号：2026.10.31.1。** 新增三项编导初始标准：改写时保持选题与落点、区分原作者经历与产品植入、口播开头直接给判断。按当前任务的采用条件使用，用户明确指定的开头与结构优先。
 
-新增可直接转发的WorkBuddy Windows离线总包，含官方Python及十四岗位初始化工具；接入当前项目可选启用的采纳物料归档方法，补齐统一发行、渠道一致性和接收者版本回执标准。模块源版本及许可证继续保留，详情见[变更](CHANGELOG.md)与[版本管理](VERSIONING.md)。
+GitHub附件与微信发送的本地安装包使用同一发行号，同宿主包字节一致。Codex与WorkBuddy共用同一公开岗位方法快照，分别适配安装入口；旧版及其附件保留。原始反馈、身份、业务资料和本机配置不随包分发。
 
 ## 它能帮你做什么
 
@@ -68,28 +68,28 @@ flowchart LR
 
 ### 1. 选择使用的软件，发送同版压缩包和提示词
 
-当前只认**总发行号 2026.10.26.1**。微信分发保留版本号和宿主名，后续更新时发送新版，旧包归档。
+当前只认**总发行号 2026.10.31.1**。微信分发保留版本号和宿主名，后续更新时发送新版，旧包归档。
 
 | 使用的软件 | 完整安装包 | 微信发送时的文件名 |
 |---|---|---|
-| WorkBuddy | [下载WorkBuddy离线总包](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/download/v0.2.7-public.2026.10.26.1/szyg-new-media-marketing-workbuddy-2026.10.26.1.zip) | 新媒体数字员工_2026.10.26.1_WorkBuddy版.zip |
-| Codex | [下载Codex完整包](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/download/v0.2.7-public.2026.10.26.1/szyg-new-media-marketing-codex-2026.10.26.1.zip) | 新媒体数字员工_2026.10.26.1_Codex版.zip |
+| WorkBuddy | [下载WorkBuddy离线总包](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/download/v0.2.7-public.2026.10.31.1/szyg-new-media-marketing-workbuddy-2026.10.31.1.zip) | 新媒体数字员工_2026.10.31.1_WorkBuddy版.zip |
+| Codex | [下载Codex完整包](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/download/v0.2.7-public.2026.10.31.1/szyg-new-media-marketing-codex-2026.10.31.1.zip) | 新媒体数字员工_2026.10.31.1_Codex版.zip |
 
 两个宿主包的岗位方法相同。只向对方发送其使用的软件对应的包和下面的提示词；WorkBuddy总包里包括Skill ZIP和Windows Python运行时。完整解压总包，内层Skill ZIP用于WorkBuddy“添加技能 → 上传技能”，按实际客户端完成安全检查和确认。
 
 **给WorkBuddy：**
 
 ```text
-请帮我把《新媒体数字员工_2026.10.26.1_WorkBuddy版.zip》安装或升级到WorkBuddy。完整解压并按包内说明完成技能导入、十四个岗位工作区的创建和检查，保留我已有的资料与本地改进。需要我操作界面时告诉我具体步骤；完成后告诉我实际安装版本、使用入口和缺少的工具。
+请帮我把《新媒体数字员工_2026.10.31.1_WorkBuddy版.zip》安装或升级到WorkBuddy。完整解压并按包内说明完成技能导入、十四个岗位工作区的创建和检查，保留我已有的资料与本地改进。需要我操作界面时告诉我具体步骤；完成后告诉我实际安装版本、使用入口和缺少的工具。
 ```
 
 **给Codex：**
 
 ```text
-请帮我把《新媒体数字员工_2026.10.26.1_Codex版.zip》安装或升级到Codex。完整解压并按包内说明安装统一Skill、创建并检查十四个岗位工作区，保留已有资料和本地改进。完成后告诉我实际安装版本、使用入口和缺少的工具。
+请帮我把《新媒体数字员工_2026.10.31.1_Codex版.zip》安装或升级到Codex。完整解压并按包内说明安装统一Skill、创建并检查十四个岗位工作区，保留已有资料和本地改进。完成后告诉我实际安装版本、使用入口和缺少的工具。
 ```
 
-希望由Codex直接联网下载时，可复制[在线安装提示词](INSTALL-PROMPT.md)，也可[下载Windows在线启动器](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/download/v0.2.7-public.2026.10.26.1/Install-New-Media-Team-Windows.cmd)。GitHub不可达时，由发送者提供本地完整包。
+希望由Codex直接联网下载时，可复制[在线安装提示词](INSTALL-PROMPT.md)，也可[下载Windows在线启动器](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/download/v0.2.7-public.2026.10.31.1/Install-New-Media-Team-Windows.cmd)。GitHub不可达时，由发送者提供本地完整包。
 
 ### 2. 选择自己的岗位工作区
 
