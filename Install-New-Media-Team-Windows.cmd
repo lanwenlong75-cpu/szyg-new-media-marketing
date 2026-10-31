@@ -1,4 +1,4 @@
-@echo off
+﻿@echo off
 setlocal
 set "SZYG_BOOTSTRAP_FILE=%~f0"
 powershell.exe -NoProfile -ExecutionPolicy Bypass -Command "$content=[IO.File]::ReadAllText($env:SZYG_BOOTSTRAP_FILE); & ([scriptblock]::Create(($content -split ':SZYG_POWERSHELL\r?\n',2)[1]))"
@@ -136,8 +136,8 @@ if (-not (Get-Command Assert-SzygHash -ErrorAction SilentlyContinue)) {
 
 function Get-SzygReleaseBundle {
     param([string]$CacheRoot)
-    $tag = 'v0.2.7-public.2026.10.31.2'
-    $name = 'szyg-new-media-marketing-codex-2026.10.31.2.zip'
+    $tag = 'v0.2.7-public.2026.10.31.3'
+    $name = 'szyg-new-media-marketing-universal-2026.10.31.3.zip'
     [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
     $release = Invoke-RestMethod -Uri ('https://api.github.com/repos/lanwenlong75-cpu/szyg-new-media-marketing/releases/tags/' + $tag) -Headers @{'User-Agent'='Szyg-New-Media-Installer'}
     if ($release.tag_name -ne $tag -or $release.draft -or $release.prerelease) { throw 'The fixed public release is unavailable.' }

@@ -1,8 +1,13 @@
 {
   "schema": "new-media-release/1",
-  "release": "2026.10.31.2",
+  "release": "2026.10.31.3",
   "source_entry_version": "0.2.7",
   "method_content_sha256": "0c722612f87ceafb6833436c340ef278f5d7d124808d9c52376b6b7cb1d9ceaf",
   "capabilities": 14,
-  "source_policy": "Same audited public method snapshot for all host packages; private business data excluded."
+  "source_policy": "Same audited public method snapshot for all host packages; private business data excluded.",
+  "host": "universal",
+  "supported_hosts": [
+    "Codex",
+    "WorkBuddy"
+  ]
 }

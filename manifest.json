@@ -1,7 +1,7 @@
 {
   "schema": "unified-skill-release/1",
   "skill": "szyg-new-media-marketing",
-  "release": "2026.10.31.2",
+  "release": "2026.10.31.3",
   "source_entry_version": "0.2.7",
   "modules": 14,
   "files": [
@@ -17,18 +17,33 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "54b1300cb6ad3c6255c32e3c2bc336f0752b7bb7a1c6364df44e0b13c1ea49cd",
-      "bytes": 3150
+      "sha256": "40ce19d3c13f4d8db203d6ed30e61d472d0ecf26b43302ba5d1dec92b5a76bf0",
+      "bytes": 3598
     },
     {
-      "path": "INSTALL-PROMPT.md",
-      "sha256": "b92e8eef0be79fd1a562d8372acaddbcafa6f0b7646bb6ad731da7efbe94d0c4",
-      "bytes": 620
+      "path": "distribution/build_release.py",
+      "sha256": "1e823952fb7640e8a38d8fad8de500728895dcf472eba824c5c0317746239feb",
+      "bytes": 11138
     },
     {
-      "path": "INSTALLER-SOURCES.json",
-      "sha256": "ecc484c8b30eb1e0a3386573ec5cf5a306cfc70addf5da37397b3d594dc4e339",
-      "bytes": 767
+      "path": "distribution/build_universal.py",
+      "sha256": "ee5c43b5808b8319627801d15118d09b1934c7b27da25bbca9288c0f1a4763d1",
+      "bytes": 4220
+    },
+    {
+      "path": "distribution/Initialize-WorkBuddy.ps1",
+      "sha256": "308cbeaaec1682b86115a1a7d8a274f5d41c6ee823c18c04fa81bed11b0c568f",
+      "bytes": 2118
+    },
+    {
+      "path": "distribution/prepare_workbuddy.py",
+      "sha256": "68161dabd0c03798c6459c5e738b945b34f34fcd652ee5b2dd3684dc6d099ec7",
+      "bytes": 6533
+    },
+    {
+      "path": "distribution/workbuddy_init.py",
+      "sha256": "027abe93fa7c31c056bb39d13498bd775efe5cc1caa428f1b68b06c788bb7676",
+      "bytes": 4549
     },
     {
       "path": "Install-Codex-Windows.cmd",
@@ -37,63 +52,18 @@
     },
     {
       "path": "Install-New-Media-Team-Windows.cmd",
-      "sha256": "556dd25d2d9f8329fb7908e0431fff943a5ebe8cfcd3cc3bc045e11c21b151c7",
-      "bytes": 9916
-    },
-    {
-      "path": "LICENSE",
-      "sha256": "3c62ed103499f3e024b8d0358946d988fb939039bf254123148f5fc43da3d821",
-      "bytes": 1073
-    },
-    {
-      "path": "README.md",
-      "sha256": "5b67ac443fb0580fe6934139b7763b4435480b2b5841b93ebed50bd7a2ef18db",
-      "bytes": 10002
-    },
-    {
-      "path": "SELF-TEST.md",
-      "sha256": "a8a2a964bfc05bb174946e9cd2099f89d032cad41ebbe4bb2c8c019212a01e90",
-      "bytes": 1376
-    },
-    {
-      "path": "SOURCE-VERSIONS.json",
-      "sha256": "78dd6cc9a65eded16a7849be8c5f67cbefab3a0a2e3cb266c93cd81460b6aad0",
-      "bytes": 4747
-    },
-    {
-      "path": "THIRD_PARTY.md",
-      "sha256": "09a851cfcabfd625a8377a0795d14a1c189020e0df0281f8eae8265b6c7e2bfa",
-      "bytes": 1008
-    },
-    {
-      "path": "VERSION.json",
-      "sha256": "347ffb2c022e40e0052ba108f410960b1633f81709d9b8d5cc2d8e592fd7940e",
-      "bytes": 332
-    },
-    {
-      "path": "VERSIONING.md",
-      "sha256": "34e63f81b7f5800985497b624ff7c630ac523fd19161f15b4fe5380f4831d73d",
-      "bytes": 1502
-    },
-    {
-      "path": "distribution/Initialize-WorkBuddy.ps1",
-      "sha256": "308cbeaaec1682b86115a1a7d8a274f5d41c6ee823c18c04fa81bed11b0c568f",
-      "bytes": 2118
-    },
-    {
-      "path": "distribution/build_release.py",
-      "sha256": "1e823952fb7640e8a38d8fad8de500728895dcf472eba824c5c0317746239feb",
-      "bytes": 11138
-    },
-    {
-      "path": "distribution/workbuddy_init.py",
-      "sha256": "027abe93fa7c31c056bb39d13498bd775efe5cc1caa428f1b68b06c788bb7676",
-      "bytes": 4549
+      "sha256": "90674a83e20858db30f3ed8c790cbed93077ae2812cc4980384db1929b003667",
+      "bytes": 9923
     },
     {
       "path": "install-online.ps1",
-      "sha256": "3371db5ebb76b0ea3cfe26c95f65c49160cb62bcec21d02cdd094dedaea695c0",
-      "bytes": 3206
+      "sha256": "904ea6c8bd4dce0f9afe7ca747cf2427627b218eb98d2aef96c17671e22bbb3a",
+      "bytes": 3264
+    },
+    {
+      "path": "INSTALL-PROMPT.md",
+      "sha256": "0ab97beb456eeb1563fd26f6a76993f8981a03ed10e86c7bf162baa0914bbb93",
+      "bytes": 834
     },
     {
       "path": "install.ps1",
@@ -102,7 +72,7 @@
     },
     {
       "path": "install.py",
-      "sha256": "4771e92c973fdba29d44883ab7ea5b4fc0044cb1b0289181ff68b6d869b1a310",
+      "sha256": "df09b9b2e995c3d14928fd9e4cda96b17a7d81bb68f0b9017dd04880bf5b3113",
       "bytes": 11268
     },
     {
@@ -112,13 +82,33 @@
     },
     {
       "path": "installer-runtime.ps1",
-      "sha256": "fcb9e2c79444f7ca3f60e388a61a24c18dae64f3e6897be7b9f1a82f79af9891",
-      "bytes": 6138
+      "sha256": "4524ab5693cf78ebfea6250d7ff361d6b7a0fe8e358e187b6ab04c16a8c741aa",
+      "bytes": 6420
     },
     {
-      "path": "skills/szyg-new-media-marketing/SKILL.md",
-      "sha256": "96b06036db06762fb6b86df59c1978daabdffaece05ba16097d10eba6b8a4560",
-      "bytes": 7741
+      "path": "INSTALLER-SOURCES.json",
+      "sha256": "ecc484c8b30eb1e0a3386573ec5cf5a306cfc70addf5da37397b3d594dc4e339",
+      "bytes": 767
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "3c62ed103499f3e024b8d0358946d988fb939039bf254123148f5fc43da3d821",
+      "bytes": 1073
+    },
+    {
+      "path": "Prepare-WorkBuddy.ps1",
+      "sha256": "edb9d1589d1543db4ce78fa41792794beb6a96251e9368b5908e5558aa5a05d8",
+      "bytes": 729
+    },
+    {
+      "path": "README.md",
+      "sha256": "229777b6c922120c3b55d6bf9b38d9bd0deec2d4bd401c3ec080fe5fcef009fd",
+      "bytes": 1950
+    },
+    {
+      "path": "SELF-TEST.md",
+      "sha256": "a8a2a964bfc05bb174946e9cd2099f89d032cad41ebbe4bb2c8c019212a01e90",
+      "bytes": 1376
     },
     {
       "path": "skills/szyg-new-media-marketing/agents/openai.yaml",
@@ -126,14 +116,14 @@
       "bytes": 387
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/archive_account/GUIDE.md",
-      "sha256": "cf28b6d46534f540fd95e9f4e2278f8b297d49cfbbec26c46298a39ac4e3d5e4",
-      "bytes": 7652
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/archive_account/agents/openai.yaml",
       "sha256": "1a0b23eb53324ad242e7465026b64d547208766de491cf15daafccb6f7879dc5",
       "bytes": 278
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/archive_account/GUIDE.md",
+      "sha256": "cf28b6d46534f540fd95e9f4e2278f8b297d49cfbbec26c46298a39ac4e3d5e4",
+      "bytes": 7652
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/archive_account/references/inherited-standards.md",
@@ -171,11 +161,6 @@
       "bytes": 1573
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/archive_account/scripts/runtime/TikHub社媒视频采集.ps1",
-      "sha256": "5b86fc5e636092863e090b1d6713e49e8e6ea931f9cea924352f5e1baf58b8a3",
-      "bytes": 6992
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/archive_account/scripts/runtime/check-social-video-runtime.ps1",
       "sha256": "75f446dc41849c2d38118c1296efd4227744258fc156d5155822e968ebd943bd",
       "bytes": 1365
@@ -189,6 +174,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/archive_account/scripts/runtime/requirements-social-video.txt",
       "sha256": "75ed994b6b11f53cc5cb5df359d20c0783708ffd4d5dcc69807f30a16a6abc8b",
       "bytes": 81
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/archive_account/scripts/runtime/TikHub社媒视频采集.ps1",
+      "sha256": "5b86fc5e636092863e090b1d6713e49e8e6ea931f9cea924352f5e1baf58b8a3",
+      "bytes": 6992
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/archive_account/scripts/runtime/批量归档抖音视频.ps1",
@@ -221,14 +211,14 @@
       "bytes": 1792
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/archive_video/GUIDE.md",
-      "sha256": "5a6ad335ba8f538cdb365a89f1cefcb2c5ea67110766657b710ad0ed15b34f14",
-      "bytes": 7356
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/archive_video/agents/openai.yaml",
       "sha256": "896bf410acdba6846cb0db1e785b1845245198dc866d139bb43fb8c48233c8ba",
       "bytes": 372
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/archive_video/GUIDE.md",
+      "sha256": "5a6ad335ba8f538cdb365a89f1cefcb2c5ea67110766657b710ad0ed15b34f14",
+      "bytes": 7356
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/archive_video/references/archive-schema.md",
@@ -251,11 +241,6 @@
       "bytes": 161
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/builder/GUIDE.md",
-      "sha256": "d31fc640809604a7d1cd601e8928791e005dee72bdce6835f5ef4e2971e17e75",
-      "bytes": 10941
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/builder/agents/openai.yaml",
       "sha256": "16072cd745a8f947d8c3792f24ea9cf6a8299e971141288c22526aae0fafc375",
       "bytes": 315
@@ -264,6 +249,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/builder/assets/role-profiles.json",
       "sha256": "c7583e4f615f3bb56f46bbdc17902d082a4552bea1ed1e75811baf440f7dc688",
       "bytes": 8424
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/builder/GUIDE.md",
+      "sha256": "d31fc640809604a7d1cd601e8928791e005dee72bdce6835f5ef4e2971e17e75",
+      "bytes": 10941
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/builder/references/acceptance.md",
@@ -316,11 +306,6 @@
       "bytes": 16718
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/courseware/GUIDE.md",
-      "sha256": "370c8d2870401f0a36d9a59e550fadf6d1d0e7d0fa98b0facac34a11c1f6dba0",
-      "bytes": 11061
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/courseware/assets/dark-yellow-layouts.pptx",
       "sha256": "70564a008602db9a01bb5a3fd2483f02416c2ef911d4d194d126c8f71e5e8540",
       "bytes": 46254
@@ -361,6 +346,11 @@
       "bytes": 1999
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/courseware/GUIDE.md",
+      "sha256": "370c8d2870401f0a36d9a59e550fadf6d1d0e7d0fa98b0facac34a11c1f6dba0",
+      "bytes": 11061
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/courseware/references/design-system.md",
       "sha256": "17dc2a37f3f0c2b3626b718367eeff062d29a9712b40ac273d0f4fa55f9f3876",
       "bytes": 6407
@@ -399,11 +389,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/courseware/references/数字员工确认规则.md",
       "sha256": "05d8b1fa847848a3b7ac3f27b9afaa992c71fdbafb48f46ed0da68742d2c7e76",
       "bytes": 161
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/designer/GUIDE.md",
-      "sha256": "a354d114b3d73f1440d2c6575a2746a570a816e548ee2d22eed801f41f7e26e8",
-      "bytes": 4163
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/agents/openai.yaml",
@@ -451,6 +436,11 @@
       "bytes": 8935
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/designer/GUIDE.md",
+      "sha256": "a354d114b3d73f1440d2c6575a2746a570a816e548ee2d22eed801f41f7e26e8",
+      "bytes": 4163
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/licenses/beautiful-html-templates-MIT.txt",
       "sha256": "de5744f069488c4b2ec2dc7b9792042a76e2ddf1d11ffe09f40f4cfceda1fad8",
       "bytes": 1088
@@ -481,14 +471,14 @@
       "bytes": 691
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/designer/licenses/source-han-serif-OFL.txt",
-      "sha256": "9ff5bb567e1b92c801fc1069e5fbf992ff8efccacb9db94e5959a5b3ba9bb903",
-      "bytes": 4463
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/licenses/source-han-serif-font-NOTICE.txt",
       "sha256": "671e5cc04cffd784e2f480b75289848cefa7bc8e87cfc895bf0904b1b73172aa",
       "bytes": 464
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/designer/licenses/source-han-serif-OFL.txt",
+      "sha256": "9ff5bb567e1b92c801fc1069e5fbf992ff8efccacb9db94e5959a5b3ba9bb903",
+      "bytes": 4463
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/designer/references/art-direction.md",
@@ -656,11 +646,6 @@
       "bytes": 1892
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/director/GUIDE.md",
-      "sha256": "6888b968c593e506c7e121dee2f53c9c161d74f84b5db3dbaffcd0965f8684c5",
-      "bytes": 6187
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/director/agents/openai.yaml",
       "sha256": "d30caf7e09948c9bf09e9ecf17a045f3bc019ad0893ddc62fc2a5e53fdf78af1",
       "bytes": 309
@@ -669,6 +654,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/director/assets/publish-risk-terms.json",
       "sha256": "188489e78ff3e73ad7bccf82d7705a80442d2d4e62877cf734f30f13132eec54",
       "bytes": 15673
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/director/GUIDE.md",
+      "sha256": "6888b968c593e506c7e121dee2f53c9c161d74f84b5db3dbaffcd0965f8684c5",
+      "bytes": 6187
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/director/references/copy-style-collaboration.md",
@@ -746,11 +736,6 @@
       "bytes": 9345
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/editor/GUIDE.md",
-      "sha256": "70395b954cd3e9f4994963dc32789a58afc76b8ed06db1f54d2c472ddf87ea43",
-      "bytes": 8468
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/editor/agents/openai.yaml",
       "sha256": "f8905b12df7219900609eef0449badf3be3ee1a433ce403ebf98de95bd0cbdfd",
       "bytes": 167
@@ -769,6 +754,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/editor/assets/文章拆解报告模板.md",
       "sha256": "a53318c42acbfa99b4a870f95d0fa0862b6c707f9d53f78346f7ed8e9a44c309",
       "bytes": 3229
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/editor/GUIDE.md",
+      "sha256": "70395b954cd3e9f4994963dc32789a58afc76b8ed06db1f54d2c472ddf87ea43",
+      "bytes": 8468
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/editor/references/inherited-standards.md",
@@ -821,14 +811,14 @@
       "bytes": 7886
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/engineer/GUIDE.md",
-      "sha256": "2ec4de431fbf5250521c6fe090188f12870df0120fe759c5b9eff3fce25fcf02",
-      "bytes": 4619
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/engineer/agents/openai.yaml",
       "sha256": "f4757e236e640f982bed43e520980d683a19f93e718ea8a0a179a3ab6c63b487",
       "bytes": 248
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/engineer/GUIDE.md",
+      "sha256": "2ec4de431fbf5250521c6fe090188f12870df0120fe759c5b9eff3fce25fcf02",
+      "bytes": 4619
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/engineer/references/case-content.md",
@@ -869,36 +859,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/.nojekyll",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/AGENTS.md",
-      "sha256": "d68d05d244fe75e1e5e5c7aafc46c9d0b40a9025e1b3071d0b473e80f0fb7fe1",
-      "bytes": 9514
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/GUIDE.md",
-      "sha256": "75978126b5b81fc251c8c7fb540e43442edae90812ce4e3128f6a194c0f29ae0",
-      "bytes": 24835
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/LICENSE",
-      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
-      "bytes": 1067
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/README.md",
-      "sha256": "32f83725f2aaf0f4274f9bba4688133a8cfdcfe565f6a67c35090e4f8eebb734",
-      "bytes": 7624
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/THIRD_PARTY.md",
-      "sha256": "5df3be0612bd22058f639d718d83ad669175a7c4f5aa5f80818a6500ff8b8330",
-      "bytes": 6318
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/adaptation-profiles/README.md",
-      "sha256": "dc47eb7cb034f43d6579a9bfa300629701daa6179dba65f0d35a86ad34487809",
-      "bytes": 2126
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/adaptation-profiles/anim4-showcase-macro/1.1.1-candidate.json",
@@ -971,6 +931,11 @@
       "bytes": 4768
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/adaptation-profiles/README.md",
+      "sha256": "dc47eb7cb034f43d6579a9bfa300629701daa6179dba65f0d35a86ad34487809",
+      "bytes": 2126
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/adaptation-profiles/stage-performance/1.0.0.json",
       "sha256": "88a14e35273aa7e3f2a504f9ca805b7f9f0e99de94d6bf7cc5fc430142eb6cff",
       "bytes": 6860
@@ -979,11 +944,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/adaptation-profiles/stage-performance/1.1.0-candidate.json",
       "sha256": "30f1eecfec0f3bf8e2bd79ecb0d9f8b2c69942666272616a3e90885d0ba7ff38",
       "bytes": 6870
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/adapters/doubao-console/README.md",
-      "sha256": "a2a2a158dff5280a279aeb87b046368717bd33a7f1f8f6ef8735a376e52be21f",
-      "bytes": 1148
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/adapters/doubao-console/bridge.js",
@@ -1011,9 +971,9 @@
       "bytes": 2390
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/adapters/paper-balance/README.md",
-      "sha256": "34b2c3ed05968ddaff4aff92b0516b6716bf7fcb3c98a846ace6a29e06b4f0e4",
-      "bytes": 2083
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/adapters/doubao-console/README.md",
+      "sha256": "a2a2a158dff5280a279aeb87b046368717bd33a7f1f8f6ef8735a376e52be21f",
+      "bytes": 1148
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/adapters/paper-balance/extract.py",
@@ -1046,9 +1006,9 @@
       "bytes": 4925
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/adapters/paper-ball/README.md",
-      "sha256": "bd82208dce76eda34ad33946f5d974656ea8fdf40fea2721839baef440c3df5f",
-      "bytes": 2791
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/adapters/paper-balance/README.md",
+      "sha256": "34b2c3ed05968ddaff4aff92b0516b6716bf7fcb3c98a846ace6a29e06b4f0e4",
+      "bytes": 2083
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/adapters/paper-ball/extract.py",
@@ -1061,9 +1021,9 @@
       "bytes": 2339
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/adapters/vibrant-color/README.md",
-      "sha256": "c018dc1b66cc9652d128ba8d1efec88eb8d4666f8161abaa6b4122839933cce2",
-      "bytes": 1697
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/adapters/paper-ball/README.md",
+      "sha256": "bd82208dce76eda34ad33946f5d974656ea8fdf40fea2721839baef440c3df5f",
+      "bytes": 2791
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/adapters/vibrant-color/basic-scenes.js",
@@ -1101,14 +1061,14 @@
       "bytes": 35821
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/adapters/vibrant-color/README.md",
+      "sha256": "c018dc1b66cc9652d128ba8d1efec88eb8d4666f8161abaa6b4122839933cce2",
+      "bytes": 1697
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/adapters/vibrant-color/typography.js",
       "sha256": "6e3472d21e9ae6334fe5ab33c59fd524bb18a67bab1e22f9fbf0f3ca024a1f10",
       "bytes": 2365
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/adapters/vivid-sticker/README.md",
-      "sha256": "9e145d5815a2fd2da116ffddce313a12910e1a5f4c593d5fb8f8e82d9af4ff5f",
-      "bytes": 658
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/adapters/vivid-sticker/bridge.js",
@@ -1146,6 +1106,11 @@
       "bytes": 24882
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/adapters/vivid-sticker/README.md",
+      "sha256": "9e145d5815a2fd2da116ffddce313a12910e1a5f4c593d5fb8f8e82d9af4ff5f",
+      "bytes": 658
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/adapters/vivid-sticker/typography.js",
       "sha256": "0db6bdc15b7509a8f9e85f104ac86b2f3230bdcd848c8ddcdcd4cdf5139d0896",
       "bytes": 1641
@@ -1154,6 +1119,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/agents/openai.yaml",
       "sha256": "4d2c23e5761dbfb176f5f7acd64432c3afbbcf6208fabfd8466588821a23d23a",
       "bytes": 405
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/AGENTS.md",
+      "sha256": "d68d05d244fe75e1e5e5c7aafc46c9d0b40a9025e1b3071d0b473e80f0fb7fe1",
+      "bytes": 9514
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/assets/cover.jpg",
@@ -1291,11 +1261,6 @@
       "bytes": 147219
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/assets/demos/README.md",
-      "sha256": "bf034ceadd7c9df1063f55b9a4929217ca56770011cc24e3c492d9f0aa98a9e0",
-      "bytes": 2482
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/assets/demos/media-validation.json",
       "sha256": "a102f9ae54e7874b8c9b0a94e0e28b8b6fb62101d9c9c04ac5e6d387cf83ec5a",
       "bytes": 2569
@@ -1306,14 +1271,9 @@
       "bytes": 30846
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/assets/fonts/NotoSansMono.ttf",
-      "sha256": "2cb2adb378a8f574213e23df697050b83c54c27df465a2015552740b2769a081",
-      "bytes": 1708408
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/assets/fonts/NotoSansSC.ttf",
-      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
-      "bytes": 17772300
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/assets/demos/README.md",
+      "sha256": "bf034ceadd7c9df1063f55b9a4929217ca56770011cc24e3c492d9f0aa98a9e0",
+      "bytes": 2482
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/assets/fonts/notosansmono-OFL.txt",
@@ -1321,9 +1281,19 @@
       "bytes": 4396
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/assets/fonts/NotoSansMono.ttf",
+      "sha256": "2cb2adb378a8f574213e23df697050b83c54c27df465a2015552740b2769a081",
+      "bytes": 1708408
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/assets/fonts/notosanssc-OFL.txt",
       "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
       "bytes": 4388
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/assets/fonts/NotoSansSC.ttf",
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+      "bytes": 17772300
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/assets/fonts/sources.json",
@@ -1501,11 +1471,6 @@
       "bytes": 3977
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/examples/README.md",
-      "sha256": "c4727c93d71960b5476ea450914c566e20d888bd117b3b38bdff4cfa7cd7dd08",
-      "bytes": 2017
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/examples/adaptation/01-method-introduction.brief.json",
       "sha256": "029ee7372fe028286a2fcb44677f073f02668de991822ff06e080f82ee3ed723",
       "bytes": 3588
@@ -1566,11 +1531,6 @@
       "bytes": 45918
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/examples/gallery/README.md",
-      "sha256": "993e4305675d38e59af873012fea5c668239c3eb27174b9f5a2c7cc34d4d57de",
-      "bytes": 597
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/examples/gallery/catalog.json",
       "sha256": "fe4234e405a0be519c57ed83c764d20c743a9df5c65e06cb9e78d563bab34bea",
       "bytes": 2594
@@ -1581,14 +1541,14 @@
       "bytes": 9291
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/examples/gallery/README.md",
+      "sha256": "993e4305675d38e59af873012fea5c668239c3eb27174b9f5a2c7cc34d4d57de",
+      "bytes": 597
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/examples/handdrawn-continuity.html",
       "sha256": "c374501f46bf6d97c412f01ae1b5b21e8660a2dc41e7aa644bdae5c9505a539c",
       "bytes": 12925
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/examples/portrait-catalog/README.md",
-      "sha256": "461cd577d5b8874122bcd8236ce8f3959d85c50bc3b81b4777c69ea015b5e50a",
-      "bytes": 900
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/examples/portrait-catalog/demo-loop.js",
@@ -1621,9 +1581,19 @@
       "bytes": 344
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/examples/portrait-catalog/README.md",
+      "sha256": "461cd577d5b8874122bcd8236ce8f3959d85c50bc3b81b4777c69ea015b5e50a",
+      "bytes": 900
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/examples/portrait-shell.html",
       "sha256": "7e54b25bf7ebf92721e2d0a0c9942b4cf61c8432b9df9068bbf76ecb03206736",
       "bytes": 4593
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/examples/README.md",
+      "sha256": "c4727c93d71960b5476ea450914c566e20d888bd117b3b38bdff4cfa7cd7dd08",
+      "bytes": 2017
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/examples/showcase-scenes.js",
@@ -1651,11 +1621,6 @@
       "bytes": 1156
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/examples/vivid-sticker-preview/README.md",
-      "sha256": "05a6510a48f117f9e3223ae3bfa8a218c5b1f242665773dfc654164507209632",
-      "bytes": 307
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/examples/vivid-sticker-preview/giver.svg",
       "sha256": "49dc8c6001fc7451d1901c3ae1529084a33c564bc80b49815e1cfa265ac8dda8",
       "bytes": 925
@@ -1666,9 +1631,24 @@
       "bytes": 488
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/examples/vivid-sticker-preview/README.md",
+      "sha256": "05a6510a48f117f9e3223ae3bfa8a218c5b1f242665773dfc654164507209632",
+      "bytes": 307
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/examples/vivid-sticker-preview/receiver.svg",
       "sha256": "7aac36b623d3df96a492d2972572ad9d7848f06966e8d2245b490075ff370c5c",
       "bytes": 1009
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/GUIDE.md",
+      "sha256": "75978126b5b81fc251c8c7fb540e43442edae90812ce4e3128f6a194c0f29ae0",
+      "bytes": 24835
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/LICENSE",
+      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
+      "bytes": 1067
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/package-lock.json",
@@ -1679,16 +1659,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/package.json",
       "sha256": "4dcfcfc7ce05b6dba8fc3f86a42add715e527b903eea11a3a575e192e9c5fa76",
       "bytes": 495
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/anim3/README.md",
-      "sha256": "b052b1b820e5c79e810a887df28b115b51e85b681c9643f3f6bf42465f0f511f",
-      "bytes": 7388
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/anim3/SOURCE_AUDIT.md",
-      "sha256": "801e6ee5aebc82afa487630fb49f1bf931f694b12e94c8745edd7f6bc06aa514",
-      "bytes": 5277
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/anim3/audio-source.py",
@@ -1721,24 +1691,24 @@
       "bytes": 97748
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/anim3/README.md",
+      "sha256": "b052b1b820e5c79e810a887df28b115b51e85b681c9643f3f6bf42465f0f511f",
+      "bytes": 7388
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/anim3/scenes.js",
       "sha256": "0b87e949d66e2a0e1885d0d5bd8907b0167aadd5d14ee2c27188a582a6bb94c6",
       "bytes": 48658
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/anim3/SOURCE_AUDIT.md",
+      "sha256": "801e6ee5aebc82afa487630fb49f1bf931f694b12e94c8745edd7f6bc06aa514",
+      "bytes": 5277
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/anim3/style.css",
       "sha256": "379c225d0dcbb56f5971738d78b541ea95621a13ba5aa658cbac9d7fb349dd6a",
       "bytes": 4577
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/anim4/README.md",
-      "sha256": "c208e42d339cb5ac608378986de2756052606e1b500f5d03db1d17da6fd49433",
-      "bytes": 6967
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/anim4/SOURCE_AUDIT.md",
-      "sha256": "a4f3e64f451af85dd45e4f8aa0af6c8dbf68bbf0aacd3bb2694d8ebb27c56a93",
-      "bytes": 4494
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/anim4/audio.py",
@@ -1776,6 +1746,11 @@
       "bytes": 11261
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/anim4/README.md",
+      "sha256": "c208e42d339cb5ac608378986de2756052606e1b500f5d03db1d17da6fd49433",
+      "bytes": 6967
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/anim4/scenes.js",
       "sha256": "eea05aab76ba57c36c7e56524ad446ce52f65639ba383385fd462474e743c075",
       "bytes": 73707
@@ -1786,6 +1761,11 @@
       "bytes": 7707
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/anim4/SOURCE_AUDIT.md",
+      "sha256": "a4f3e64f451af85dd45e4f8aa0af6c8dbf68bbf0aacd3bb2694d8ebb27c56a93",
+      "bytes": 4494
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/anim4/style.css",
       "sha256": "513a4a43b19c64bae6d05a5ca037b6277e787c9561a6603dc3b8190d3746b810",
       "bytes": 4649
@@ -1794,16 +1774,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/anim4/text-inventory.json",
       "sha256": "2ab897f94104f627874ad0d7ab4783018cc38d662d61871e99e2c90e3e8e1b8d",
       "bytes": 29808
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/classic-performance/0.2.1-candidate/LICENSE",
-      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
-      "bytes": 1067
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/classic-performance/0.2.1-candidate/README.md",
-      "sha256": "e681794f57604dce7016583a96774889ed0bad4852dd133a03fb23d258a0d1c0",
-      "bytes": 3780
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/classic-performance/0.2.1-candidate/audio_timeline.json",
@@ -1821,6 +1791,11 @@
       "bytes": 13838
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/classic-performance/0.2.1-candidate/LICENSE",
+      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
+      "bytes": 1067
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/classic-performance/0.2.1-candidate/manifest.json",
       "sha256": "0f6d8761f387b5eb3aaa1690f80668fd9019496449a26033663ebe2bf54e0038",
       "bytes": 36024
@@ -1829,6 +1804,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/classic-performance/0.2.1-candidate/motion.js",
       "sha256": "0618fac74ae393dda4745f6b71c151678ef3a465a8399740faa1ee67decfb3d9",
       "bytes": 698
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/classic-performance/0.2.1-candidate/README.md",
+      "sha256": "e681794f57604dce7016583a96774889ed0bad4852dd133a03fb23d258a0d1c0",
+      "bytes": 3780
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/classic-performance/0.2.1-candidate/style.css",
@@ -1851,16 +1831,6 @@
       "bytes": 5175
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/classic-performance/1.0.0/LICENSE",
-      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
-      "bytes": 1067
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/classic-performance/1.0.0/README.md",
-      "sha256": "55194ade3568e647809ed623b9c45ca059ec17ec186ef5e2098083348b5c00e1",
-      "bytes": 4069
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/classic-performance/1.0.0/audio_timeline.json",
       "sha256": "ee13105d474215e120fc5391316b9cf4fe2f6df767920e5249c346f236950fe9",
       "bytes": 3333
@@ -1876,6 +1846,11 @@
       "bytes": 13838
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/classic-performance/1.0.0/LICENSE",
+      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
+      "bytes": 1067
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/classic-performance/1.0.0/manifest.json",
       "sha256": "753f557f555c5e5ddb20d4c2ab5bec1504c6e0d20d3d2b4e402d31f67a8e3769",
       "bytes": 36718
@@ -1884,6 +1859,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/classic-performance/1.0.0/motion.js",
       "sha256": "0618fac74ae393dda4745f6b71c151678ef3a465a8399740faa1ee67decfb3d9",
       "bytes": 698
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/classic-performance/1.0.0/README.md",
+      "sha256": "55194ade3568e647809ed623b9c45ca059ec17ec186ef5e2098083348b5c00e1",
+      "bytes": 4069
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/classic-performance/1.0.0/review.json",
@@ -1911,16 +1891,6 @@
       "bytes": 5175
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/classic-performance/1.1.0-candidate/LICENSE",
-      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
-      "bytes": 1067
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/classic-performance/1.1.0-candidate/README.md",
-      "sha256": "4b6654d2516bd83411143d04cf3fbacbdc81a4ca6b76bb8f38a388d803d1a533",
-      "bytes": 846
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/classic-performance/1.1.0-candidate/audio_timeline.json",
       "sha256": "ee13105d474215e120fc5391316b9cf4fe2f6df767920e5249c346f236950fe9",
       "bytes": 3333
@@ -1934,6 +1904,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/classic-performance/1.1.0-candidate/lib.js",
       "sha256": "09f59441aec9e9822b4ff8f4d40088b933f7852762e2ab7cacef69f188ad1cd8",
       "bytes": 13838
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/classic-performance/1.1.0-candidate/LICENSE",
+      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
+      "bytes": 1067
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/classic-performance/1.1.0-candidate/manifest.json",
@@ -1954,6 +1929,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/classic-performance/1.1.0-candidate/portrait.js",
       "sha256": "a2412fc0bf4b39ff8a8c3c28599e4ba629b63082586cac7063a1ccd5f93f7b03",
       "bytes": 14230
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/classic-performance/1.1.0-candidate/README.md",
+      "sha256": "4b6654d2516bd83411143d04cf3fbacbdc81a4ca6b76bb8f38a388d803d1a533",
+      "bytes": 846
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/classic-performance/1.1.0-candidate/review.json",
@@ -1981,16 +1961,6 @@
       "bytes": 5175
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/continuous-performance/0.2.1-candidate/LICENSE",
-      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
-      "bytes": 1067
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/continuous-performance/0.2.1-candidate/README.md",
-      "sha256": "4ada4366cc5ac444617e1268d5cd136dc0a5e94015685d3482d68202155e79fd",
-      "bytes": 4154
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/continuous-performance/0.2.1-candidate/audio_timeline.json",
       "sha256": "f77f63b11f2245f3841f3c64053b2cc38c58887366a29c48648ba0c30e7c8ece",
       "bytes": 3663
@@ -2006,6 +1976,11 @@
       "bytes": 13838
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/continuous-performance/0.2.1-candidate/LICENSE",
+      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
+      "bytes": 1067
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/continuous-performance/0.2.1-candidate/manifest.json",
       "sha256": "c3bd1d39de80a7363aab0b82c30a4888a29a65f3c5cd4e2794842999e7948053",
       "bytes": 49910
@@ -2014,6 +1989,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/continuous-performance/0.2.1-candidate/motion.js",
       "sha256": "0618fac74ae393dda4745f6b71c151678ef3a465a8399740faa1ee67decfb3d9",
       "bytes": 698
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/continuous-performance/0.2.1-candidate/README.md",
+      "sha256": "4ada4366cc5ac444617e1268d5cd136dc0a5e94015685d3482d68202155e79fd",
+      "bytes": 4154
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/continuous-performance/0.2.1-candidate/style.css",
@@ -2036,16 +2016,6 @@
       "bytes": 8835
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/continuous-performance/1.0.0/LICENSE",
-      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
-      "bytes": 1067
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/continuous-performance/1.0.0/README.md",
-      "sha256": "41fd48fe623252dbb58db49a75af8e65cee82f4df6d1cad5af5cb68a94ebae05",
-      "bytes": 4119
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/continuous-performance/1.0.0/audio_timeline.json",
       "sha256": "f77f63b11f2245f3841f3c64053b2cc38c58887366a29c48648ba0c30e7c8ece",
       "bytes": 3663
@@ -2061,6 +2031,11 @@
       "bytes": 13838
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/continuous-performance/1.0.0/LICENSE",
+      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
+      "bytes": 1067
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/continuous-performance/1.0.0/manifest.json",
       "sha256": "eb0aeedf0faa9753d389b78ba52737e4fa2e751feb6edd7b1d63bc1a20a77692",
       "bytes": 33916
@@ -2069,6 +2044,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/continuous-performance/1.0.0/motion.js",
       "sha256": "0618fac74ae393dda4745f6b71c151678ef3a465a8399740faa1ee67decfb3d9",
       "bytes": 698
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/continuous-performance/1.0.0/README.md",
+      "sha256": "41fd48fe623252dbb58db49a75af8e65cee82f4df6d1cad5af5cb68a94ebae05",
+      "bytes": 4119
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/continuous-performance/1.0.0/review.json",
@@ -2091,16 +2071,6 @@
       "bytes": 8524
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/continuous-performance/1.1.0-candidate/LICENSE",
-      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
-      "bytes": 1067
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/continuous-performance/1.1.0-candidate/README.md",
-      "sha256": "5fcaf9c39c1df27c344b6134b4377c4ec14ee239c9793d0aa4f2a6b28e9026f8",
-      "bytes": 849
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/continuous-performance/1.1.0-candidate/audio_timeline.json",
       "sha256": "f77f63b11f2245f3841f3c64053b2cc38c58887366a29c48648ba0c30e7c8ece",
       "bytes": 3663
@@ -2114,6 +2084,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/continuous-performance/1.1.0-candidate/lib.js",
       "sha256": "09f59441aec9e9822b4ff8f4d40088b933f7852762e2ab7cacef69f188ad1cd8",
       "bytes": 13838
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/continuous-performance/1.1.0-candidate/LICENSE",
+      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
+      "bytes": 1067
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/continuous-performance/1.1.0-candidate/manifest.json",
@@ -2136,6 +2111,11 @@
       "bytes": 14230
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/continuous-performance/1.1.0-candidate/README.md",
+      "sha256": "5fcaf9c39c1df27c344b6134b4377c4ec14ee239c9793d0aa4f2a6b28e9026f8",
+      "bytes": 849
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/continuous-performance/1.1.0-candidate/review.json",
       "sha256": "9c7a68d32b4efc6eebb6fa75324445767932e16fadeff4f9d22d17fbfa46c878",
       "bytes": 798
@@ -2154,16 +2134,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/continuous-performance/1.1.0-candidate/units/decompose-and-consolidate.js",
       "sha256": "edd2b35523553d1f6ed5e1febbe48d7f2ba758cbe2bd0449b10746a460247e17",
       "bytes": 8524
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.1.0-candidate/README.md",
-      "sha256": "dc96815279f34af27ccdf2e540004529227586935cfa5930de8736b87cd49e48",
-      "bytes": 3623
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.1.0-candidate/SOURCE_AUDIT.md",
-      "sha256": "a4f3e64f451af85dd45e4f8aa0af6c8dbf68bbf0aacd3bb2694d8ebb27c56a93",
-      "bytes": 4494
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.1.0-candidate/apply-layout.mjs",
@@ -2211,6 +2181,11 @@
       "bytes": 11258
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.1.0-candidate/README.md",
+      "sha256": "dc96815279f34af27ccdf2e540004529227586935cfa5930de8736b87cd49e48",
+      "bytes": 3623
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.1.0-candidate/scenes.js",
       "sha256": "eea05aab76ba57c36c7e56524ad446ce52f65639ba383385fd462474e743c075",
       "bytes": 73707
@@ -2226,6 +2201,11 @@
       "bytes": 9613
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.1.0-candidate/SOURCE_AUDIT.md",
+      "sha256": "a4f3e64f451af85dd45e4f8aa0af6c8dbf68bbf0aacd3bb2694d8ebb27c56a93",
+      "bytes": 4494
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.1.0-candidate/style.css",
       "sha256": "513a4a43b19c64bae6d05a5ca037b6277e787c9561a6603dc3b8190d3746b810",
       "bytes": 4649
@@ -2234,16 +2214,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.1.0-candidate/text-inventory.json",
       "sha256": "2ab897f94104f627874ad0d7ab4783018cc38d662d61871e99e2c90e3e8e1b8d",
       "bytes": 29808
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.1.1-candidate/README.md",
-      "sha256": "db8ce51c229721a1abe2c2d4d27b6c82b4fc2a9fad00b077fb8b4b6e6aa7a8b9",
-      "bytes": 4368
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.1.1-candidate/SOURCE_AUDIT.md",
-      "sha256": "a4f3e64f451af85dd45e4f8aa0af6c8dbf68bbf0aacd3bb2694d8ebb27c56a93",
-      "bytes": 4494
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.1.1-candidate/apply-layout.mjs",
@@ -2301,6 +2271,11 @@
       "bytes": 11499
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.1.1-candidate/README.md",
+      "sha256": "db8ce51c229721a1abe2c2d4d27b6c82b4fc2a9fad00b077fb8b4b6e6aa7a8b9",
+      "bytes": 4368
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.1.1-candidate/scenes.js",
       "sha256": "eea05aab76ba57c36c7e56524ad446ce52f65639ba383385fd462474e743c075",
       "bytes": 73707
@@ -2316,6 +2291,11 @@
       "bytes": 9613
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.1.1-candidate/SOURCE_AUDIT.md",
+      "sha256": "a4f3e64f451af85dd45e4f8aa0af6c8dbf68bbf0aacd3bb2694d8ebb27c56a93",
+      "bytes": 4494
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.1.1-candidate/style.css",
       "sha256": "513a4a43b19c64bae6d05a5ca037b6277e787c9561a6603dc3b8190d3746b810",
       "bytes": 4649
@@ -2324,16 +2304,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.1.1-candidate/text-inventory.json",
       "sha256": "2ab897f94104f627874ad0d7ab4783018cc38d662d61871e99e2c90e3e8e1b8d",
       "bytes": 29808
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.2.0-candidate/README.md",
-      "sha256": "e3cf93bb01d6338d5af3d7c1068fe814e93cd8e3116329231d9c0448d15180b5",
-      "bytes": 862
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.2.0-candidate/SOURCE_AUDIT.md",
-      "sha256": "a4f3e64f451af85dd45e4f8aa0af6c8dbf68bbf0aacd3bb2694d8ebb27c56a93",
-      "bytes": 4494
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.2.0-candidate/apply-layout.mjs",
@@ -2391,6 +2361,11 @@
       "bytes": 11499
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.2.0-candidate/README.md",
+      "sha256": "e3cf93bb01d6338d5af3d7c1068fe814e93cd8e3116329231d9c0448d15180b5",
+      "bytes": 862
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.2.0-candidate/review.json",
       "sha256": "06f857301df89bd3b4d49abf09a2fbeb0c8ebf3c6dd59ca1984e2dafb67133e2",
       "bytes": 808
@@ -2411,6 +2386,11 @@
       "bytes": 9613
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.2.0-candidate/SOURCE_AUDIT.md",
+      "sha256": "a4f3e64f451af85dd45e4f8aa0af6c8dbf68bbf0aacd3bb2694d8ebb27c56a93",
+      "bytes": 4494
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.2.0-candidate/style.css",
       "sha256": "513a4a43b19c64bae6d05a5ca037b6277e787c9561a6603dc3b8190d3746b810",
       "bytes": 4649
@@ -2419,16 +2399,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.2.0-candidate/text-inventory.json",
       "sha256": "2ab897f94104f627874ad0d7ab4783018cc38d662d61871e99e2c90e3e8e1b8d",
       "bytes": 29808
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.3.0-candidate/README.md",
-      "sha256": "27c2f87ef4db6c3a25b5b46147721c7daf7a877b214d30656d3ea45bfc303cb2",
-      "bytes": 728
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.3.0-candidate/SOURCE_AUDIT.md",
-      "sha256": "a4f3e64f451af85dd45e4f8aa0af6c8dbf68bbf0aacd3bb2694d8ebb27c56a93",
-      "bytes": 4494
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.3.0-candidate/apply-layout.mjs",
@@ -2486,6 +2456,11 @@
       "bytes": 11499
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.3.0-candidate/README.md",
+      "sha256": "27c2f87ef4db6c3a25b5b46147721c7daf7a877b214d30656d3ea45bfc303cb2",
+      "bytes": 728
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.3.0-candidate/review.json",
       "sha256": "85b37f9a43d8e36e5e3cad13380fcc589c4f5312cc432fd64924880565035a43",
       "bytes": 341
@@ -2506,6 +2481,11 @@
       "bytes": 10022
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.3.0-candidate/SOURCE_AUDIT.md",
+      "sha256": "a4f3e64f451af85dd45e4f8aa0af6c8dbf68bbf0aacd3bb2694d8ebb27c56a93",
+      "bytes": 4494
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.3.0-candidate/style.css",
       "sha256": "513a4a43b19c64bae6d05a5ca037b6277e787c9561a6603dc3b8190d3746b810",
       "bytes": 4649
@@ -2514,16 +2494,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.3.0-candidate/text-inventory.json",
       "sha256": "2ab897f94104f627874ad0d7ab4783018cc38d662d61871e99e2c90e3e8e1b8d",
       "bytes": 29808
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.3.1-candidate/README.md",
-      "sha256": "a1a9e6ea03eec1ba351c0ef5fb64043642f137fc73112361c8287a5f6feb4927",
-      "bytes": 728
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.3.1-candidate/SOURCE_AUDIT.md",
-      "sha256": "a4f3e64f451af85dd45e4f8aa0af6c8dbf68bbf0aacd3bb2694d8ebb27c56a93",
-      "bytes": 4494
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.3.1-candidate/apply-layout.mjs",
@@ -2581,6 +2551,11 @@
       "bytes": 11499
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.3.1-candidate/README.md",
+      "sha256": "a1a9e6ea03eec1ba351c0ef5fb64043642f137fc73112361c8287a5f6feb4927",
+      "bytes": 728
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.3.1-candidate/review.json",
       "sha256": "e33a867be753d8e0b4a77f70af53320959d71442025937b9cabd3c5c1c3cb31e",
       "bytes": 341
@@ -2601,6 +2576,11 @@
       "bytes": 10022
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.3.1-candidate/SOURCE_AUDIT.md",
+      "sha256": "a4f3e64f451af85dd45e4f8aa0af6c8dbf68bbf0aacd3bb2694d8ebb27c56a93",
+      "bytes": 4494
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.3.1-candidate/style.css",
       "sha256": "513a4a43b19c64bae6d05a5ca037b6277e787c9561a6603dc3b8190d3746b810",
       "bytes": 4649
@@ -2609,11 +2589,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/dark-3d-showcase/1.3.1-candidate/text-inventory.json",
       "sha256": "2ab897f94104f627874ad0d7ab4783018cc38d662d61871e99e2c90e3e8e1b8d",
       "bytes": 29808
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/doubao-console-performance/0.1.1-candidate/README.md",
-      "sha256": "3546137c8a54391457150389d7e7c1d33ef643a6527cd0e87b5e33994d289047",
-      "bytes": 1556
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/doubao-console-performance/0.1.1-candidate/audio_timeline.json",
@@ -2641,6 +2616,11 @@
       "bytes": 50012
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/doubao-console-performance/0.1.1-candidate/README.md",
+      "sha256": "3546137c8a54391457150389d7e7c1d33ef643a6527cd0e87b5e33994d289047",
+      "bytes": 1556
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/doubao-console-performance/0.1.1-candidate/style.css",
       "sha256": "8d2b210258186315b80fc7d8a25871d982e7ae9f4e130e0b9a2825136d08eb2c",
       "bytes": 9752
@@ -2659,11 +2639,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/doubao-console-performance/0.1.1-candidate/units/three-step-chat.js",
       "sha256": "058e7c53fa5ce739cac96f30d40147cbe3b0e5c1f9354e4315143cc202158e3e",
       "bytes": 49487
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/doubao-console-performance/0.1.2-candidate/README.md",
-      "sha256": "43217e68edc2c9acf8bec6cf79c58eebfb48fe658e9f23f72c599349c8e1cd7a",
-      "bytes": 4032
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/doubao-console-performance/0.1.2-candidate/audio_timeline.json",
@@ -2691,6 +2666,11 @@
       "bytes": 52073
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/doubao-console-performance/0.1.2-candidate/README.md",
+      "sha256": "43217e68edc2c9acf8bec6cf79c58eebfb48fe658e9f23f72c599349c8e1cd7a",
+      "bytes": 4032
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/doubao-console-performance/0.1.2-candidate/style.css",
       "sha256": "8d2b210258186315b80fc7d8a25871d982e7ae9f4e130e0b9a2825136d08eb2c",
       "bytes": 9752
@@ -2709,11 +2689,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/doubao-console-performance/0.1.2-candidate/units/three-step-chat.js",
       "sha256": "f6a2e9ae477d6a5b0073ae97dc0bd109168c426bd247515531f01ff872cc0349",
       "bytes": 52389
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/doubao-console-performance/0.2.0-candidate/README.md",
-      "sha256": "74cadb038f46269e13c61c4bee9502e6e66afb802cd128dd81251093e2014ddb",
-      "bytes": 1070
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/doubao-console-performance/0.2.0-candidate/audio_timeline.json",
@@ -2751,6 +2726,11 @@
       "bytes": 14230
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/doubao-console-performance/0.2.0-candidate/README.md",
+      "sha256": "74cadb038f46269e13c61c4bee9502e6e66afb802cd128dd81251093e2014ddb",
+      "bytes": 1070
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/doubao-console-performance/0.2.0-candidate/review.json",
       "sha256": "259c64ba2950160f0f6f2fa5b58186a4bae7d7b718ef42d11f0aea17fd16f6ee",
       "bytes": 808
@@ -2774,11 +2754,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/doubao-console-performance/0.2.0-candidate/units/three-step-chat.js",
       "sha256": "f6a2e9ae477d6a5b0073ae97dc0bd109168c426bd247515531f01ff872cc0349",
       "bytes": 52389
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/doubao-console-performance/0.3.0-candidate/README.md",
-      "sha256": "bb1f23c36226e77762f6fc6901c0dfaa5dd54c322d4f2c637ba83cb597593144",
-      "bytes": 613
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/doubao-console-performance/0.3.0-candidate/audio_timeline.json",
@@ -2816,6 +2791,11 @@
       "bytes": 14254
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/doubao-console-performance/0.3.0-candidate/README.md",
+      "sha256": "bb1f23c36226e77762f6fc6901c0dfaa5dd54c322d4f2c637ba83cb597593144",
+      "bytes": 613
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/doubao-console-performance/0.3.0-candidate/review.json",
       "sha256": "bbccdcbbafb9baa7dca9d3b5ece3b55cfef4d4ef3661c9a900e84f7d4f888b99",
       "bytes": 340
@@ -2846,11 +2826,6 @@
       "bytes": 52389
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/editorial-performance/0.2.2-candidate/README.md",
-      "sha256": "c6c7f3a74b0335e6998a797bf9032d9bc777b59525da0899e9c7a39ab0361c66",
-      "bytes": 2863
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/editorial-performance/0.2.2-candidate/audio_timeline.json",
       "sha256": "a814a86bf2a1c7c5d586f5969e11d2a3726ce39e8775d57a0b0e262a35e1dc99",
       "bytes": 3668
@@ -2876,6 +2851,11 @@
       "bytes": 698
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/editorial-performance/0.2.2-candidate/README.md",
+      "sha256": "c6c7f3a74b0335e6998a797bf9032d9bc777b59525da0899e9c7a39ab0361c66",
+      "bytes": 2863
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/editorial-performance/0.2.2-candidate/style.css",
       "sha256": "57d47273749b079df15412f7b07fcbb85da1f087611eae2a3949cae3907a5af9",
       "bytes": 4317
@@ -2894,11 +2874,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/editorial-performance/0.2.2-candidate/units/evidence-and-focus.js",
       "sha256": "99c217190ef32a2a2a161b00db37a4d122f2513e58d391403a996b577c510a9e",
       "bytes": 3876
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/editorial-performance/1.0.0/README.md",
-      "sha256": "c5343c6342899b015dac3c058053401ac8be2814d1475efbb7a4e08db74aa0d1",
-      "bytes": 3718
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/editorial-performance/1.0.0/audio_timeline.json",
@@ -2926,6 +2901,11 @@
       "bytes": 698
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/editorial-performance/1.0.0/README.md",
+      "sha256": "c5343c6342899b015dac3c058053401ac8be2814d1475efbb7a4e08db74aa0d1",
+      "bytes": 3718
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/editorial-performance/1.0.0/review.json",
       "sha256": "8445b17aaa876e76008023de8a3ed0f134676a274cd5761a1cad94698d486101",
       "bytes": 2649
@@ -2949,11 +2929,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/editorial-performance/1.0.0/units/evidence-and-focus.js",
       "sha256": "99c217190ef32a2a2a161b00db37a4d122f2513e58d391403a996b577c510a9e",
       "bytes": 3876
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/editorial-performance/1.1.0-candidate/README.md",
-      "sha256": "2359ae40a760971ce08e6347993a2c8ada2ef9c58a3311fa86a909fbb94dca57",
-      "bytes": 854
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/editorial-performance/1.1.0-candidate/audio_timeline.json",
@@ -2991,6 +2966,11 @@
       "bytes": 14230
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/editorial-performance/1.1.0-candidate/README.md",
+      "sha256": "2359ae40a760971ce08e6347993a2c8ada2ef9c58a3311fa86a909fbb94dca57",
+      "bytes": 854
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/editorial-performance/1.1.0-candidate/review.json",
       "sha256": "c443fded3f220c51838bc815c220705013a52abad46ec4eb8479c9a14acaad06",
       "bytes": 798
@@ -3014,11 +2994,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/editorial-performance/1.1.0-candidate/units/evidence-and-focus.js",
       "sha256": "99c217190ef32a2a2a161b00db37a4d122f2513e58d391403a996b577c510a9e",
       "bytes": 3876
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/editorial-performance/1.2.0-candidate/README.md",
-      "sha256": "a7907c128fa186bc1991d840765655d215df9b177d1439080fc8b87f81332447",
-      "bytes": 1150
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/editorial-performance/1.2.0-candidate/audio_timeline.json",
@@ -3054,6 +3029,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/editorial-performance/1.2.0-candidate/portrait.js",
       "sha256": "04623bac129498c159b8b772cbf3bf87a8025a9b71bf9ec9a4133cf624458465",
       "bytes": 15531
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/editorial-performance/1.2.0-candidate/README.md",
+      "sha256": "a7907c128fa186bc1991d840765655d215df9b177d1439080fc8b87f81332447",
+      "bytes": 1150
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/editorial-performance/1.2.0-candidate/review.json",
@@ -3131,11 +3111,6 @@
       "bytes": 4522
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/kinetic-performance/0.2.2-candidate/README.md",
-      "sha256": "1697723d8545c44d13e52cc8e1284073edf2513c9e652626072c92b7428f4925",
-      "bytes": 2760
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/kinetic-performance/0.2.2-candidate/audio_timeline.json",
       "sha256": "804f3342c07893ef6dc13dbc7058f5cc2b3b15f6a716852fce961b7c10a04238",
       "bytes": 5429
@@ -3161,6 +3136,11 @@
       "bytes": 698
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/kinetic-performance/0.2.2-candidate/README.md",
+      "sha256": "1697723d8545c44d13e52cc8e1284073edf2513c9e652626072c92b7428f4925",
+      "bytes": 2760
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/kinetic-performance/0.2.2-candidate/style.css",
       "sha256": "e9c4546df676c87ba60c8d9777fbe9cdc383817fc28e3e6e2c90350d2f528e6e",
       "bytes": 4381
@@ -3179,11 +3159,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/kinetic-performance/0.2.2-candidate/units/evidence-and-focus.js",
       "sha256": "4416e3aef64f5bc7bddf17cc5f2cc0a891388132e393361889e032a89dda3f7d",
       "bytes": 4803
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/kinetic-performance/1.0.0/README.md",
-      "sha256": "d0ba71d47005dcfaf22197af2f240130a7c208186b9434db539591088b20c3b0",
-      "bytes": 3529
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/kinetic-performance/1.0.0/audio_timeline.json",
@@ -3211,6 +3186,11 @@
       "bytes": 698
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/kinetic-performance/1.0.0/README.md",
+      "sha256": "d0ba71d47005dcfaf22197af2f240130a7c208186b9434db539591088b20c3b0",
+      "bytes": 3529
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/kinetic-performance/1.0.0/review.json",
       "sha256": "fc8af3e982d45eb5a2544a7fe593bf499a11581d96c1a0656a8b5c1786552541",
       "bytes": 2411
@@ -3234,11 +3214,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/kinetic-performance/1.0.0/units/evidence-and-focus.js",
       "sha256": "4416e3aef64f5bc7bddf17cc5f2cc0a891388132e393361889e032a89dda3f7d",
       "bytes": 4803
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/kinetic-performance/1.1.0-candidate/README.md",
-      "sha256": "3e9a390eb8957166cb7da2aef111954980cb7247d08624179c85970d7f49251e",
-      "bytes": 852
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/kinetic-performance/1.1.0-candidate/audio_timeline.json",
@@ -3276,6 +3251,11 @@
       "bytes": 14230
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/kinetic-performance/1.1.0-candidate/README.md",
+      "sha256": "3e9a390eb8957166cb7da2aef111954980cb7247d08624179c85970d7f49251e",
+      "bytes": 852
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/kinetic-performance/1.1.0-candidate/review.json",
       "sha256": "c443fded3f220c51838bc815c220705013a52abad46ec4eb8479c9a14acaad06",
       "bytes": 798
@@ -3299,11 +3279,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/kinetic-performance/1.1.0-candidate/units/evidence-and-focus.js",
       "sha256": "4416e3aef64f5bc7bddf17cc5f2cc0a891388132e393361889e032a89dda3f7d",
       "bytes": 4803
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/kinetic-performance/1.2.0-candidate/README.md",
-      "sha256": "8d1473eb5664faa5b28f5f1f6ebd75d23d025619f651705efc3b83db741e119e",
-      "bytes": 508
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/kinetic-performance/1.2.0-candidate/audio_timeline.json",
@@ -3341,6 +3316,11 @@
       "bytes": 14254
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/kinetic-performance/1.2.0-candidate/README.md",
+      "sha256": "8d1473eb5664faa5b28f5f1f6ebd75d23d025619f651705efc3b83db741e119e",
+      "bytes": 508
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/kinetic-performance/1.2.0-candidate/review.json",
       "sha256": "cf9724e1433dbe79a1019d078fd4f0e6b535ecf2dc1b94d1a9988bcddb40c6f6",
       "bytes": 340
@@ -3371,16 +3351,6 @@
       "bytes": 4075
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-balance/0.1.6-candidate/LICENSE",
-      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
-      "bytes": 1067
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-balance/0.1.6-candidate/README.md",
-      "sha256": "12f0edaf0c21258a03a5befbab2440f98c6220ec54311fd6ce4a6911aab255ec",
-      "bytes": 4928
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-balance/0.1.6-candidate/audio_timeline.json",
       "sha256": "794972ec8ca316482809a1336442c1625bb6db7595405c1262ff6c2f75a8f852",
       "bytes": 959
@@ -3394,6 +3364,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-balance/0.1.6-candidate/lib.js",
       "sha256": "09f59441aec9e9822b4ff8f4d40088b933f7852762e2ab7cacef69f188ad1cd8",
       "bytes": 13838
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-balance/0.1.6-candidate/LICENSE",
+      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
+      "bytes": 1067
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-balance/0.1.6-candidate/licenses/OFL-anton.txt",
@@ -3421,6 +3396,11 @@
       "bytes": 17137
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-balance/0.1.6-candidate/README.md",
+      "sha256": "12f0edaf0c21258a03a5befbab2440f98c6220ec54311fd6ce4a6911aab255ec",
+      "bytes": 4928
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-balance/0.1.6-candidate/style.css",
       "sha256": "dca5800cbbda221d3cb60376da805827e7382bce7e1bfa54d5fb4c86fc0c6823",
       "bytes": 421684
@@ -3429,16 +3409,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-balance/0.1.6-candidate/units/apparent-tension-to-value.js",
       "sha256": "473a525c1fc30f9009e6f605e070df4f7005ece7330f370971874d63cc95a450",
       "bytes": 13194
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-balance/1.0.0/LICENSE",
-      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
-      "bytes": 1067
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-balance/1.0.0/README.md",
-      "sha256": "1cf0f9f1a7b360d7e904f374025daa216fc72cca29c995093cebbd2b94c677a0",
-      "bytes": 5236
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-balance/1.0.0/audio_timeline.json",
@@ -3454,6 +3424,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-balance/1.0.0/lib.js",
       "sha256": "09f59441aec9e9822b4ff8f4d40088b933f7852762e2ab7cacef69f188ad1cd8",
       "bytes": 13838
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-balance/1.0.0/LICENSE",
+      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
+      "bytes": 1067
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-balance/1.0.0/licenses/OFL-anton.txt",
@@ -3481,6 +3456,11 @@
       "bytes": 18203
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-balance/1.0.0/README.md",
+      "sha256": "1cf0f9f1a7b360d7e904f374025daa216fc72cca29c995093cebbd2b94c677a0",
+      "bytes": 5236
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-balance/1.0.0/review.json",
       "sha256": "953d3333a5315b4e9f1ff698cc3b2d63aa9cb14d54a11234a3ed616da33f9549",
       "bytes": 1373
@@ -3496,16 +3476,6 @@
       "bytes": 13194
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-balance/1.1.0-candidate/LICENSE",
-      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
-      "bytes": 1067
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-balance/1.1.0-candidate/README.md",
-      "sha256": "8f93068ce00d922679e38e64a9e0c4d021f2a222ee06979bf7a2d83f6bc63a11",
-      "bytes": 957
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-balance/1.1.0-candidate/audio_timeline.json",
       "sha256": "794972ec8ca316482809a1336442c1625bb6db7595405c1262ff6c2f75a8f852",
       "bytes": 959
@@ -3519,6 +3489,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-balance/1.1.0-candidate/lib.js",
       "sha256": "09f59441aec9e9822b4ff8f4d40088b933f7852762e2ab7cacef69f188ad1cd8",
       "bytes": 13838
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-balance/1.1.0-candidate/LICENSE",
+      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
+      "bytes": 1067
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-balance/1.1.0-candidate/licenses/OFL-anton.txt",
@@ -3556,6 +3531,11 @@
       "bytes": 14230
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-balance/1.1.0-candidate/README.md",
+      "sha256": "8f93068ce00d922679e38e64a9e0c4d021f2a222ee06979bf7a2d83f6bc63a11",
+      "bytes": 957
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-balance/1.1.0-candidate/review.json",
       "sha256": "30b07f77d165525f3331a15fdd89daafb5dfe4142cbf16ec1425224fc6478fd6",
       "bytes": 798
@@ -3569,16 +3549,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-balance/1.1.0-candidate/units/apparent-tension-to-value.js",
       "sha256": "473a525c1fc30f9009e6f605e070df4f7005ece7330f370971874d63cc95a450",
       "bytes": 13194
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-ball-performance/0.1.3-candidate/LICENSE",
-      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
-      "bytes": 1067
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-ball-performance/0.1.3-candidate/README.md",
-      "sha256": "6267a135929dc9c14dc80550e1d1f07cea04619154e14204e20eb563e8509bdf",
-      "bytes": 2340
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-ball-performance/0.1.3-candidate/audio_timeline.json",
@@ -3599,6 +3569,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-ball-performance/0.1.3-candidate/lib.js",
       "sha256": "09f59441aec9e9822b4ff8f4d40088b933f7852762e2ab7cacef69f188ad1cd8",
       "bytes": 13838
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-ball-performance/0.1.3-candidate/LICENSE",
+      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
+      "bytes": 1067
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-ball-performance/0.1.3-candidate/licenses/OFL-anton.txt",
@@ -3626,6 +3601,11 @@
       "bytes": 28512
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-ball-performance/0.1.3-candidate/README.md",
+      "sha256": "6267a135929dc9c14dc80550e1d1f07cea04619154e14204e20eb563e8509bdf",
+      "bytes": 2340
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-ball-performance/0.1.3-candidate/style.css",
       "sha256": "df83cb93f0a0351e7835422763a21746f858ee9b66bd5b9b09f46c0c96458868",
       "bytes": 426032
@@ -3639,16 +3619,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-ball-performance/0.1.3-candidate/units/cards-to-network.js",
       "sha256": "ad8e39edb5bcf103607354d83c88f75a9d8c045d87f36edbda87bc96e8247258",
       "bytes": 35877
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-ball-performance/1.0.0/LICENSE",
-      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
-      "bytes": 1067
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-ball-performance/1.0.0/README.md",
-      "sha256": "7b3d05ee307082acebd8b5367972caf6b575a75bb6444a8a04ae0b281f4b3734",
-      "bytes": 2986
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-ball-performance/1.0.0/audio_timeline.json",
@@ -3669,6 +3639,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-ball-performance/1.0.0/lib.js",
       "sha256": "09f59441aec9e9822b4ff8f4d40088b933f7852762e2ab7cacef69f188ad1cd8",
       "bytes": 13838
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-ball-performance/1.0.0/LICENSE",
+      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
+      "bytes": 1067
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-ball-performance/1.0.0/licenses/OFL-anton.txt",
@@ -3696,6 +3671,11 @@
       "bytes": 30485
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-ball-performance/1.0.0/README.md",
+      "sha256": "7b3d05ee307082acebd8b5367972caf6b575a75bb6444a8a04ae0b281f4b3734",
+      "bytes": 2986
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-ball-performance/1.0.0/review.json",
       "sha256": "05a44ff15d5ebc73982a5ee4cbe3637e7519f33e32b4605af635d832bd98f0cb",
       "bytes": 3113
@@ -3716,16 +3696,6 @@
       "bytes": 35877
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-ball-performance/1.1.0-candidate/LICENSE",
-      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
-      "bytes": 1067
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-ball-performance/1.1.0-candidate/README.md",
-      "sha256": "522d94e7e645c13e9c0c90929a0e3d08f948a16435e2a8afb3d3cf29158ff5b3",
-      "bytes": 856
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-ball-performance/1.1.0-candidate/audio_timeline.json",
       "sha256": "9fd29190b06e3458dd64474216303b0cb05b5676ed57c49ba375bf8a792f0275",
       "bytes": 874
@@ -3744,6 +3714,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-ball-performance/1.1.0-candidate/lib.js",
       "sha256": "09f59441aec9e9822b4ff8f4d40088b933f7852762e2ab7cacef69f188ad1cd8",
       "bytes": 13838
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-ball-performance/1.1.0-candidate/LICENSE",
+      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
+      "bytes": 1067
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-ball-performance/1.1.0-candidate/licenses/OFL-anton.txt",
@@ -3781,6 +3756,11 @@
       "bytes": 14230
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-ball-performance/1.1.0-candidate/README.md",
+      "sha256": "522d94e7e645c13e9c0c90929a0e3d08f948a16435e2a8afb3d3cf29158ff5b3",
+      "bytes": 856
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-ball-performance/1.1.0-candidate/review.json",
       "sha256": "9c7a68d32b4efc6eebb6fa75324445767932e16fadeff4f9d22d17fbfa46c878",
       "bytes": 798
@@ -3799,11 +3779,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/paper-ball-performance/1.1.0-candidate/units/cards-to-network.js",
       "sha256": "ad8e39edb5bcf103607354d83c88f75a9d8c045d87f36edbda87bc96e8247258",
       "bytes": 35877
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/stage-performance/0.2.2-candidate/README.md",
-      "sha256": "3de90a03aa40dc0a35a4b237413e13ace2a7f1ac59dba8820dd3115b0d905d4a",
-      "bytes": 2759
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/stage-performance/0.2.2-candidate/audio_timeline.json",
@@ -3831,6 +3806,11 @@
       "bytes": 698
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/stage-performance/0.2.2-candidate/README.md",
+      "sha256": "3de90a03aa40dc0a35a4b237413e13ace2a7f1ac59dba8820dd3115b0d905d4a",
+      "bytes": 2759
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/stage-performance/0.2.2-candidate/style.css",
       "sha256": "443a828ca6d206a4b148c7acd38669156e48c4f977f4a9bf503bfe009832ad92",
       "bytes": 6082
@@ -3849,11 +3829,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/stage-performance/0.2.2-candidate/units/evidence-and-focus.js",
       "sha256": "96989d407ad1b1e3eecc502fc396a375264012ba568bb3357e797e8bdabb8135",
       "bytes": 4225
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/stage-performance/1.0.0/README.md",
-      "sha256": "b7d85471fba643669ced030085663b0941218741af4a9d8a49527f55a147bfb8",
-      "bytes": 3517
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/stage-performance/1.0.0/audio_timeline.json",
@@ -3881,6 +3856,11 @@
       "bytes": 698
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/stage-performance/1.0.0/README.md",
+      "sha256": "b7d85471fba643669ced030085663b0941218741af4a9d8a49527f55a147bfb8",
+      "bytes": 3517
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/stage-performance/1.0.0/review.json",
       "sha256": "e79a124e244b48c9941e1f13a90e04c0fbee8e03ae106c56528ea151c58dc28d",
       "bytes": 2410
@@ -3904,11 +3884,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/stage-performance/1.0.0/units/evidence-and-focus.js",
       "sha256": "96989d407ad1b1e3eecc502fc396a375264012ba568bb3357e797e8bdabb8135",
       "bytes": 4225
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/stage-performance/1.1.0-candidate/README.md",
-      "sha256": "51664959494111644721caef19fdfb9045fb970ed2452c2a3fcbccc3c4e74f59",
-      "bytes": 853
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/stage-performance/1.1.0-candidate/audio_timeline.json",
@@ -3946,6 +3921,11 @@
       "bytes": 14230
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/stage-performance/1.1.0-candidate/README.md",
+      "sha256": "51664959494111644721caef19fdfb9045fb970ed2452c2a3fcbccc3c4e74f59",
+      "bytes": 853
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/stage-performance/1.1.0-candidate/review.json",
       "sha256": "c443fded3f220c51838bc815c220705013a52abad46ec4eb8479c9a14acaad06",
       "bytes": 798
@@ -3971,11 +3951,6 @@
       "bytes": 4225
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/vibrant-color-performance/0.1.0-candidate/README.md",
-      "sha256": "e6d45955c0bc285a7a2580cd0bcabce93ef0a6e6314430bb0e003a335a34555c",
-      "bytes": 2758
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/vibrant-color-performance/0.1.0-candidate/audio_timeline.json",
       "sha256": "2baa9c10d4a2777cdd76163453d89466e2f88cd2e3518c420fbfe0ea300903ae",
       "bytes": 154801
@@ -3999,6 +3974,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/vibrant-color-performance/0.1.0-candidate/portrait.js",
       "sha256": "0161451ef7a066f817f90e4aae64f68ac92b45d594804fef2b2ac20c77b3d9b0",
       "bytes": 633
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/vibrant-color-performance/0.1.0-candidate/README.md",
+      "sha256": "e6d45955c0bc285a7a2580cd0bcabce93ef0a6e6314430bb0e003a335a34555c",
+      "bytes": 2758
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/vibrant-color-performance/0.1.0-candidate/style.css",
@@ -4046,11 +4026,6 @@
       "bytes": 82465
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/vivid-sticker-performance/0.1.0-candidate/README.md",
-      "sha256": "0c6fa70b7c7bd2d501f8dda2b5cf6c80938669f2ec60eb7757bec9e1dc2ba3f4",
-      "bytes": 1722
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/vivid-sticker-performance/0.1.0-candidate/audio_timeline.json",
       "sha256": "01028444a9c618633a58ad5746b797c906bcedbcd99d31220ecde0b368ad0f5a",
       "bytes": 4306
@@ -4079,6 +4054,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/vivid-sticker-performance/0.1.0-candidate/portrait.js",
       "sha256": "68f6b00d06c838191b419b7927a2648b67667a32bc9d5621181ccb999d4a0c4d",
       "bytes": 4408
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/vivid-sticker-performance/0.1.0-candidate/README.md",
+      "sha256": "0c6fa70b7c7bd2d501f8dda2b5cf6c80938669f2ec60eb7757bec9e1dc2ba3f4",
+      "bytes": 1722
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/vivid-sticker-performance/0.1.0-candidate/sticker_fonts.js",
@@ -4111,11 +4091,6 @@
       "bytes": 50236
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/vivid-sticker-performance/0.1.1-candidate/README.md",
-      "sha256": "aef2df7564876c32942428288c2f68a30216435e4e6a961f81e577f553316683",
-      "bytes": 2066
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/vivid-sticker-performance/0.1.1-candidate/audio_timeline.json",
       "sha256": "01028444a9c618633a58ad5746b797c906bcedbcd99d31220ecde0b368ad0f5a",
       "bytes": 4306
@@ -4144,6 +4119,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/vivid-sticker-performance/0.1.1-candidate/portrait.js",
       "sha256": "68f6b00d06c838191b419b7927a2648b67667a32bc9d5621181ccb999d4a0c4d",
       "bytes": 4408
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/vivid-sticker-performance/0.1.1-candidate/README.md",
+      "sha256": "aef2df7564876c32942428288c2f68a30216435e4e6a961f81e577f553316683",
+      "bytes": 2066
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/vivid-sticker-performance/0.1.1-candidate/sticker_fonts.js",
@@ -4176,11 +4156,6 @@
       "bytes": 50236
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/vivid-sticker-performance/0.2.0-candidate/README.md",
-      "sha256": "728f90a21a4707c809d895259e6c14c1206dda551f9a6198a789ce8c2449b7bf",
-      "bytes": 648
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/vivid-sticker-performance/0.2.0-candidate/audio_timeline.json",
       "sha256": "01028444a9c618633a58ad5746b797c906bcedbcd99d31220ecde0b368ad0f5a",
       "bytes": 4306
@@ -4209,6 +4184,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/vivid-sticker-performance/0.2.0-candidate/portrait.js",
       "sha256": "800d8a10f06fc4b4b6ec16b305c16818157678906bd1322bc7c8afb515bc16aa",
       "bytes": 4431
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/vivid-sticker-performance/0.2.0-candidate/README.md",
+      "sha256": "728f90a21a4707c809d895259e6c14c1206dda551f9a6198a789ce8c2449b7bf",
+      "bytes": 648
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/vivid-sticker-performance/0.2.0-candidate/review.json",
@@ -4254,6 +4234,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/motion/packs/vivid-sticker-performance/0.2.0-candidate/units/prepared-to-reuse.js",
       "sha256": "3eb48eba79b8cc090aeaf356e82292343d9645a1a976bfeada15259f7c0cf4e5",
       "bytes": 50236
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/README.md",
+      "sha256": "32f83725f2aaf0f4274f9bba4688133a8cfdcfe565f6a67c35090e4f8eebb734",
+      "bytes": 7624
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/motion/references/adaptive-composition.md",
@@ -4861,19 +4846,9 @@
       "bytes": 254
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/ops/GUIDE.md",
-      "sha256": "cb7f6ce413499206b564e534a1a18cf4aaf4e3a3c127eb168dc1deaedfdcb3d3",
-      "bytes": 7802
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/ops/LICENSE",
-      "sha256": "e00898e0dde66005cda1887f7c052bb1b75cd8d9613e5ffb25b510bcd521ed43",
-      "bytes": 1128
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/ops/THIRD_PARTY.md",
-      "sha256": "9bd8a1fc0435c2c6574a01b392c728effbc3f838d5b6c1fd6643104fca578ee8",
-      "bytes": 1128
+      "path": "skills/szyg-new-media-marketing/capabilities/motion/THIRD_PARTY.md",
+      "sha256": "5df3be0612bd22058f639d718d83ad669175a7c4f5aa5f80818a6500ff8b8330",
+      "bytes": 6318
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/ops/agents/openai.yaml",
@@ -4929,6 +4904,16 @@
       "path": "skills/szyg-new-media-marketing/capabilities/ops/assets/workspace/素材库/index.html",
       "sha256": "ce8d79e9b940f60f61e5837177bfa53eb5e22e20481bea7896f4203e4c83578f",
       "bytes": 1302
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/ops/GUIDE.md",
+      "sha256": "cb7f6ce413499206b564e534a1a18cf4aaf4e3a3c127eb168dc1deaedfdcb3d3",
+      "bytes": 7802
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/ops/LICENSE",
+      "sha256": "e00898e0dde66005cda1887f7c052bb1b75cd8d9613e5ffb25b510bcd521ed43",
+      "bytes": 1128
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/ops/references/editing.md",
@@ -5006,9 +4991,9 @@
       "bytes": 16158
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/private/GUIDE.md",
-      "sha256": "742399d68a4d310f8305ecf5a9e91219d9458889b07ec830fde44a4fbe44f6a8",
-      "bytes": 5901
+      "path": "skills/szyg-new-media-marketing/capabilities/ops/THIRD_PARTY.md",
+      "sha256": "9bd8a1fc0435c2c6574a01b392c728effbc3f838d5b6c1fd6643104fca578ee8",
+      "bytes": 1128
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/private/agents/openai.yaml",
@@ -5019,6 +5004,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/private/assets/客户分析与行动模板.md",
       "sha256": "db6c6bb9ba9efae5b3b2fa95696b4e562b2ef3a4a7aa7cd32d7373527c2647ab",
       "bytes": 803
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/private/GUIDE.md",
+      "sha256": "742399d68a4d310f8305ecf5a9e91219d9458889b07ec830fde44a4fbe44f6a8",
+      "bytes": 5901
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/private/references/content-and-operations.md",
@@ -5091,11 +5081,6 @@
       "bytes": 4805
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/product/third_party/THIRD_PARTY.md",
-      "sha256": "9d44fb7acc68e1ca1bbc9b30b71946b6eae8ad808d41599c4074058fceafaff1",
-      "bytes": 1215
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/product/third_party/alireza-product-discovery/LICENSE",
       "sha256": "a20126646f93d32a8989c3cf4772d59194f405034f7babe7daebeac22b8ab151",
       "bytes": 1072
@@ -5116,6 +5101,11 @@
       "bytes": 4062
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/product/third_party/bmad-brainstorming/brain-methods.csv",
+      "sha256": "fff112eabca1a9cb8b190f8314bc47678becc5782a2372e11c83daa0e33b6dfd",
+      "bytes": 19519
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/product/third_party/bmad-brainstorming/CONTRIBUTING.md",
       "sha256": "855c4cfc25e574907949f3e19451fee7ff4edc6f63533953b33ba8d9715c48a1",
       "bytes": 261
@@ -5134,16 +5124,6 @@
       "path": "skills/szyg-new-media-marketing/capabilities/product/third_party/bmad-brainstorming/README.md",
       "sha256": "855c4cfc25e574907949f3e19451fee7ff4edc6f63533953b33ba8d9715c48a1",
       "bytes": 261
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/product/third_party/bmad-brainstorming/brain-methods.csv",
-      "sha256": "fff112eabca1a9cb8b190f8314bc47678becc5782a2372e11c83daa0e33b6dfd",
-      "bytes": 19519
-    },
-    {
-      "path": "skills/szyg-new-media-marketing/capabilities/product/third_party/phuryn-pm-skills/LICENSE",
-      "sha256": "a2c922f9b81b4f40347ddfa79c38eda0f1278b5a6d108bd4099b4da254c774ee",
-      "bytes": 1068
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/product/third_party/phuryn-pm-skills/brainstorm-experiments-existing/METHOD.md",
@@ -5171,6 +5151,11 @@
       "bytes": 4817
     },
     {
+      "path": "skills/szyg-new-media-marketing/capabilities/product/third_party/phuryn-pm-skills/LICENSE",
+      "sha256": "a2c922f9b81b4f40347ddfa79c38eda0f1278b5a6d108bd4099b4da254c774ee",
+      "bytes": 1068
+    },
+    {
       "path": "skills/szyg-new-media-marketing/capabilities/product/third_party/phuryn-pm-skills/opportunity-solution-tree/METHOD.md",
       "sha256": "6b23e44a5ace86aa20d64cc130322265ace6a53a29831cc403b974098a379bcc",
       "bytes": 4281
@@ -5186,14 +5171,19 @@
       "bytes": 6558
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/supervisor/GUIDE.md",
-      "sha256": "730d219b4e20c93c5c10e672d0c7ab28df8614e4156b65b400969be6d99fd86c",
-      "bytes": 8835
+      "path": "skills/szyg-new-media-marketing/capabilities/product/third_party/THIRD_PARTY.md",
+      "sha256": "9d44fb7acc68e1ca1bbc9b30b71946b6eae8ad808d41599c4074058fceafaff1",
+      "bytes": 1215
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/supervisor/agents/openai.yaml",
       "sha256": "cac958187a196c500637270dfa25c7e4a5c23ad28b6eb5574b87a5b961c176cb",
       "bytes": 338
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/supervisor/GUIDE.md",
+      "sha256": "730d219b4e20c93c5c10e672d0c7ab28df8614e4156b65b400969be6d99fd86c",
+      "bytes": 8835
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/supervisor/references/collaboration.md",
@@ -5231,11 +5221,6 @@
       "bytes": 19108
     },
     {
-      "path": "skills/szyg-new-media-marketing/capabilities/xhs/GUIDE.md",
-      "sha256": "533d672c55cd7fa84c14b3e8195008504edeb5edba2edca7dda398048bf056a0",
-      "bytes": 8338
-    },
-    {
       "path": "skills/szyg-new-media-marketing/capabilities/xhs/assets/笔记与复盘模板.md",
       "sha256": "d091c63bc4ce49262e67e101c4b82ec28fdfd6fe3c5025550c209ebc4e29ada3",
       "bytes": 1672
@@ -5244,6 +5229,11 @@
       "path": "skills/szyg-new-media-marketing/capabilities/xhs/assets/账号样本与风格模板.md",
       "sha256": "c27aa27ba9fadb8453c1376c31dc82396afe2c761961178589d3c3cfafb3f7ea",
       "bytes": 2080
+    },
+    {
+      "path": "skills/szyg-new-media-marketing/capabilities/xhs/GUIDE.md",
+      "sha256": "533d672c55cd7fa84c14b3e8195008504edeb5edba2edca7dda398048bf056a0",
+      "bytes": 8338
     },
     {
       "path": "skills/szyg-new-media-marketing/capabilities/xhs/references/GitHub方法来源.md",
@@ -5346,14 +5336,54 @@
       "bytes": 17657
     },
     {
+      "path": "skills/szyg-new-media-marketing/SKILL.md",
+      "sha256": "54668f199c944fad5185620b993114d85faa45e916390f2d13392a3b6f51ba94",
+      "bytes": 7741
+    },
+    {
       "path": "skills/szyg-new-media-marketing/版本信息.json",
-      "sha256": "347ffb2c022e40e0052ba108f410960b1633f81709d9b8d5cc2d8e592fd7940e",
-      "bytes": 332
+      "sha256": "70de01f93293e7e70cd7ddfa63353f942f61e61b7667344544a9abf452c42c5d",
+      "bytes": 412
+    },
+    {
+      "path": "SOURCE-VERSIONS.json",
+      "sha256": "133a587400576dc6e3b09f207116442f1f98c0f70242886d145b22b927ce9d21",
+      "bytes": 4629
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "sha256": "09a851cfcabfd625a8377a0795d14a1c189020e0df0281f8eae8265b6c7e2bfa",
+      "bytes": 1008
+    },
+    {
+      "path": "VERSION.json",
+      "sha256": "70de01f93293e7e70cd7ddfa63353f942f61e61b7667344544a9abf452c42c5d",
+      "bytes": 412
+    },
+    {
+      "path": "VERSIONING.md",
+      "sha256": "0379016f42f69412d8509e6df567d9a5452064acf7a9b2f1e278247635be2a79",
+      "bytes": 464
+    },
+    {
+      "path": "先读我.md",
+      "sha256": "c8cf150cbc480c124af65eb2ffa98ff46ed5858a39d7774cccf0805dd03eea9a",
+      "bytes": 2383
+    },
+    {
+      "path": "准备-WorkBuddy.cmd",
+      "sha256": "cc0fb68c63b142618d6f261de33a41faea97452d53fa738707dbde30f4af2b98",
+      "bytes": 117
+    },
+    {
+      "path": "安装提示词.txt",
+      "sha256": "830dae0bb3fd3bc953b0a81fb58705e295e69b80d0dbe253061d6634789459dd",
+      "bytes": 590
     },
     {
       "path": "开始使用.md",
-      "sha256": "7b12d78aefe85a6c61a2f618fff05e87d5cb45fdbc616d0d628274de878f2aa9",
-      "bytes": 9334
+      "sha256": "c8cf150cbc480c124af65eb2ffa98ff46ed5858a39d7774cccf0805dd03eea9a",
+      "bytes": 2383
     },
     {
       "path": "版本信息.json",
@@ -5362,7 +5392,7 @@
     },
     {
       "path": "验收与边界.md",
-      "sha256": "93b1bee5fffdd683ad5edfb13188088ce083a8bde022bfecfe048836e400e774",
+      "sha256": "3afba37e4ca3a07b95afabd7a364c00d535f2761d4e1142aecead87361f45c02",
       "bytes": 2606
     }
   ]

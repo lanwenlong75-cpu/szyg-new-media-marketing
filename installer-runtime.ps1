@@ -109,8 +109,14 @@ function Get-SzygPython {
     New-Item -ItemType Directory -Path $CacheRoot -Force | Out-Null
     $archive = Join-Path $CacheRoot ($name + '.zip')
     if (-not (Test-Path -LiteralPath $archive)) {
-        Write-Host 'Preparing a private Python runtime from python.org (no system installation)...'
-        Receive-SzygFile ('https://www.python.org/ftp/python/3.13.17/' + $name + '.zip') $archive
+        $packagedArchive = Join-Path $PSScriptRoot ('runtime/' + $name + '.zip')
+        if (Test-Path -LiteralPath $packagedArchive) {
+            Assert-SzygHash $packagedArchive $expected
+            [IO.File]::Copy($packagedArchive, $archive)
+        } else {
+            Write-Host 'Preparing a private Python runtime from python.org (no system installation)...'
+            Receive-SzygFile ('https://www.python.org/ftp/python/3.13.17/' + $name + '.zip') $archive
+        }
     }
     Assert-SzygHash $archive $expected
     Expand-SzygZip $archive $destination
