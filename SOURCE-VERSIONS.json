@@ -1,6 +1,6 @@
 {
   "source_entry_version": "0.2.7",
-  "release": "2026.10.31.1",
+  "release": "2026.10.31.2",
   "modules": [
     {
       "id": "DIRECTOR",
@@ -54,8 +54,8 @@
       "id": "MOTION",
       "name": "视频制作引擎",
       "source_version": "3.14.0-rc.1",
-      "source_entry_sha256": "1e67f0628d60c5c48433f22982046495a71581a23f5bd36c6538c95da7bd4f40",
-      "public_entry_sha256": "f9257422bc14db093493a23c5a3ebb04bfcf31cf358906912a3891806c36b1ed",
+      "source_entry_sha256": "0d820a4fdf8a989938dc9390583ca5bed1384965f7474239a24b93c0370e440b",
+      "public_entry_sha256": "75978126b5b81fc251c8c7fb540e43442edae90812ce4e3128f6a194c0f29ae0",
       "inherited_rules": 0
     },
     {

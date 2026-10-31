@@ -5,7 +5,7 @@ metadata:
   maintainer: "duli"
   branding_revision: "2026-10-14"
   version: "3.14.0-rc.1"
-  spoken_editing_revision: "2026-10-12.1"
+  spoken_editing_revision: "2026-10-31.1"
   publication_ledger_revision: "2026-10-13.2"
   director_thinking_revision: "2026-10-17.1"
   review_delivery_revision: "2026-10-20.1"
@@ -52,7 +52,7 @@ metadata:
 
 ## 选择入口
 
-用户要精剪已有口播、去气口、删重说/废话，或反馈“字幕对但原声没剪干净”时，先读[口播语义删减与波形气口](references/spoken-editing.md)。先按原片确认两次起句与保留版本，再以波形/VAD 保护切点；字幕省略和静音压缩都不能替代有声内容删除。`scripts/analyze_speech_cuts.py` 只输出可复核的波形候选，不自动判断或删除废话。单独降噪仍沿用原剪辑；用户明确要求剪辑/删废话时，在已授权范围内完成修订，不要求再填写开关。该入口修现有口播，不为此启动动效模板或添加配乐。
+用户要精剪已有口播、去气口、删重说/废话，或反馈“字幕对但原声没剪干净”时，先读[口播语义删减与波形气口](references/spoken-editing.md)。同时按该文档读取当前项目的口播质检、视觉优先级、观看与存储配置。长口播复核覆盖最终编码全片，不能只抽查已标剪口；先按原片确认两次起句与保留版本，再以波形/VAD 保护切点；字幕省略和静音压缩都不能替代有声内容删除。`scripts/analyze_speech_cuts.py` 只输出可复核的波形候选，不自动判断或删除废话。单独降噪仍沿用原剪辑；用户明确要求剪辑/删废话时，在已授权范围内完成修订，不要求再填写开关。该入口修现有口播，不为此启动动效模板或添加配乐。
 
 用户指定模板编号（如 `01-B`）或要求选风格时，先读[模板与风格目录](references/template-catalog.md)，按“一级模板 → 二级风格”映射到显式包版本。未发布风格不能按已发布包承诺制作。需要辅助动画素材时，按[公开动画素材 API](references/lottie-assets.md)检索并下载到本期工程，再核对所选包的媒体与渲染要求。
 
