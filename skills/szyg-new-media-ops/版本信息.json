@@ -1,0 +1,22 @@
+{
+  "schema": "independent-skill-version/1",
+  "name": "szyg-new-media-ops",
+  "label": "新媒体运营",
+  "version": "1.0.10",
+  "distribution_release": "2026.11.03.1",
+  "source_method_version": "1.0.9",
+  "architecture": "independent-skill",
+  "optional_task_dependencies": [
+    "szyg-duli-motion-video"
+  ],
+  "shared_reference_sources": [
+    "director/references/landscape-to-portrait.md",
+    "motion/references/director-thinking.md",
+    "director/references/source-intake.md",
+    "motion/references/spoken-editing.md",
+    "motion/references/voice-denoise.md",
+    "director/references/copy-style-collaboration.md",
+    "director/references/progressive-models.md",
+    "director/references/director-workflow.md"
+  ]
+}

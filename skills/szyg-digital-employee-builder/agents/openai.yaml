@@ -1,0 +1,3 @@
+interface:
+  display_name: "数字员工搭建师"
+  short_description: "在指定文件夹搭建或升级数字员工，按岗位与服务对象建立知识库、绑定岗位skill，并接入根据真实反馈改进判断、流程、模板、"

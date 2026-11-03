@@ -1,0 +1,12 @@
+{
+  "schema": "independent-skill-version/1",
+  "name": "szyg-archive-social-account",
+  "label": "账号作品归档",
+  "version": "0.1.1",
+  "distribution_release": "2026.11.03.1",
+  "source_method_version": null,
+  "architecture": "independent-skill",
+  "optional_task_dependencies": [],
+  "shared_reference_sources": [],
+  "prior_entry_had_explicit_version": false
+}

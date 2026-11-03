@@ -1,0 +1,11 @@
+{
+  "schema": "independent-skill-version/1",
+  "name": "szyg-private-domain-advisor",
+  "label": "私域顾问",
+  "version": "0.1.1",
+  "distribution_release": "2026.11.03.1",
+  "source_method_version": "0.1.0",
+  "architecture": "independent-skill",
+  "optional_task_dependencies": [],
+  "shared_reference_sources": []
+}

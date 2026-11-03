@@ -1,118 +1,112 @@
 {
-  "source_entry_version": "0.2.7",
-  "release": "2026.10.31.3",
-  "modules": [
+  "release": "2026.11.03.1",
+  "source_release": "2026.10.31.3",
+  "source_commit": "dcea45d800df41bd162cfbb51241bc1c8fbf43b9",
+  "architecture_change_only": true,
+  "skills": [
     {
-      "id": "DIRECTOR",
-      "name": "短视频编导",
-      "source_version": "1.1.0",
-      "source_entry_sha256": "959916bb0733574363b2f53d42f44fa8831e8409b1849249f6774aecbd1944fe",
-      "public_entry_sha256": "6888b968c593e506c7e121dee2f53c9c161d74f84b5db3dbaffcd0965f8684c5",
-      "inherited_rules": 23
+      "name": "szyg-short-video-director",
+      "version": "1.1.1",
+      "source_method_version": "1.1.0",
+      "shared_reference_sources": []
     },
     {
-      "id": "EDITOR",
-      "name": "公众号编辑",
-      "source_version": "0.4.1",
-      "source_entry_sha256": "b34e3b0d1a6b2fce5e4f40c34dbeda99096bfd6212b0261c108009e689348c8a",
-      "public_entry_sha256": "70395b954cd3e9f4994963dc32789a58afc76b8ed06db1f54d2c472ddf87ea43",
-      "inherited_rules": 4
+      "name": "szyg-wechat-editor",
+      "version": "0.4.2",
+      "source_method_version": "0.4.1",
+      "shared_reference_sources": []
     },
     {
-      "id": "DESIGNER",
-      "name": "海报设计师",
-      "source_version": null,
-      "source_entry_sha256": "03c23279efcf1a4b6af452cadafe0d84f43f7700e58e8a858ba120d565e2a446",
-      "public_entry_sha256": "a354d114b3d73f1440d2c6575a2746a570a816e548ee2d22eed801f41f7e26e8",
-      "inherited_rules": 12
+      "name": "szyg-poster-designer",
+      "version": "0.1.1",
+      "source_method_version": null,
+      "shared_reference_sources": [],
+      "prior_entry_had_explicit_version": false
     },
     {
-      "id": "ENGINEER",
-      "name": "全栈工程师",
-      "source_version": "1.0.0",
-      "source_entry_sha256": "5fef06db4926cbb7e35c2dd36cc772a7120bcd1076d8c9b50b637189ea9d28ba",
-      "public_entry_sha256": "2ec4de431fbf5250521c6fe090188f12870df0120fe759c5b9eff3fce25fcf02",
-      "inherited_rules": 0
+      "name": "szyg-fullstack-engineer",
+      "version": "1.0.1",
+      "source_method_version": "1.0.0",
+      "shared_reference_sources": []
     },
     {
-      "id": "PRIVATE",
-      "name": "私域顾问",
-      "source_version": "0.1.0",
-      "source_entry_sha256": "68e1f79f6d6c1f84b6d81ca14e3f6c1a57cd6edeadb2d617277f1e735c9044ff",
-      "public_entry_sha256": "742399d68a4d310f8305ecf5a9e91219d9458889b07ec830fde44a4fbe44f6a8",
-      "inherited_rules": 0
+      "name": "szyg-private-domain-advisor",
+      "version": "0.1.1",
+      "source_method_version": "0.1.0",
+      "shared_reference_sources": []
     },
     {
-      "id": "OPS",
-      "name": "新媒体运营",
-      "source_version": "1.0.9",
-      "source_entry_sha256": "8a52e28a0862348ea13b4f0b8c68a1d7e8b3b04f71a545f438e63b679e73887e",
-      "public_entry_sha256": "cb7f6ce413499206b564e534a1a18cf4aaf4e3a3c127eb168dc1deaedfdcb3d3",
-      "inherited_rules": 0
+      "name": "szyg-new-media-ops",
+      "version": "1.0.10",
+      "source_method_version": "1.0.9",
+      "shared_reference_sources": [
+        "director/references/landscape-to-portrait.md",
+        "motion/references/director-thinking.md",
+        "director/references/source-intake.md",
+        "motion/references/spoken-editing.md",
+        "motion/references/voice-denoise.md",
+        "director/references/copy-style-collaboration.md",
+        "director/references/progressive-models.md",
+        "director/references/director-workflow.md"
+      ]
     },
     {
-      "id": "MOTION",
-      "name": "视频制作引擎",
-      "source_version": "3.14.0-rc.1",
-      "source_entry_sha256": "0d820a4fdf8a989938dc9390583ca5bed1384965f7474239a24b93c0370e440b",
-      "public_entry_sha256": "75978126b5b81fc251c8c7fb540e43442edae90812ce4e3128f6a194c0f29ae0",
-      "inherited_rules": 0
+      "name": "szyg-duli-motion-video",
+      "version": "3.14.0-rc.2",
+      "source_method_version": "3.14.0-rc.1",
+      "shared_reference_sources": [
+        "director/references/landscape-to-portrait.md",
+        "ops/references/workspace.md",
+        "director/references/copy-style-collaboration.md",
+        "director/references/progressive-models.md",
+        "director/references/director-workflow.md",
+        "ops/references/publishing.md",
+        "ops/references/publication-asset-match.md"
+      ]
     },
     {
-      "id": "BUILDER",
-      "name": "数字员工搭建师",
-      "source_version": "1.2.1",
-      "source_entry_sha256": "9186113fb6011a5aab97d4279ad27fbb99ead69a1fdca56269668c2ab961a86a",
-      "public_entry_sha256": "d31fc640809604a7d1cd601e8928791e005dee72bdce6835f5ef4e2971e17e75",
-      "inherited_rules": 0
+      "name": "szyg-digital-employee-builder",
+      "version": "1.2.2",
+      "source_method_version": "1.2.1",
+      "shared_reference_sources": []
     },
     {
-      "id": "SUPERVISOR",
-      "name": "新媒体主管",
-      "source_version": "1.1.0",
-      "source_entry_sha256": "66c1a6261f285f4cfec62fdd79a9c330b7fb38f1792afd7859040ddfb9716b85",
-      "public_entry_sha256": "730d219b4e20c93c5c10e672d0c7ab28df8614e4156b65b400969be6d99fd86c",
-      "inherited_rules": 2
+      "name": "szyg-team-orchestrator",
+      "version": "1.1.1",
+      "source_method_version": "1.1.0",
+      "shared_reference_sources": []
     },
     {
-      "id": "ARCHIVE_VIDEO",
-      "name": "单条视频归档",
-      "source_version": null,
-      "source_entry_sha256": "5cb176431d6057e52529c2f3c87f37c5e1a213d53eac46ec0f13c47dde78772e",
-      "public_entry_sha256": "5a6ad335ba8f538cdb365a89f1cefcb2c5ea67110766657b710ad0ed15b34f14",
-      "inherited_rules": 0
+      "name": "szyg-archive-social-video",
+      "version": "0.1.1",
+      "source_method_version": null,
+      "shared_reference_sources": [],
+      "prior_entry_had_explicit_version": false
     },
     {
-      "id": "ARCHIVE_ACCOUNT",
-      "name": "账号作品归档",
-      "source_version": null,
-      "source_entry_sha256": "acb8b4be51dcece1d1a8745796b928a3375420fd64f8626274e88ed2dd6f5c5e",
-      "public_entry_sha256": "cf28b6d46534f540fd95e9f4e2278f8b297d49cfbbec26c46298a39ac4e3d5e4",
-      "inherited_rules": 0
+      "name": "szyg-archive-social-account",
+      "version": "0.1.1",
+      "source_method_version": null,
+      "shared_reference_sources": [],
+      "prior_entry_had_explicit_version": false
     },
     {
-      "id": "PRODUCT",
-      "name": "产品经理",
-      "source_version": "0.2.0",
-      "source_entry_sha256": "65f687108a9417247527b705f8a53dfe888c48a9eb6e113926435b5f4caf3c8f",
-      "public_entry_sha256": "a74e69b11140ee89f0a0236d6f3e0acc2d41d45399f63634f82a8ce3c2895c69",
-      "inherited_rules": 1
+      "name": "szyg-product-manager",
+      "version": "0.2.1",
+      "source_method_version": "0.2.0",
+      "shared_reference_sources": []
     },
     {
-      "id": "XHS",
-      "name": "小红书运营",
-      "source_version": "0.2.1",
-      "source_entry_sha256": "689961eec1bf1a7ad50573bb2825b720892479764e4050e869bdde4ee0eb4d66",
-      "public_entry_sha256": "533d672c55cd7fa84c14b3e8195008504edeb5edba2edca7dda398048bf056a0",
-      "inherited_rules": 2
+      "name": "szyg-xiaohongshu-operator",
+      "version": "0.2.2",
+      "source_method_version": "0.2.1",
+      "shared_reference_sources": []
     },
     {
-      "id": "COURSEWARE",
-      "name": "课件打造师",
-      "source_version": "0.2.0",
-      "source_entry_sha256": "324ea82a8958a617ac71e87bb88792935accd7233425838641e6c3dddc87271e",
-      "public_entry_sha256": "370c8d2870401f0a36d9a59e550fadf6d1d0e7d0fa98b0facac34a11c1f6dba0",
-      "inherited_rules": 1
+      "name": "szyg-courseware-designer",
+      "version": "0.2.1",
+      "source_method_version": "0.2.0",
+      "shared_reference_sources": []
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "schema": "independent-skill-version/1",
+  "name": "szyg-wechat-editor",
+  "label": "公众号编辑",
+  "version": "0.4.2",
+  "distribution_release": "2026.11.03.1",
+  "source_method_version": "0.4.1",
+  "architecture": "independent-skill",
+  "optional_task_dependencies": [],
+  "shared_reference_sources": []
+}

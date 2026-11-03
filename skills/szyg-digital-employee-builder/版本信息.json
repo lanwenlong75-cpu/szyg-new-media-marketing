@@ -1,0 +1,11 @@
+{
+  "schema": "independent-skill-version/1",
+  "name": "szyg-digital-employee-builder",
+  "label": "数字员工搭建师",
+  "version": "1.2.2",
+  "distribution_release": "2026.11.03.1",
+  "source_method_version": "1.2.1",
+  "architecture": "independent-skill",
+  "optional_task_dependencies": [],
+  "shared_reference_sources": []
+}
