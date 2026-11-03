@@ -1,6 +1,6 @@
 {
   "schema": "independent-skill-catalog/1",
-  "release": "2026.11.03.1",
+  "release": "2026.11.03.2",
   "skills": [
     {
       "schema": "independent-skill-version/1",
@@ -1260,9 +1260,9 @@
       "schema": "independent-skill-version/1",
       "name": "szyg-product-manager",
       "label": "产品经理",
-      "version": "0.2.1",
-      "distribution_release": "2026.11.03.1",
-      "source_method_version": "0.2.0",
+      "version": "0.2.2",
+      "distribution_release": "2026.11.03.2",
+      "source_method_version": "0.2.1",
       "architecture": "independent-skill",
       "optional_task_dependencies": [],
       "shared_reference_sources": [],
@@ -1273,15 +1273,15 @@
         "LICENSE": "3c62ed103499f3e024b8d0358946d988fb939039bf254123148f5fc43da3d821",
         "references/discovery-and-brainstorming.md": "cfba9e2debb834da234477603f60922129c6578132ac98c2c9ddb3f42733d70f",
         "references/handoff.md": "c130be651b03dbf2f40428bfc366c3c665355daf7a15b69da8db154636847571",
-        "references/inherited-rules.json": "341be3a2450cfde90dd526b1f0a9f51de76d1baff91d7fbd33978bc2c32c6cb3",
-        "references/inherited-standards.md": "308479ecca58b063586b5b716370b85fb9324962c7ad1e780f7434b394da5f7d",
-        "references/opensource.md": "73dc0388a3dd9a15590964db51752bee5da9b443f7be4b6dfd23ba8658722126",
+        "references/inherited-rules.json": "bf8acd914363cb7ae22957c373728f3d479def4c4d95ef4338c19d3b1602e557",
+        "references/inherited-standards.md": "2f230c4ef2bddfdd96904bd8006a121bde5c7b50b38fa386cb2948d1fde026de",
+        "references/opensource.md": "44de2b4b6f3bc6554cee61d40c62cdfc870310a1e98589788258f271d38cf7a1",
         "references/数字员工确认规则.md": "05d8b1fa847848a3b7ac3f27b9afaa992c71fdbafb48f46ed0da68742d2c7e76",
         "scripts/module_iteration.py": "b1104c1e7d97cecb7aa8e41ec22bd095e401baf9948af737c8603deeaea6e6e4",
         "scripts/module_runtime.py": "57afe0db8cb5ebd6a7bbfd21401b77103159756dd9d51d4034d21fd1cf878166",
         "scripts/prioritize_assumptions.py": "ceb7432ca8e9721e396df934344117da229990f6b21ca57a212efda321f4b5ce",
         "scripts/skill_dependencies.py": "62f5dab5b6423dd3dc6babdb34d602d3734527d5c272e7b1866f76eebe2ef66e",
-        "SKILL.md": "5786110b44f2cb1d5ffe4dfa131a773625b36c895113a97944061e931531e717",
+        "SKILL.md": "2b45442b2bc9a58c552b05478212f11a6ab0c0f071a670b5877e0b3181d3995a",
         "third_party/alireza-product-discovery/LICENSE": "a20126646f93d32a8989c3cf4772d59194f405034f7babe7daebeac22b8ab151",
         "third_party/alireza-product-discovery/product-discovery/METHOD.md": "52d492cb9eefe2136b21a295a9041bc60e11d7261f3f8ce84f3b58d83c8e75e4",
         "third_party/alireza-product-discovery/product-discovery/references/discovery-frameworks.md": "2d1e59f597c9d1f09a201ec7c12bdc9a816c0707b585f32080db31dfd6b44bab",
@@ -1301,7 +1301,7 @@
         "third_party/phuryn-pm-skills/prioritize-assumptions/METHOD.md": "18160a0138c788790c9dd22995ffdcfac485c1f0599c170d8668678e59766073",
         "third_party/source-manifest.json": "9744f3c47ccb61d944b53e3b5aa6d5aa93f5ca199d86f7caf7f0fea12ca54ed8",
         "third_party/THIRD_PARTY.md": "75314a1d26fca656e757842b8b423054cee925607e39162d479c52a41283ad4e",
-        "版本信息.json": "876596180911cbe52a563d80a166ef48513e97c86a6d45dafb8bef82e2ebb83e"
+        "版本信息.json": "ecfe371c12749878df726c7b7b3ed6d7892025221bdadc748028c54600abed6e"
       }
     },
     {
@@ -1339,9 +1339,9 @@
       "schema": "independent-skill-version/1",
       "name": "szyg-courseware-designer",
       "label": "课件打造师",
-      "version": "0.2.1",
-      "distribution_release": "2026.11.03.1",
-      "source_method_version": "0.2.0",
+      "version": "0.2.2",
+      "distribution_release": "2026.11.03.2",
+      "source_method_version": "0.2.1",
       "architecture": "independent-skill",
       "optional_task_dependencies": [],
       "shared_reference_sources": [],
@@ -1359,8 +1359,8 @@
         "assets/课件任务与逐页脚本模板.md": "d50bfccab813bdcad138952819f97c71f256f53c0a87608aabcfe48f03dc9d7f",
         "LICENSE": "3c62ed103499f3e024b8d0358946d988fb939039bf254123148f5fc43da3d821",
         "references/design-system.md": "17dc2a37f3f0c2b3626b718367eeff062d29a9712b40ac273d0f4fa55f9f3876",
-        "references/inherited-rules.json": "17ec3d827228aaba76e1091c3bbeb006a14a03b8f7f29e5d1d77fef47a0c792c",
-        "references/inherited-standards.md": "4fcf95519b7afaa64b6352603b355de9d39e93c9dac60adb2d9955bfa2e59dfb",
+        "references/inherited-rules.json": "82a822ef90069f28968fde21d983687830777199d94c2eef1ac7408df14703f8",
+        "references/inherited-standards.md": "52bc24dcb80ca042159e41d340561515bbb724eb2a8608cfa1946513cebfc1fd",
         "references/lesson-design.md": "8400bcd8643cddd2dce30eb6b4fcf6584fe0e43de5804ea466a5e9353c82622f",
         "references/pptx-workflow.md": "e8444d27da9f2bc9d6e25a512a7874ffd4df02e1790e018412ae273f80749c2f",
         "references/production-and-acceptance.md": "2fbf02649a137e28e621707e7c0d84b82ebac2101d707d16dd516b6dba66d675",
@@ -1370,8 +1370,8 @@
         "scripts/module_iteration.py": "b1104c1e7d97cecb7aa8e41ec22bd095e401baf9948af737c8603deeaea6e6e4",
         "scripts/module_runtime.py": "57afe0db8cb5ebd6a7bbfd21401b77103159756dd9d51d4034d21fd1cf878166",
         "scripts/skill_dependencies.py": "62f5dab5b6423dd3dc6babdb34d602d3734527d5c272e7b1866f76eebe2ef66e",
-        "SKILL.md": "772474ff2b237e0999b52a11f4669d2d9a4ff43ef4f2c03606d49ce051051934",
-        "版本信息.json": "22136c29353065b361bc2fa5eb193698b76d7fc305cc4f39be238584072d99be"
+        "SKILL.md": "6ef0b3cc2c1d8f96792d0758f0e1a5b201bbe6d3e28ffe5e8fd93c58c4dd4490",
+        "版本信息.json": "0242a54712801ecb2b37d99a968c5df56ef3234f417ed1e190d2598a4e5b7476"
       }
     }
   ]

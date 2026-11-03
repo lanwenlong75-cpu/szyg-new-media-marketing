@@ -1,8 +1,8 @@
 {
-  "release": "2026.11.03.1",
+  "release": "2026.11.03.2",
   "source_release": "2026.10.31.3",
   "source_commit": "dcea45d800df41bd162cfbb51241bc1c8fbf43b9",
-  "architecture_change_only": true,
+  "architecture_change_only": false,
   "skills": [
     {
       "name": "szyg-short-video-director",
@@ -92,8 +92,8 @@
     },
     {
       "name": "szyg-product-manager",
-      "version": "0.2.1",
-      "source_method_version": "0.2.0",
+      "version": "0.2.2",
+      "source_method_version": "0.2.1",
       "shared_reference_sources": []
     },
     {
@@ -104,9 +104,11 @@
     },
     {
       "name": "szyg-courseware-designer",
-      "version": "0.2.1",
-      "source_method_version": "0.2.0",
+      "version": "0.2.2",
+      "source_method_version": "0.2.1",
       "shared_reference_sources": []
     }
-  ]
+  ],
+  "previous_release": "2026.11.03.1",
+  "previous_commit": "65b32eb5d734fafb4133cbcef92c934124cca866"
 }

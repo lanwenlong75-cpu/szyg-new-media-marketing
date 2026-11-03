@@ -1,13 +1,13 @@
 # 数字员工独立Skill
 
-**当前发行：2026.11.03.1。十四个独立Skill，各自维护、安装和升级。**主管负责团队协作与版本治理，各岗位直接读取自己的SKILL.md。
+**当前发行：2026.11.03.2。十四个独立Skill，各自维护、安装和升级。**主管负责团队协作与版本治理，各岗位直接读取自己的SKILL.md。
 
 ## 快速开始
 
-从[最新Release](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/latest)下载`szyg-digital-employees-independent-2026.11.03.1.zip`安装全部，或下载所需岗位的单独安装包。微信收到的中文名包与GitHub对应附件字节一致。完整解压，复制“安装提示词.txt”给Codex或WorkBuddy即可开始；只安装某岗位可直接说明。
+从[最新Release](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/latest)下载`szyg-digital-employees-independent-2026.11.03.2.zip`安装全部，或下载所需岗位的单独安装包。微信收到的中文名包与GitHub对应附件字节一致。完整解压，复制“安装提示词.txt”给Codex或WorkBuddy即可开始；只安装某岗位可直接说明。
 
 ```text
-请帮我安装或升级这个数字员工Skill安装包，发行2026.11.03.1。完整解压并读取先读我.md，按我正在使用的软件安装所需的独立岗位Skill，没有指定则安装全部，创建或接入我的项目。保留已有资料和本地改进；有旧版先备份、比对迁移。完成后告诉我每个实际安装的Skill名称、版本和使用入口。
+请帮我安装或升级这个数字员工Skill安装包，发行2026.11.03.2。完整解压并读取先读我.md，按我正在使用的软件安装所需的独立岗位Skill，没有指定则安装全部，创建或接入我的项目。保留已有资料和本地改进；有旧版先备份、比对迁移。完成后告诉我每个实际安装的Skill名称、版本和使用入口。
 ```
 
 没有本地包时，将下面的提示词交给能访问GitHub的助手：
@@ -33,9 +33,9 @@
 | 新媒体主管 | `szyg-team-orchestrator` | 1.1.1 | [查看Skill](skills/szyg-team-orchestrator/SKILL.md) |
 | 单条视频归档 | `szyg-archive-social-video` | 0.1.1 | [查看Skill](skills/szyg-archive-social-video/SKILL.md) |
 | 账号作品归档 | `szyg-archive-social-account` | 0.1.1 | [查看Skill](skills/szyg-archive-social-account/SKILL.md) |
-| 产品经理 | `szyg-product-manager` | 0.2.1 | [查看Skill](skills/szyg-product-manager/SKILL.md) |
+| 产品经理 | `szyg-product-manager` | 0.2.2 | [查看Skill](skills/szyg-product-manager/SKILL.md) |
 | 小红书运营 | `szyg-xiaohongshu-operator` | 0.2.2 | [查看Skill](skills/szyg-xiaohongshu-operator/SKILL.md) |
-| 课件打造师 | `szyg-courseware-designer` | 0.2.1 | [查看Skill](skills/szyg-courseware-designer/SKILL.md) |
+| 课件打造师 | `szyg-courseware-designer` | 0.2.2 | [查看Skill](skills/szyg-courseware-designer/SKILL.md) |
 
 ## 管理和更新
 
