@@ -1,12 +1,12 @@
 {
-  "release": "2026.11.03.2",
+  "release": "2026.11.03.3",
   "source_release": "2026.10.31.3",
   "source_commit": "dcea45d800df41bd162cfbb51241bc1c8fbf43b9",
   "architecture_change_only": false,
   "skills": [
     {
       "name": "szyg-short-video-director",
-      "version": "1.1.1",
+      "version": "1.2.0",
       "source_method_version": "1.1.0",
       "shared_reference_sources": []
     },

@@ -1,13 +1,13 @@
 {
   "schema": "independent-skill-catalog/1",
-  "release": "2026.11.03.2",
+  "release": "2026.11.03.3",
   "skills": [
     {
       "schema": "independent-skill-version/1",
       "name": "szyg-short-video-director",
       "label": "短视频编导",
-      "version": "1.1.1",
-      "distribution_release": "2026.11.03.1",
+      "version": "1.2.0",
+      "distribution_release": "2026.11.03.3",
       "source_method_version": "1.1.0",
       "architecture": "independent-skill",
       "optional_task_dependencies": [],
@@ -16,6 +16,7 @@
       "entry": "skills/szyg-short-video-director/SKILL.md",
       "files": {
         "agents/openai.yaml": "efc449a41c970c9e90b3c4ff9fbafdbf0f0b752ca674d4c7ab98c2a7ebc52752",
+        "assets/director-workbench.html": "f0350791b623f57d3cc6d47186790f7f3605843d8c6d95551279e49fca6690cc",
         "assets/publish-risk-terms.json": "188489e78ff3e73ad7bccf82d7705a80442d2d4e62877cf734f30f13132eec54",
         "LICENSE": "3c62ed103499f3e024b8d0358946d988fb939039bf254123148f5fc43da3d821",
         "references/copy-style-collaboration.md": "6a739a1bef20a12741b1ce6d400013f9e2d2b0b58c3fdbd2b15bbaf5113f694a",
@@ -26,20 +27,22 @@
         "references/landscape-to-portrait.md": "b34aeaccbaf2ec7e5e1657a72f28a356761c541b091d5cd259c3e50f69012047",
         "references/progressive-models.md": "94e233d5e3b78a5369de4776e9a8950230eb4c695e40919f2324fe46166f8ac9",
         "references/publication-word-check.md": "2daa240e28bafd0bdac6753c65d80ac17fc99ecb4932ba55f770a09a56a65362",
-        "references/review-and-delivery.md": "32e88d00b30529aec863df34b873a15bc3def0b4c3480234900c77af1f266ddf",
+        "references/review-and-delivery.md": "a769f98553fa4d3aa045b44da8b4bdf80b3acdbf1e752d26c77c6070099cc7fd",
         "references/source-intake.md": "5f1c1c0cf85fecf4e5d99c18bbd464f8bd9212758187a2af4cf10743415d4306",
         "references/video-cover-direction.md": "db805dd039f7051fc636b86eda8504aa0238d411d5d921b6b4193c68c788d898",
+        "references/workbench-collaboration.md": "4dd6b620b09e29a0a688b380bf19b5473219ff7e5bd9b9147eac9f8bac26d9a1",
         "references/数字员工确认规则.md": "05d8b1fa847848a3b7ac3f27b9afaa992c71fdbafb48f46ed0da68742d2c7e76",
         "scripts/check_caption_layout.py": "d9d146861ff04e036794a194a85eeb2ab9bb11ec7c57bfe115b0d77dc63de775",
         "scripts/content_word_check.py": "6816d869e2f312924a2eafa7f34756ee4b29a2600a290fedb908e15037968eca",
+        "scripts/director_workbench.py": "73fc552a1ee7acdd7b6e8f06f53c2edf1ae8831c53856197b906b66ffd26a5bd",
         "scripts/module_iteration.py": "b1104c1e7d97cecb7aa8e41ec22bd095e401baf9948af737c8603deeaea6e6e4",
         "scripts/module_runtime.py": "57afe0db8cb5ebd6a7bbfd21401b77103159756dd9d51d4034d21fd1cf878166",
         "scripts/runtime_validation.py": "f986a2f2bea0bbd8e3f22d44d4e4eaf00ecd73d6d65f9c1748cecae6f91ba9ec",
         "scripts/skill_dependencies.py": "62f5dab5b6423dd3dc6babdb34d602d3734527d5c272e7b1866f76eebe2ef66e",
         "scripts/source_intake.py": "16cf568770d54e29f14910255de6e249388233482872c33d497a736393105df2",
         "scripts/workspace.py": "d9e7819d119d5c52d210934d983441be7b0e6c1869c3a386d884caa129fc246a",
-        "SKILL.md": "07054838ba3e02916a2222db02bc194b7c8e5c5825543d8658282c663a50f59f",
-        "版本信息.json": "0467c174e3eb427f99cbd78cd18c65a348b9354b3c5ea755afe8eefc3c3246eb"
+        "SKILL.md": "2250090b47ebc87f59307d27973d9a1285e1b03d7b8ef07a7788ed48c96bee57",
+        "版本信息.json": "094fe322ba80c84d366ea128e962fc20db4da5df7ad21ef681067bdcb014dd4a"
       }
     },
     {

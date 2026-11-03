@@ -1,13 +1,13 @@
 # 数字员工独立Skill
 
-**当前发行：2026.11.03.2。十四个独立Skill，各自维护、安装和升级。**主管负责团队协作与版本治理，各岗位直接读取自己的SKILL.md。
+**当前发行：2026.11.03.3。十四个独立Skill，各自维护、安装和升级。**主管负责团队协作与版本治理，各岗位直接读取自己的SKILL.md。
 
 ## 快速开始
 
-从[最新Release](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/latest)下载`szyg-digital-employees-independent-2026.11.03.2.zip`安装全部，或下载所需岗位的单独安装包。微信收到的中文名包与GitHub对应附件字节一致。完整解压，复制“安装提示词.txt”给Codex或WorkBuddy即可开始；只安装某岗位可直接说明。
+从[最新Release](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/latest)下载`szyg-digital-employees-independent-2026.11.03.3.zip`安装全部，或下载所需岗位的单独安装包。微信收到的中文名包与GitHub对应附件字节一致。完整解压，复制“安装提示词.txt”给Codex或WorkBuddy即可开始；只安装某岗位可直接说明。
 
 ```text
-请帮我安装或升级这个数字员工Skill安装包，发行2026.11.03.2。完整解压并读取先读我.md，按我正在使用的软件安装所需的独立岗位Skill，没有指定则安装全部，创建或接入我的项目。保留已有资料和本地改进；有旧版先备份、比对迁移。完成后告诉我每个实际安装的Skill名称、版本和使用入口。
+请帮我安装或升级这个数字员工Skill安装包，发行2026.11.03.3。完整解压并读取先读我.md，按我正在使用的软件安装所需的独立岗位Skill，没有指定则安装全部，创建或接入我的项目。保留已有资料和本地改进；有旧版先备份、比对迁移。完成后告诉我每个实际安装的Skill名称、版本和使用入口。
 ```
 
 没有本地包时，将下面的提示词交给能访问GitHub的助手：
@@ -22,7 +22,7 @@
 
 | 岗位 | Skill | 自身版本 | 方法 |
 | --- | --- | --- | --- |
-| 短视频编导 | `szyg-short-video-director` | 1.1.1 | [查看Skill](skills/szyg-short-video-director/SKILL.md) |
+| 短视频编导 | `szyg-short-video-director` | 1.2.0 | [查看Skill](skills/szyg-short-video-director/SKILL.md) |
 | 公众号编辑 | `szyg-wechat-editor` | 0.4.2 | [查看Skill](skills/szyg-wechat-editor/SKILL.md) |
 | 海报设计师 | `szyg-poster-designer` | 0.1.1 | [查看Skill](skills/szyg-poster-designer/SKILL.md) |
 | 全栈工程师 | `szyg-fullstack-engineer` | 1.0.1 | [查看Skill](skills/szyg-fullstack-engineer/SKILL.md) |
@@ -42,3 +42,5 @@
 只改某岗位，就维护该目录并增加它自己的版本；整套发行另标日期版本。catalog.json登记各岗位实际版本与文件摘要。视频制作等跨岗位依赖按任务声明，不把其他岗位隐藏在总入口中。旧Release和旧附件保留，初始专业方法、审美及验收标准随岗位迁移，私人业务资料排除。
 
 构建：`python distribution/build_independent.py --output 新输出目录 --runtime-cache 官方运行时目录`。同时生成整套和每个岗位的独立离线安装包。来源与许可见[THIRD_PARTY](THIRD_PARTY.md)及各Skill的许可文件。
+
+编导选题、策划和文案默认以可互动HTML展示，支持右侧预览、采纳当前文案、已拍和备注；随包工具可在接收者自己的项目独立启动。
