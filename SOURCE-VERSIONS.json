@@ -1,5 +1,5 @@
 {
-  "release": "2026.11.04.1",
+  "release": "2026.11.04.2",
   "source_release": "2026.10.31.3",
   "source_commit": "dcea45d800df41bd162cfbb51241bc1c8fbf43b9",
   "architecture_change_only": false,
@@ -81,8 +81,8 @@
       "shared_reference_sources": []
     }
   ],
-  "previous_release": "2026.11.03.3",
-  "previous_commit": "4d6666209d40a4449949f21976b3d0da9cfdd766",
+  "previous_release": "2026.11.04.1",
+  "previous_commit": "0a22cd5eba24d7d944a34ac76796300d7e9dff05",
   "architecture": "job-role-skills",
   "internal_components": [
     {

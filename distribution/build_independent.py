@@ -29,7 +29,7 @@ def build(output,cache):
         if row is None:prompt=(ROOT/'安装提示词.txt').read_text(encoding='utf-8-sig').strip()
         (stage/'安装提示词.txt').write_bytes((prompt+'\n').encode('utf-8'))
         seal(stage,release);validate_bundle(stage)
-        name=('szyg-digital-employees-independent-' if row is None else row['name']+'-')+release+'.zip';archive=output/name
+        name=('szyg-digital-employees-independent-'+release+'.zip') if row is None else label+'_v'+row['version']+'_'+release+'.zip';archive=output/name
         with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
             for n,p in sorted(files(stage).items()):z.write(p,n)
         with zipfile.ZipFile(archive) as z:
@@ -38,7 +38,7 @@ def build(output,cache):
                 if hashlib.sha256(z.read(n)).hexdigest()!=sha(p):raise ValueError('ZIP字节不一致')
         digest=sha(archive);archive.with_suffix('.zip.sha256').write_text(digest+'  '+name+'\n',encoding='utf-8')
         alias='新媒体数字员工_'+release+'_独立Skill合集.zip' if row is None else label+'_v'+row['version']+'_'+release+'.zip'
-        shutil.copy2(archive,output/alias)
+        if archive!=output/alias:shutil.copy2(archive,output/alias)
         assets.append({'name':name,'wechat_name':alias,'skill':row['name'] if row else None,'label':label,'version':row['version'] if row else None,'bytes':archive.stat().st_size,'sha256':digest})
     save(output/'release-assets.json',{'release':release,'architecture':'independent-skills','skills':len(catalog['skills']),'assets':assets})
     print(json.dumps({'release':release,'packages':len(assets),'output':str(output)},ensure_ascii=False))

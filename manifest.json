@@ -1,6 +1,6 @@
 {
   "schema": "independent-skills-bundle/1",
-  "release": "2026.11.04.1",
+  "release": "2026.11.04.2",
   "files": [
     {
       "path": ".gitattributes",
@@ -14,23 +14,28 @@
     },
     {
       "path": "catalog.json",
-      "sha256": "944ab12e665de905c7c9ffb366f81c02995e8f405eb626d53c41c2877f9f5aa5",
+      "sha256": "2c53eb5c6d2cb5afb426d96e417d9290c1b8d1d5322c3d2c0b353b8327c44d1f",
       "bytes": 170120
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "2729d059a626aa9595623d1b0cc02ad5d14b0615745f21ab889902a74f3bdf6f",
-      "bytes": 1584
+      "sha256": "1e3d7c38c9581553ca45be62c3b7610f704742341c52faa5c431f04ff836c000",
+      "bytes": 1867
     },
     {
       "path": "distribution/build_independent.py",
-      "sha256": "8ff9c5f6aa997fa459e32d7016db6fbb430e70e3dba365df273a5e1314995ea3",
-      "bytes": 4590
+      "sha256": "d3852e83cca19a6f923150dd722e6d780b97a8595c456a54066a5d4c229702a3",
+      "bytes": 4644
     },
     {
       "path": "distribution/prepare_workbuddy.py",
       "sha256": "0ada775861a588273af7f0d4c5dcf672bf44ac3e298e944b14d06a9d1b911454",
       "bytes": 3844
+    },
+    {
+      "path": "distribution/render_download_index.py",
+      "sha256": "f2a736d0df294940ccfcb5d367ffa0a6bf1a4ec5f4a6fdf7fe875e003a50a410",
+      "bytes": 2528
     },
     {
       "path": "distribution/workbuddy_init.py",
@@ -54,7 +59,7 @@
     },
     {
       "path": "install-online.ps1",
-      "sha256": "ae90d50c0d66443dfd8948d7ec16845461a6ddbecdca2a73ca4571062c6eb5e7",
+      "sha256": "4a1c19a641b41ec572735510418e4c0faebd5167937948eba91c88ae0079830b",
       "bytes": 3264
     },
     {
@@ -94,8 +99,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "547e72638075c7456a1b895e4c53f7d58b77657a131592251a13c29179683ec8",
-      "bytes": 4710
+      "sha256": "d6aca1857cfcca47aaaa72922d43b95e76afb9383b4ede99252b5547a060ef1c",
+      "bytes": 6640
     },
     {
       "path": "skills/szyg-courseware-designer/agents/openai.yaml",
@@ -5769,7 +5774,7 @@
     },
     {
       "path": "SOURCE-VERSIONS.json",
-      "sha256": "8641d8381bfb7e3d65b1b83c83d1a18f1fc75e079c6fae9cd184c1eb9a2a9d5c",
+      "sha256": "ab63fe8944d43c014fd3a9e44de3dadce227e0c463fd577127f23b2ae715fe44",
       "bytes": 3026
     },
     {
@@ -5779,7 +5784,7 @@
     },
     {
       "path": "VERSION.json",
-      "sha256": "ed9f8e71073ed54d889ba176e5c595ec97c07f172399eb69a68c9c083c44019c",
+      "sha256": "dd1a2a5605cca101d39e29603ea4f29e0f11e65637711c7f645bbe6026a8f371",
       "bytes": 197
     },
     {
@@ -5789,7 +5794,7 @@
     },
     {
       "path": "先读我.md",
-      "sha256": "206ace2c22c3f29de99838ae221d2e630d9c769f909cc867f6bc04d09f09fa0b",
+      "sha256": "59c62c9da994a8da2f7f706bb2823fff3776a70d9e386b6f9f3c06561e0dd21c",
       "bytes": 2926
     },
     {
@@ -5799,12 +5804,12 @@
     },
     {
       "path": "安装提示词.txt",
-      "sha256": "02872b394ae7f4d27adcd02d93abab3afd44adb97cd8da82f929c41158d74bbf",
+      "sha256": "e684fe0680ea6b835388e69b47bcbd9981b71d4b6acb4a27a3e683b6e810ba2f",
       "bytes": 388
     },
     {
       "path": "版本信息.json",
-      "sha256": "ed9f8e71073ed54d889ba176e5c595ec97c07f172399eb69a68c9c083c44019c",
+      "sha256": "dd1a2a5605cca101d39e29603ea4f29e0f11e65637711c7f645bbe6026a8f371",
       "bytes": 197
     }
   ]
