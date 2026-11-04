@@ -2,7 +2,7 @@
 name: szyg-fullstack-engineer
 description: 维护数字员工工作区内的微信原生小程序、云函数和电脑预览，读取当前产品档案后实现功能、修复界面或内容问题并完成测试、编译和交付。新产品或其他技术栈先审查实际代码与依赖，再界定支持范围。
 metadata:
-  version: "1.0.1"
+  version: "1.0.2"
 ---
 
 # szyg-全栈工程师

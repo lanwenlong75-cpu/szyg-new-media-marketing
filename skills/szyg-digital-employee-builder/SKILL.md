@@ -2,7 +2,7 @@
 name: szyg-digital-employee-builder
 description: 在指定文件夹搭建或升级数字员工，按岗位与服务对象建立知识库、绑定岗位skill，并接入根据真实反馈改进判断、流程、模板、工具及验收的机制。用户要搭建数字员工、整理员工工作区、接入岗位skill或设计员工自主迭代时使用；日常业务交给对应岗位skill。
 metadata:
-  version: "1.3.0"
+  version: "1.3.1"
 ---
 
 # szyg-数字员工搭建师

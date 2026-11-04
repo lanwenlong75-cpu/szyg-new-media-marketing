@@ -36,12 +36,12 @@
 
 ## 渲染
 
-使用 `scripts/render_poster.cjs`，指定验证过的Playwright模块和浏览器。脚本等待字体与图像加载，对每个可见文本块检查溢出、文字互相重叠与画布边界，导出PNG与手机宽度预览。结果JSON保留问题。若检测失败，先修版式，再重新渲染。
+使用包内 `node scripts/render_poster.cjs --input 海报工程/poster.html --out 新预览目录`。需要Node.js 22+及当前机器已安装的Edge、Chrome或Chromium；自动发现本机浏览器，也可传 `--browser 实际浏览器路径`。此路线使用Node内置WebSocket连接临时本地浏览器，不需要Playwright、npm依赖或其他功能型Skill。助手先运行 `node --version` 和本脚本 `--help` 核对环境；缺Node或浏览器时按当前系统配置这些通用软件，不读取其他Skill的私有工具目录。脚本等待字体与图像加载，对每个可见文本块检查溢出、文字互相重叠与画布边界，导出PNG与手机宽度预览。结果JSON保留问题。若检测失败，先修版式，再重新渲染。
 
 浏览器渲染不依赖图像模型或新增API密钥。成品审美仍须由助手实际查看并记录判断；结构检查通过不能写“用户审美已通过”。
 
 ## 编辑器
 
-Fabritor完整前端的代码与运行方式见工作区调研报告。模板JSON需符合Fabritor 3.1版本的 `fabritor_schema_version` 与 `fabritor-sketch` 画布字段；普通Fabric JSON不自动等于Fabritor工程。未做真实导入测试的文件不得称为已兼容。
+可选外部Fabritor编辑器未随本包分发，不作为基础HTML工程制作、编辑与导出的必装项。模板JSON需符合Fabritor 3.1版本的 `fabritor_schema_version` 与 `fabritor-sketch` 画布字段；普通Fabric JSON不自动等于Fabritor工程。未做真实导入测试的文件不得称为已兼容。
 
 默认交付PNG、HTML/可编辑工程、文案、来源和修改记录。若用户要印刷，再确认成品毫米尺寸、出血、色彩配置、字体和印厂要求，并另行制作印刷稿。

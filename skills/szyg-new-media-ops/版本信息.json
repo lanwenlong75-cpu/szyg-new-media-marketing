@@ -2,9 +2,9 @@
   "schema": "independent-skill-version/1",
   "name": "szyg-new-media-ops",
   "label": "新媒体运营",
-  "version": "1.1.0",
-  "distribution_release": "2026.11.04.1",
-  "source_method_version": "1.0.9",
+  "version": "1.1.1",
+  "distribution_release": "2026.11.04.3",
+  "source_method_version": "1.1.1",
   "architecture": "job-role-skill",
   "optional_task_dependencies": [],
   "shared_reference_sources": [

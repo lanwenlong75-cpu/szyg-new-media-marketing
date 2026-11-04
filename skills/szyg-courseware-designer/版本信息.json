@@ -2,9 +2,9 @@
   "schema": "independent-skill-version/1",
   "name": "szyg-courseware-designer",
   "label": "课件打造师",
-  "version": "0.2.2",
-  "distribution_release": "2026.11.03.2",
-  "source_method_version": "0.2.1",
+  "version": "0.2.3",
+  "distribution_release": "2026.11.04.3",
+  "source_method_version": "0.2.3",
   "architecture": "independent-skill",
   "optional_task_dependencies": [],
   "shared_reference_sources": []

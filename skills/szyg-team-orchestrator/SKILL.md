@@ -2,7 +2,7 @@
 name: szyg-team-orchestrator
 description: 统筹项目内多个数字员工与岗位skill，依据真实能力拆分目标、安排任务依赖、调用本地工作版、交接产物、核验结果及跟踪技能迭代。用于团队分工、跨岗位交付、员工能力盘点与skill治理；单一岗位的小任务直接调用对应岗位skill。
 metadata:
-  version: "1.2.0"
+  version: "1.2.1"
 ---
 
 # szyg-新媒体主管

@@ -7,6 +7,6 @@
 - 字体位于本模块 `assets/fonts/`，出处与许可见 `fonts-provenance.json` 和 `licenses/`。
 - 参考方法见 `references/curated-library.json` 与 `reference-library.md`：7种基础风格及50个外部作品的作者、出处和转化方法。未确认再分发许可的原图不随包提供；需要看图时访问原出处或使用自己的授权素材。上游版本与许可见 `upstream-lock.json` 和 `licenses/`。
 
-换电脑后通过 `portable.py doctor` 检查 Python、FFmpeg、Node、浏览器和相关依赖。具体工具路径在接收者的项目中配置，不能沿用另一台电脑的路径。
+换电脑后按实际任务核对工具：默认整张生图使用宿主现有图像能力；可编辑HTML路线运行 `python scripts/build_poster.py --help`、`node --version` 与 `node scripts/render_poster.cjs --help`，后者要求Node.js 22+和本机Edge/Chrome/Chromium。无需另装功能型Skill、Playwright或FFmpeg；具体浏览器路径可通过 `--browser` 指定。完整步骤见[制作路线](production.md)。
 
 价格、有效期、课数和二维码以当前业务已确认事实为准；案例模板不自造业绩，倒计时模板不自造活动截止时间。

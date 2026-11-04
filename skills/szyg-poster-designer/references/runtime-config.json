@@ -1,5 +1,7 @@
 {
   "browser": "auto",
-  "playwright": "current installed motion/node_modules/playwright-core",
-  "output": "current user project"
+  "renderer": "node-builtin-cdp",
+  "node_minimum_major": 22,
+  "output": "current user project",
+  "additional_skill_required": false
 }

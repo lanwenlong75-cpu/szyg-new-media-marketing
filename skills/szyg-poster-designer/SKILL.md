@@ -2,7 +2,7 @@
 name: szyg-poster-designer
 description: 根据用途和真实资料设计品牌、产品、课程、活动、倒计时与案例海报；从57项通用风格和外部作品方法中选型，拆解参考，用大模型生成完整海报并核对文字与视觉。
 metadata:
-  version: "0.1.1"
+  version: "0.1.2"
 ---
 
 # 海报设计师 · DESIGNER

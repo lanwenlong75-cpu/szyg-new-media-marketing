@@ -27,6 +27,8 @@ def evidence_link(path, base):
         return Path(path).resolve().as_posix()
 
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 from module_runtime import local, key, binding
 
 

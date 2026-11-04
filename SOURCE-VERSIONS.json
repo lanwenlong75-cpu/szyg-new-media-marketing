@@ -1,44 +1,44 @@
 {
-  "release": "2026.11.04.2",
+  "release": "2026.11.04.3",
   "source_release": "2026.10.31.3",
   "source_commit": "dcea45d800df41bd162cfbb51241bc1c8fbf43b9",
   "architecture_change_only": false,
   "skills": [
     {
       "name": "szyg-short-video-director",
-      "version": "1.2.1",
-      "source_method_version": "1.1.0",
+      "version": "1.2.2",
+      "source_method_version": "1.2.2",
       "shared_reference_sources": []
     },
     {
       "name": "szyg-wechat-editor",
-      "version": "0.4.3",
-      "source_method_version": "0.4.1",
+      "version": "0.4.4",
+      "source_method_version": "0.4.4",
       "shared_reference_sources": []
     },
     {
       "name": "szyg-poster-designer",
-      "version": "0.1.1",
-      "source_method_version": null,
+      "version": "0.1.2",
+      "source_method_version": "0.1.2",
       "shared_reference_sources": [],
       "prior_entry_had_explicit_version": false
     },
     {
       "name": "szyg-fullstack-engineer",
-      "version": "1.0.1",
-      "source_method_version": "1.0.0",
+      "version": "1.0.2",
+      "source_method_version": "1.0.2",
       "shared_reference_sources": []
     },
     {
       "name": "szyg-private-domain-advisor",
-      "version": "0.1.1",
-      "source_method_version": "0.1.0",
+      "version": "0.1.2",
+      "source_method_version": "0.1.2",
       "shared_reference_sources": []
     },
     {
       "name": "szyg-new-media-ops",
-      "version": "1.1.0",
-      "source_method_version": "1.0.9",
+      "version": "1.1.1",
+      "source_method_version": "1.1.1",
       "shared_reference_sources": [
         "director/references/landscape-to-portrait.md",
         "motion/references/director-thinking.md",
@@ -52,37 +52,37 @@
     },
     {
       "name": "szyg-digital-employee-builder",
-      "version": "1.3.0",
-      "source_method_version": "1.2.1",
+      "version": "1.3.1",
+      "source_method_version": "1.3.1",
       "shared_reference_sources": []
     },
     {
       "name": "szyg-team-orchestrator",
-      "version": "1.2.0",
-      "source_method_version": "1.1.0",
+      "version": "1.2.1",
+      "source_method_version": "1.2.1",
       "shared_reference_sources": []
     },
     {
       "name": "szyg-product-manager",
-      "version": "0.2.2",
-      "source_method_version": "0.2.1",
+      "version": "0.2.3",
+      "source_method_version": "0.2.3",
       "shared_reference_sources": []
     },
     {
       "name": "szyg-xiaohongshu-operator",
-      "version": "0.2.3",
-      "source_method_version": "0.2.1",
+      "version": "0.2.4",
+      "source_method_version": "0.2.4",
       "shared_reference_sources": []
     },
     {
       "name": "szyg-courseware-designer",
-      "version": "0.2.2",
-      "source_method_version": "0.2.1",
+      "version": "0.2.3",
+      "source_method_version": "0.2.3",
       "shared_reference_sources": []
     }
   ],
-  "previous_release": "2026.11.04.1",
-  "previous_commit": "0a22cd5eba24d7d944a34ac76796300d7e9dff05",
+  "previous_release": "2026.11.04.2",
+  "previous_commit": "327dd4c2d155e3036394fd5608294da435cbae6b",
   "architecture": "job-role-skills",
   "internal_components": [
     {

@@ -2,7 +2,7 @@
 name: szyg-short-video-director
 description: 为当前项目的服务IP策划短视频选题、口播脚本、分镜和制作方案，结合该IP知识与真实素材推进拍摄、剪辑验收和复盘。用户要短视频编导、改稿、分析参考片、安排声画或修正编导方法时使用；账号发布按本次实际授权执行。
 metadata:
-  version: "1.2.1"
+  version: "1.2.2"
   maintainer: "duli"
 ---
 

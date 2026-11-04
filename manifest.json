@@ -1,6 +1,6 @@
 {
   "schema": "independent-skills-bundle/1",
-  "release": "2026.11.04.2",
+  "release": "2026.11.04.3",
   "files": [
     {
       "path": ".gitattributes",
@@ -14,18 +14,18 @@
     },
     {
       "path": "catalog.json",
-      "sha256": "2c53eb5c6d2cb5afb426d96e417d9290c1b8d1d5322c3d2c0b353b8327c44d1f",
-      "bytes": 170120
+      "sha256": "2733729765f046a1f01d9916eabe9ba2ad2f52ae207ab8552917e5a94e28994a",
+      "bytes": 171802
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "1e3d7c38c9581553ca45be62c3b7610f704742341c52faa5c431f04ff836c000",
-      "bytes": 1867
+      "sha256": "058ea1c60e19585c3421f6988dafe6d80670ba80133f3891e5bed48c3090953f",
+      "bytes": 2395
     },
     {
       "path": "distribution/build_independent.py",
-      "sha256": "c3cc68135a6ac24985ac974be351b76ff5bef04a4032d2f8f5373e0f93a42a75",
-      "bytes": 4615
+      "sha256": "87af42c69afc0b796365beab260705a07c269426dcb78b0a30377dcfd0d90e16",
+      "bytes": 4821
     },
     {
       "path": "distribution/prepare_workbuddy.py",
@@ -59,7 +59,7 @@
     },
     {
       "path": "install-online.ps1",
-      "sha256": "4a1c19a641b41ec572735510418e4c0faebd5167937948eba91c88ae0079830b",
+      "sha256": "dde4cf264132a5ff80faa58c787e4e9b80a3d45a5241da04c21a47335bbce3c8",
       "bytes": 3264
     },
     {
@@ -99,8 +99,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "dc1a6a3c433afbb480fba2fe2bc4334f604214ede3c1a66c326ebf4ec220a01d",
-      "bytes": 6260
+      "sha256": "68526c1c9e17c97c9e795a416c135acf2c7c414aad291469eb71455ee8526143",
+      "bytes": 6328
     },
     {
       "path": "skills/szyg-courseware-designer/agents/openai.yaml",
@@ -154,8 +154,8 @@
     },
     {
       "path": "skills/szyg-courseware-designer/references/design-system.md",
-      "sha256": "17dc2a37f3f0c2b3626b718367eeff062d29a9712b40ac273d0f4fa55f9f3876",
-      "bytes": 6407
+      "sha256": "c04f87473c19c62d985bc35d72e3b9416f19d6cd6aad88237fd8c4942b1e2156",
+      "bytes": 6513
     },
     {
       "path": "skills/szyg-courseware-designer/references/inherited-rules.json",
@@ -173,14 +173,19 @@
       "bytes": 3818
     },
     {
+      "path": "skills/szyg-courseware-designer/references/portable-production.md",
+      "sha256": "b7afe511e3422bff5aeae6db5aabba7756280ff34a2a2eead1ffd04bb304d5e5",
+      "bytes": 2872
+    },
+    {
       "path": "skills/szyg-courseware-designer/references/pptx-workflow.md",
       "sha256": "e8444d27da9f2bc9d6e25a512a7874ffd4df02e1790e018412ae273f80749c2f",
       "bytes": 3683
     },
     {
       "path": "skills/szyg-courseware-designer/references/production-and-acceptance.md",
-      "sha256": "2fbf02649a137e28e621707e7c0d84b82ebac2101d707d16dd516b6dba66d675",
-      "bytes": 4423
+      "sha256": "93195691e5915d88ad99d180044840ba5210dc515139ed80900a39de1d5adae3",
+      "bytes": 4511
     },
     {
       "path": "skills/szyg-courseware-designer/references/style-import-manifest.json",
@@ -198,14 +203,24 @@
       "bytes": 161
     },
     {
+      "path": "skills/szyg-courseware-designer/scripts/build_courseware.py",
+      "sha256": "44171517bfc8538e4614df2301bde602058eccd4d832d6607ee1185dbead4dd8",
+      "bytes": 12228
+    },
+    {
       "path": "skills/szyg-courseware-designer/scripts/module_iteration.py",
-      "sha256": "b1104c1e7d97cecb7aa8e41ec22bd095e401baf9948af737c8603deeaea6e6e4",
-      "bytes": 16797
+      "sha256": "3764dfe43aaf5cebf602156738a9bc7b0e7d10bdca9863c806ff2963b3582e5d",
+      "bytes": 16867
     },
     {
       "path": "skills/szyg-courseware-designer/scripts/module_runtime.py",
       "sha256": "57afe0db8cb5ebd6a7bbfd21401b77103159756dd9d51d4034d21fd1cf878166",
       "bytes": 7263
+    },
+    {
+      "path": "skills/szyg-courseware-designer/scripts/render_pptx.ps1",
+      "sha256": "296eb839c03bf4f3a6388394c6325a8211533c7822be12acc2c39518c2e0230d",
+      "bytes": 1244
     },
     {
       "path": "skills/szyg-courseware-designer/scripts/skill_dependencies.py",
@@ -214,13 +229,13 @@
     },
     {
       "path": "skills/szyg-courseware-designer/SKILL.md",
-      "sha256": "6ef0b3cc2c1d8f96792d0758f0e1a5b201bbe6d3e28ffe5e8fd93c58c4dd4490",
-      "bytes": 11182
+      "sha256": "0bdc0a775f9fd88e68b143a9abb826f725c529c9ed818a8ed5bad82f6eeec38b",
+      "bytes": 11366
     },
     {
       "path": "skills/szyg-courseware-designer/版本信息.json",
-      "sha256": "0242a54712801ecb2b37d99a968c5df56ef3234f417ed1e190d2598a4e5b7476",
-      "bytes": 323
+      "sha256": "5d209a64c9a5d52fcb9b3935699b378780e9cc6b408109641cd938b0909808f9",
+      "bytes": 334
     },
     {
       "path": "skills/szyg-digital-employee-builder/agents/openai.yaml",
@@ -289,8 +304,8 @@
     },
     {
       "path": "skills/szyg-digital-employee-builder/scripts/module_iteration.py",
-      "sha256": "b1104c1e7d97cecb7aa8e41ec22bd095e401baf9948af737c8603deeaea6e6e4",
-      "bytes": 16797
+      "sha256": "3764dfe43aaf5cebf602156738a9bc7b0e7d10bdca9863c806ff2963b3582e5d",
+      "bytes": 16867
     },
     {
       "path": "skills/szyg-digital-employee-builder/scripts/module_runtime.py",
@@ -309,12 +324,12 @@
     },
     {
       "path": "skills/szyg-digital-employee-builder/SKILL.md",
-      "sha256": "9362b1246479cffeec3ca9f8f89dcbdf569c4b5b4fa7cce3b81fbac16261ae04",
-      "bytes": 10475
+      "sha256": "b9855d841540fe970651c0665f9f9d354782a4aede10bce61e85b84f0fe3a6ad",
+      "bytes": 10586
     },
     {
       "path": "skills/szyg-digital-employee-builder/版本信息.json",
-      "sha256": "ce4b9351c150a0cd4e668ad6c09980274f693bb8a987c5d85994ba4e2f3eccd8",
+      "sha256": "0061e826782556216b9c181755a9704ba18a8ac3adf88a55982e0f998f479ece",
       "bytes": 371
     },
     {
@@ -364,8 +379,8 @@
     },
     {
       "path": "skills/szyg-fullstack-engineer/scripts/module_iteration.py",
-      "sha256": "b1104c1e7d97cecb7aa8e41ec22bd095e401baf9948af737c8603deeaea6e6e4",
-      "bytes": 16797
+      "sha256": "3764dfe43aaf5cebf602156738a9bc7b0e7d10bdca9863c806ff2963b3582e5d",
+      "bytes": 16867
     },
     {
       "path": "skills/szyg-fullstack-engineer/scripts/module_runtime.py",
@@ -379,13 +394,13 @@
     },
     {
       "path": "skills/szyg-fullstack-engineer/SKILL.md",
-      "sha256": "104c980a43fd36ab0924b2e509e8592176416036cf5dc056165f07de6f26bef9",
-      "bytes": 4444
+      "sha256": "34697a1e337a7a56bfe4e5f52f112a11b8a9155d92ff18d5fe3fc1a88c91449a",
+      "bytes": 4498
     },
     {
       "path": "skills/szyg-fullstack-engineer/版本信息.json",
-      "sha256": "8aa16ccb589b12c528a2b44bcfeec171dd5c96563b045f303f0c74b52f62e49b",
-      "bytes": 322
+      "sha256": "0a9ffa2f8a232c9c18e97a24b6fcbc2e30655a9fbcb03efa80538827c19e91f9",
+      "bytes": 333
     },
     {
       "path": "skills/szyg-new-media-ops/agents/openai.yaml",
@@ -4779,8 +4794,8 @@
     },
     {
       "path": "skills/szyg-new-media-ops/scripts/module_iteration.py",
-      "sha256": "b1104c1e7d97cecb7aa8e41ec22bd095e401baf9948af737c8603deeaea6e6e4",
-      "bytes": 16797
+      "sha256": "3764dfe43aaf5cebf602156738a9bc7b0e7d10bdca9863c806ff2963b3582e5d",
+      "bytes": 16867
     },
     {
       "path": "skills/szyg-new-media-ops/scripts/module_runtime.py",
@@ -4819,8 +4834,8 @@
     },
     {
       "path": "skills/szyg-new-media-ops/SKILL.md",
-      "sha256": "a32088f7ef5317d2485cb60f1143341613a837ce5ae6d5bcf5630887d11b1493",
-      "bytes": 8469
+      "sha256": "2e21943aadb92b432f8d4ebbaf92832bcc26327af6ff27c4446b29d591bc9c57",
+      "bytes": 8544
     },
     {
       "path": "skills/szyg-new-media-ops/THIRD_PARTY.md",
@@ -4829,7 +4844,7 @@
     },
     {
       "path": "skills/szyg-new-media-ops/版本信息.json",
-      "sha256": "764a64c261efeba221de130fedf78132b4efa9fec2927c2f173cafe7a8b1321a",
+      "sha256": "5436ad5fdffc318298cf1a8ac6b7098c53d5ca1854256fd2e5d14874cad0d923",
       "bytes": 1087
     },
     {
@@ -4964,13 +4979,13 @@
     },
     {
       "path": "skills/szyg-poster-designer/references/local-resources.md",
-      "sha256": "6eafd33778b7685ac8628dc8d4e8304c28ab343f0fc4ade0279409a45eda796d",
-      "bytes": 1274
+      "sha256": "b18a5710df84f77eb057e94b5d1d732e5bb8fce03a1debe5c0344bf2906a780b",
+      "bytes": 1526
     },
     {
       "path": "skills/szyg-poster-designer/references/production.md",
-      "sha256": "b432b76ba78780c2e3d8607133578a52d1e068de639c627919c39128ebd7682f",
-      "bytes": 3526
+      "sha256": "da7e33e411e56fc40234825bf6870d736c23ccf2603f7947ba8f0cc19d5317c0",
+      "bytes": 4079
     },
     {
       "path": "skills/szyg-poster-designer/references/purpose-routing.md",
@@ -4994,8 +5009,8 @@
     },
     {
       "path": "skills/szyg-poster-designer/references/runtime-config.json",
-      "sha256": "c206edc60e16f1ae4ae12ab7570793438f5073ba67d4575f3e581ebc62ee7993",
-      "bytes": 133
+      "sha256": "95ac67651e67a9065ca97d6baa7d8e5b870aca7228260fb7500fbaf28f50dab8",
+      "bytes": 167
     },
     {
       "path": "skills/szyg-poster-designer/references/style-library.json",
@@ -5069,8 +5084,8 @@
     },
     {
       "path": "skills/szyg-poster-designer/scripts/build_poster.py",
-      "sha256": "c095e7edc5e71f94456f160f9d6620bcf00848d35516695605ceed851459f912",
-      "bytes": 6334
+      "sha256": "168ac5abbc2c5202d27476db1b085fc09c1a611c5fc7694ba49b9e2b1a4bfe7a",
+      "bytes": 6468
     },
     {
       "path": "skills/szyg-poster-designer/scripts/check_poster_text.py",
@@ -5084,8 +5099,8 @@
     },
     {
       "path": "skills/szyg-poster-designer/scripts/module_iteration.py",
-      "sha256": "b1104c1e7d97cecb7aa8e41ec22bd095e401baf9948af737c8603deeaea6e6e4",
-      "bytes": 16797
+      "sha256": "3764dfe43aaf5cebf602156738a9bc7b0e7d10bdca9863c806ff2963b3582e5d",
+      "bytes": 16867
     },
     {
       "path": "skills/szyg-poster-designer/scripts/module_runtime.py",
@@ -5094,8 +5109,8 @@
     },
     {
       "path": "skills/szyg-poster-designer/scripts/render_poster.cjs",
-      "sha256": "ed2c960199c4b9d455c8a769dcd5c8d10c5c796ac7210ebaf7ed27871ffb9598",
-      "bytes": 4167
+      "sha256": "ab2d27cee6f04dbe91d31f16dea06f08fc12f8808315b04181e86ac4ec786c27",
+      "bytes": 9245
     },
     {
       "path": "skills/szyg-poster-designer/scripts/select_references.py",
@@ -5109,13 +5124,13 @@
     },
     {
       "path": "skills/szyg-poster-designer/SKILL.md",
-      "sha256": "4c6f09f9b7fc11137995bb426de34a1798374f488c8e72b7aa8fac5cc8ad4978",
-      "bytes": 4192
+      "sha256": "2641f980db086616d39af063afd029785da0e34df48dc9f95d9047869b619ed8",
+      "bytes": 4237
     },
     {
       "path": "skills/szyg-poster-designer/版本信息.json",
-      "sha256": "ffb6401597030147a2d8359358ab19f1caf439937718b4b57468d8476f7f370d",
-      "bytes": 361
+      "sha256": "3b592ebe072cd3eff890b573297d9af8e2187ec26345ee9cdfc3dec26d2bb052",
+      "bytes": 376
     },
     {
       "path": "skills/szyg-private-domain-advisor/agents/openai.yaml",
@@ -5174,8 +5189,8 @@
     },
     {
       "path": "skills/szyg-private-domain-advisor/scripts/module_iteration.py",
-      "sha256": "b1104c1e7d97cecb7aa8e41ec22bd095e401baf9948af737c8603deeaea6e6e4",
-      "bytes": 16797
+      "sha256": "3764dfe43aaf5cebf602156738a9bc7b0e7d10bdca9863c806ff2963b3582e5d",
+      "bytes": 16867
     },
     {
       "path": "skills/szyg-private-domain-advisor/scripts/module_runtime.py",
@@ -5189,13 +5204,13 @@
     },
     {
       "path": "skills/szyg-private-domain-advisor/SKILL.md",
-      "sha256": "b619f5410006b0c8a145abb7e35e30eaa0a0d5623dc17b845ef2c031cf299b9a",
-      "bytes": 5727
+      "sha256": "800f605975212279f4be5bfd2561917b7c64a18eef892364f095f461b4d4b60f",
+      "bytes": 5794
     },
     {
       "path": "skills/szyg-private-domain-advisor/版本信息.json",
-      "sha256": "6a24188c37c82b4470828123739820c679c98580f5f50aa01b7454bee97e2796",
-      "bytes": 323
+      "sha256": "3b29ea1bd5bc1b68d63ed2e7ff07f83093c67c771e29a692ed14b8b8c6c8c4b6",
+      "bytes": 334
     },
     {
       "path": "skills/szyg-product-manager/agents/openai.yaml",
@@ -5239,8 +5254,8 @@
     },
     {
       "path": "skills/szyg-product-manager/scripts/module_iteration.py",
-      "sha256": "b1104c1e7d97cecb7aa8e41ec22bd095e401baf9948af737c8603deeaea6e6e4",
-      "bytes": 16797
+      "sha256": "3764dfe43aaf5cebf602156738a9bc7b0e7d10bdca9863c806ff2963b3582e5d",
+      "bytes": 16867
     },
     {
       "path": "skills/szyg-product-manager/scripts/module_runtime.py",
@@ -5259,8 +5274,8 @@
     },
     {
       "path": "skills/szyg-product-manager/SKILL.md",
-      "sha256": "2b45442b2bc9a58c552b05478212f11a6ab0c0f071a670b5877e0b3181d3995a",
-      "bytes": 6793
+      "sha256": "e84cdf49824d5ac727303c09c6eef2ef53e9a48d652e29227754a799524fa94d",
+      "bytes": 6860
     },
     {
       "path": "skills/szyg-product-manager/third_party/alireza-product-discovery/LICENSE",
@@ -5359,8 +5374,8 @@
     },
     {
       "path": "skills/szyg-product-manager/版本信息.json",
-      "sha256": "ecfe371c12749878df726c7b7b3ed6d7892025221bdadc748028c54600abed6e",
-      "bytes": 316
+      "sha256": "1143d4fa70ebbff25b79f7523f7a101a7f34a87c31539205765d737214e360d3",
+      "bytes": 327
     },
     {
       "path": "skills/szyg-short-video-director/agents/openai.yaml",
@@ -5464,8 +5479,8 @@
     },
     {
       "path": "skills/szyg-short-video-director/scripts/module_iteration.py",
-      "sha256": "b1104c1e7d97cecb7aa8e41ec22bd095e401baf9948af737c8603deeaea6e6e4",
-      "bytes": 16797
+      "sha256": "3764dfe43aaf5cebf602156738a9bc7b0e7d10bdca9863c806ff2963b3582e5d",
+      "bytes": 16867
     },
     {
       "path": "skills/szyg-short-video-director/scripts/module_runtime.py",
@@ -5494,12 +5509,12 @@
     },
     {
       "path": "skills/szyg-short-video-director/SKILL.md",
-      "sha256": "abc12bcea8cb35066f5532f5eb7ea0721d8fb8e33cc1fc93a64f8dc717fa32ff",
-      "bytes": 7239
+      "sha256": "9b6d1f8ece09ebe0e1fc8af8fec0569f7382f24496b2144a0a929ff9d44f49da",
+      "bytes": 7311
     },
     {
       "path": "skills/szyg-short-video-director/版本信息.json",
-      "sha256": "604ac994a6254145983926318f7d7726b2228bf244d32ef4f2c7b23f1ca8a780",
+      "sha256": "3b7e793bdc952dbfaecb03ad71554b1d208fbb6738a332a1c02fc26f1d3a7def",
       "bytes": 361
     },
     {
@@ -5549,8 +5564,8 @@
     },
     {
       "path": "skills/szyg-team-orchestrator/scripts/module_iteration.py",
-      "sha256": "b1104c1e7d97cecb7aa8e41ec22bd095e401baf9948af737c8603deeaea6e6e4",
-      "bytes": 16797
+      "sha256": "3764dfe43aaf5cebf602156738a9bc7b0e7d10bdca9863c806ff2963b3582e5d",
+      "bytes": 16867
     },
     {
       "path": "skills/szyg-team-orchestrator/scripts/module_runtime.py",
@@ -5579,12 +5594,12 @@
     },
     {
       "path": "skills/szyg-team-orchestrator/SKILL.md",
-      "sha256": "fba0f3a9602e28b510ed2bb79211cd6590890e37ca13c18546b775244d609270",
-      "bytes": 9139
+      "sha256": "027cf677e864954ed653af02515d5643195d2336025d83f5096f3ab13217e6d1",
+      "bytes": 9240
     },
     {
       "path": "skills/szyg-team-orchestrator/版本信息.json",
-      "sha256": "6410259413e547cdad2fec46dd015bc692aa224cb77ef595c00fb5143a132bae",
+      "sha256": "56ad554e1037b380f24212cf4c2bc389cfd7b7d4304ef6bdc2c8f781e23cb2a8",
       "bytes": 358
     },
     {
@@ -5669,8 +5684,8 @@
     },
     {
       "path": "skills/szyg-wechat-editor/scripts/module_iteration.py",
-      "sha256": "b1104c1e7d97cecb7aa8e41ec22bd095e401baf9948af737c8603deeaea6e6e4",
-      "bytes": 16797
+      "sha256": "3764dfe43aaf5cebf602156738a9bc7b0e7d10bdca9863c806ff2963b3582e5d",
+      "bytes": 16867
     },
     {
       "path": "skills/szyg-wechat-editor/scripts/module_runtime.py",
@@ -5684,12 +5699,12 @@
     },
     {
       "path": "skills/szyg-wechat-editor/SKILL.md",
-      "sha256": "0a1e632b309efd04191c793806fa6a7dcafe7d4150481f43c7f314b55087bac8",
-      "bytes": 8563
+      "sha256": "180874b9e8079dba520805a209e33d825d56d73e09a7af2b1027b3c14032ded7",
+      "bytes": 8651
     },
     {
       "path": "skills/szyg-wechat-editor/版本信息.json",
-      "sha256": "e4a035c36f07d16e814d900209fcc60944629615d012a39cb5db1b9688947e0a",
+      "sha256": "3532a9fc3318a872e5eb373b4b81cc253fab408df1af0b0b2cc3a944336b4718",
       "bytes": 354
     },
     {
@@ -5749,8 +5764,8 @@
     },
     {
       "path": "skills/szyg-xiaohongshu-operator/scripts/module_iteration.py",
-      "sha256": "b1104c1e7d97cecb7aa8e41ec22bd095e401baf9948af737c8603deeaea6e6e4",
-      "bytes": 16797
+      "sha256": "3764dfe43aaf5cebf602156738a9bc7b0e7d10bdca9863c806ff2963b3582e5d",
+      "bytes": 16867
     },
     {
       "path": "skills/szyg-xiaohongshu-operator/scripts/module_runtime.py",
@@ -5764,18 +5779,18 @@
     },
     {
       "path": "skills/szyg-xiaohongshu-operator/SKILL.md",
-      "sha256": "f7c337097e5585831f58086a443e28078332967b4cdb71f9f0708bc2536b34a8",
-      "bytes": 8632
+      "sha256": "26980ce387829e103cea456ab76ce5fb7f164f4b9b0adb32770c78fea651f64d",
+      "bytes": 8715
     },
     {
       "path": "skills/szyg-xiaohongshu-operator/版本信息.json",
-      "sha256": "bed5363c9fb6db8432fd093fb491a665da7ef998de4d0f576bb808544e72a705",
+      "sha256": "28d606140a02eb05022ec78ba4b1555e0c38458b466432299261a5cb17335ed0",
       "bytes": 361
     },
     {
       "path": "SOURCE-VERSIONS.json",
-      "sha256": "ab63fe8944d43c014fd3a9e44de3dadce227e0c463fd577127f23b2ae715fe44",
-      "bytes": 3026
+      "sha256": "ba352b0f4b23cc6ef0d15a1806362bfa0fbea6bf9784a5974ef2af9013f8d25d",
+      "bytes": 3133
     },
     {
       "path": "THIRD_PARTY.md",
@@ -5784,8 +5799,8 @@
     },
     {
       "path": "VERSION.json",
-      "sha256": "dd1a2a5605cca101d39e29603ea4f29e0f11e65637711c7f645bbe6026a8f371",
-      "bytes": 197
+      "sha256": "9f6e24fed0e3d92d2723aaffa67342b49cb88d5c636b3d5c31e325df613acda5",
+      "bytes": 208
     },
     {
       "path": "VERSIONING.md",
@@ -5794,8 +5809,8 @@
     },
     {
       "path": "先读我.md",
-      "sha256": "59c62c9da994a8da2f7f706bb2823fff3776a70d9e386b6f9f3c06561e0dd21c",
-      "bytes": 2926
+      "sha256": "a1665ba92c558cec55db095eba3be57ef045ef562c0c65816d1937e315449e78",
+      "bytes": 3219
     },
     {
       "path": "准备-WorkBuddy.cmd",
@@ -5803,14 +5818,19 @@
       "bytes": 130
     },
     {
+      "path": "安装与依赖.md",
+      "sha256": "6cdcc419c0d9879eb7f1c5c8e9537567a1db4ffcb686b940aa705c25e3aa0b3f",
+      "bytes": 3124
+    },
+    {
       "path": "安装提示词.txt",
-      "sha256": "e684fe0680ea6b835388e69b47bcbd9981b71d4b6acb4a27a3e683b6e810ba2f",
-      "bytes": 388
+      "sha256": "fde0e02226ddab901acace6bdd51a17c1c0c48f91a90a07d71703c1efa483d4d",
+      "bytes": 389
     },
     {
       "path": "版本信息.json",
-      "sha256": "dd1a2a5605cca101d39e29603ea4f29e0f11e65637711c7f645bbe6026a8f371",
-      "bytes": 197
+      "sha256": "9f6e24fed0e3d92d2723aaffa67342b49cb88d5c636b3d5c31e325df613acda5",
+      "bytes": 208
     }
   ]
 }

@@ -1,6 +1,8 @@
 from pathlib import Path
 import argparse,json,html,shutil,re
 from datetime import datetime, timezone
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 from countdown import calculate
 
 SKILL=Path(__file__).resolve().parent.parent

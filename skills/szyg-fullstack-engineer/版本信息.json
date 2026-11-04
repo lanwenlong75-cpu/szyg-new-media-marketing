@@ -2,9 +2,9 @@
   "schema": "independent-skill-version/1",
   "name": "szyg-fullstack-engineer",
   "label": "全栈工程师",
-  "version": "1.0.1",
-  "distribution_release": "2026.11.03.1",
-  "source_method_version": "1.0.0",
+  "version": "1.0.2",
+  "distribution_release": "2026.11.04.3",
+  "source_method_version": "1.0.2",
   "architecture": "independent-skill",
   "optional_task_dependencies": [],
   "shared_reference_sources": []

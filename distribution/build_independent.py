@@ -19,7 +19,7 @@ def build(output,cache):
             target=stage/n;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(p,target)
         if row:
             save(stage/'catalog.json',{**catalog,'skills':[row]})
-            (stage/'README.md').write_text('# '+row['label']+'独立Skill\n\nSkill：'+row['name']+' '+row['version']+'；发行：'+release+'。\n\n本包只包含本岗位，可单独维护和安装。完整解压，读取[先读我](先读我.md)，将安装提示词.txt交给Codex或WorkBuddy。具体方法见[本岗位SKILL.md]('+row['entry']+')。跨岗位制作按实际任务另装必要Skill。\n',encoding='utf-8')
+            (stage/'README.md').write_text('# '+row['label']+'独立Skill\n\nSkill：'+row['name']+' '+row['version']+'；发行：'+release+'。\n\n本包只包含本岗位，可单独维护和安装。完整解压，读取[先读我](先读我.md)，将安装提示词.txt交给Codex或WorkBuddy。具体方法见[本岗位SKILL.md]('+row['entry']+')。本岗位的内部工具已随包提供，无需另装功能型Skill。需要其他岗位承担工作时，才按需下载对应岗位包。通用软件和账号条件见[安装与依赖](安装与依赖.md)。\n',encoding='utf-8')
         sources=read(ROOT/'INSTALLER-SOURCES.json')
         for arch,meta in sources['windows'].items():
             name='python-'+sources['python_version']+'-embed-'+arch+'.zip';source=Path(cache)/name

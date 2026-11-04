@@ -2,7 +2,7 @@
 name: szyg-xiaohongshu-operator
 description: 为当前服务主体完成小红书账号拆解、账号风格模仿、基于用户资料的笔记创作、定位与选题、图文与视频笔记包装、发布准备、评论回复草稿及数据复盘。需要实际出图或剪辑时衔接对应制作能力，账号动作按用户实际授权执行。
 metadata:
-  version: "0.2.3"
+  version: "0.2.4"
 ---
 
 # szyg-小红书运营

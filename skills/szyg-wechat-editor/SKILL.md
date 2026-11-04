@@ -2,7 +2,7 @@
 name: szyg-wechat-editor
 description: 为当前IP完成公众号选题、写作改稿与图文交付；详细拆解参考文章的排版、配图、语言风格和结构，提炼可复用方法。适用于公众号编辑和文章参考分析；发布另接已核验工具。
 metadata:
-  version: "0.4.3"
+  version: "0.4.4"
 ---
 
 # szyg-公众号编辑

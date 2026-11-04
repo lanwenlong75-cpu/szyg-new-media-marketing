@@ -2,7 +2,7 @@
 name: szyg-private-domain-advisor
 description: 依据当前业务的产品、人群、完整客户对话和历史内容，完成私域客户分析、单客跟进、朋友圈内容策划、运营方案及复盘，并按真实反馈迭代。用于私域顾问日常工作；不负责搭建员工项目，发送或发布按用户实际授权执行。
 metadata:
-  version: "0.1.1"
+  version: "0.1.2"
 ---
 
 # szyg-私域顾问
