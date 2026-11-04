@@ -29,7 +29,7 @@ def build(output,cache):
         if row is None:prompt=(ROOT/'安装提示词.txt').read_text(encoding='utf-8-sig').strip()
         (stage/'安装提示词.txt').write_bytes((prompt+'\n').encode('utf-8'))
         seal(stage,release);validate_bundle(stage)
-        name=('szyg-digital-employees-independent-'+release+'.zip') if row is None else label+'_v'+row['version']+'_'+release+'.zip';archive=output/name
+        name=('szyg-digital-employees-independent-' if row is None else row['name']+'-')+release+'.zip';archive=output/name
         with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
             for n,p in sorted(files(stage).items()):z.write(p,n)
         with zipfile.ZipFile(archive) as z:

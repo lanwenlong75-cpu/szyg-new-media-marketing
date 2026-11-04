@@ -24,8 +24,8 @@
     },
     {
       "path": "distribution/build_independent.py",
-      "sha256": "d3852e83cca19a6f923150dd722e6d780b97a8595c456a54066a5d4c229702a3",
-      "bytes": 4644
+      "sha256": "c3cc68135a6ac24985ac974be351b76ff5bef04a4032d2f8f5373e0f93a42a75",
+      "bytes": 4615
     },
     {
       "path": "distribution/prepare_workbuddy.py",
@@ -34,8 +34,8 @@
     },
     {
       "path": "distribution/render_download_index.py",
-      "sha256": "f2a736d0df294940ccfcb5d367ffa0a6bf1a4ec5f4a6fdf7fe875e003a50a410",
-      "bytes": 2528
+      "sha256": "6a03d266dae87f6dcf4b4dec0358affa3745a8a41ecdfc8530694e9255809fae",
+      "bytes": 2507
     },
     {
       "path": "distribution/workbuddy_init.py",
@@ -99,8 +99,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "d6aca1857cfcca47aaaa72922d43b95e76afb9383b4ede99252b5547a060ef1c",
-      "bytes": 6640
+      "sha256": "dc1a6a3c433afbb480fba2fe2bc4334f604214ede3c1a66c326ebf4ec220a01d",
+      "bytes": 6260
     },
     {
       "path": "skills/szyg-courseware-designer/agents/openai.yaml",

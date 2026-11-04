@@ -11,7 +11,7 @@ def render(catalog):
     rows=sorted(catalog['skills'],key=lambda r:ORDER.index(r['id']) if r['id'] in ORDER else len(ORDER))
     lines=[START,'| 我需要的岗位 | 可以交给它的工作 | 岗位版本 | 单独下载 | Skill说明 |','| --- | --- | --- | --- | --- |']
     for row in rows:
-        filename=row['label']+'_v'+row['version']+'_'+catalog['release']+'.zip'
+        filename=row['name']+'-'+catalog['release']+'.zip'
         lines.append('| **'+row['label']+'** | '+DESCRIPTION.get(row['id'],'查看岗位说明')+' | '+row['version']+' | **[下载 ZIP]('+base+quote(filename)+')** | [说明]('+row['entry']+') |')
     lines.append(END)
     return '\n'.join(lines)
