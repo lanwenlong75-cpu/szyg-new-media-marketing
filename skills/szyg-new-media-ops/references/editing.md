@@ -2,7 +2,7 @@
 
 新原片接收先读[原片接收与命名](shared/director/references/source-intake.md)。当前工作区配置了`.agents/source-intake.json`时，按已授权项目规则先完成命名与登记，再剪辑。无该配置时沿用本项目既有原片路径约定；只读刷新台账不触发改名。
 
-EDITING_DIR为独立`szyg-duli-motion-video`的实际安装目录；从项目注册表或宿主技能列表定位，未安装则按本次任务安装。保留许可证、字体许可和显式模板版本。
+EDITING_DIR为本岗位目录中的`capabilities/video-production`，视频制作程序与资源已经随运营包提供，不需要安装另一个Skill。保留许可证、字体许可和显式模板版本。
 
 原片/工程先核对编号、原片、主版、已发版本和项目记录。按任务读取：
 
@@ -17,7 +17,7 @@ EDITING_DIR为独立`szyg-duli-motion-video`的实际安装目录；从项目注
 
 先判断每次重说的意思、保留哪一次和上下文，再用波形/VAD找切点。候选不自动删除，字幕省略不代表原声已删。完整课程保留教学内容，除非用户要求拆条。有SRT或转录先复用核对；没有ASR按宿主实际能力配置，不虚报人工听校。
 
-精剪可按审阅后的保留区间用FFmpeg同步裁剪声画和映射字幕。需要动效时读`$szyg-duli-motion-video`的SKILL.md、相关模板和manifest。跨平台入口：
+精剪可按审阅后的保留区间用FFmpeg同步裁剪声画和映射字幕。需要动效时读`capabilities/video-production/GUIDE.md`、相关模板和manifest。跨平台入口：
 
 ```text
 python EDITING_DIR/scripts/pipeline.py doctor

@@ -1,0 +1,8 @@
+{
+  "schema": "job-role-internal-tool/1",
+  "owner_skill": "szyg-new-media-ops",
+  "key": "ARCHIVE_VIDEO",
+  "source_component_version": "0.1.1",
+  "entry": "GUIDE.md",
+  "independently_installable_skill": false
+}

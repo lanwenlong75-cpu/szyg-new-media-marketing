@@ -1,18 +1,18 @@
 {
-  "release": "2026.11.03.3",
+  "release": "2026.11.04.1",
   "source_release": "2026.10.31.3",
   "source_commit": "dcea45d800df41bd162cfbb51241bc1c8fbf43b9",
   "architecture_change_only": false,
   "skills": [
     {
       "name": "szyg-short-video-director",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "source_method_version": "1.1.0",
       "shared_reference_sources": []
     },
     {
       "name": "szyg-wechat-editor",
-      "version": "0.4.2",
+      "version": "0.4.3",
       "source_method_version": "0.4.1",
       "shared_reference_sources": []
     },
@@ -37,7 +37,7 @@
     },
     {
       "name": "szyg-new-media-ops",
-      "version": "1.0.10",
+      "version": "1.1.0",
       "source_method_version": "1.0.9",
       "shared_reference_sources": [
         "director/references/landscape-to-portrait.md",
@@ -51,44 +51,16 @@
       ]
     },
     {
-      "name": "szyg-duli-motion-video",
-      "version": "3.14.0-rc.2",
-      "source_method_version": "3.14.0-rc.1",
-      "shared_reference_sources": [
-        "director/references/landscape-to-portrait.md",
-        "ops/references/workspace.md",
-        "director/references/copy-style-collaboration.md",
-        "director/references/progressive-models.md",
-        "director/references/director-workflow.md",
-        "ops/references/publishing.md",
-        "ops/references/publication-asset-match.md"
-      ]
-    },
-    {
       "name": "szyg-digital-employee-builder",
-      "version": "1.2.2",
+      "version": "1.3.0",
       "source_method_version": "1.2.1",
       "shared_reference_sources": []
     },
     {
       "name": "szyg-team-orchestrator",
-      "version": "1.1.1",
+      "version": "1.2.0",
       "source_method_version": "1.1.0",
       "shared_reference_sources": []
-    },
-    {
-      "name": "szyg-archive-social-video",
-      "version": "0.1.1",
-      "source_method_version": null,
-      "shared_reference_sources": [],
-      "prior_entry_had_explicit_version": false
-    },
-    {
-      "name": "szyg-archive-social-account",
-      "version": "0.1.1",
-      "source_method_version": null,
-      "shared_reference_sources": [],
-      "prior_entry_had_explicit_version": false
     },
     {
       "name": "szyg-product-manager",
@@ -98,7 +70,7 @@
     },
     {
       "name": "szyg-xiaohongshu-operator",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "source_method_version": "0.2.1",
       "shared_reference_sources": []
     },
@@ -109,6 +81,24 @@
       "shared_reference_sources": []
     }
   ],
-  "previous_release": "2026.11.03.1",
-  "previous_commit": "65b32eb5d734fafb4133cbcef92c934124cca866"
+  "previous_release": "2026.11.03.3",
+  "previous_commit": "4d6666209d40a4449949f21976b3d0da9cfdd766",
+  "architecture": "job-role-skills",
+  "internal_components": [
+    {
+      "former_skill": "szyg-duli-motion-video",
+      "owner": "szyg-new-media-ops",
+      "entry": "capabilities/video-production/GUIDE.md"
+    },
+    {
+      "former_skill": "szyg-archive-social-video",
+      "owner": "szyg-new-media-ops",
+      "entry": "capabilities/source-archive/single/GUIDE.md"
+    },
+    {
+      "former_skill": "szyg-archive-social-account",
+      "owner": "szyg-new-media-ops",
+      "entry": "capabilities/source-archive/account/GUIDE.md"
+    }
+  ]
 }

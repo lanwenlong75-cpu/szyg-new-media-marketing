@@ -1,10 +1,11 @@
 {
-  "release": "2026.11.03.3",
-  "architecture": "independent-skills",
-  "skills": 14,
+  "release": "2026.11.04.1",
+  "architecture": "job-role-skills",
+  "skills": 11,
   "collection_format_version": "1.0.0",
   "supported_hosts": [
     "Codex",
     "WorkBuddy"
-  ]
+  ],
+  "roles": 11
 }

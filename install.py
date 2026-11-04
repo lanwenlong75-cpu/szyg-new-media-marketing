@@ -46,10 +46,19 @@ def install(bundle,skills_root,workspace=None,names=None):
         if target.exists():
             baseline=target/'.release-baseline.json'
             require(baseline.is_file() and hashes(target)==read(baseline)['files'],'已有Skill含本地改进或无基线，先比对迁移：'+row['name'])
+    retired=[]
+    for name,known in read(bundle/'legacy-function-baselines.json')['skills'].items():
+        target=skills_root/name;no_links(target)
+        if not target.exists():continue
+        require(any(r['id']=='OPS' for r in selected),'旧功能Skill需要随新媒体运营岗位迁移；请选OPS或整套安装，当前文件保持原样。')
+        baseline=target/'.release-baseline.json'
+        require(baseline.is_file() and hashes(target)==read(baseline)['files']==known,
+                '旧功能Skill有本地改进或无可信基线，先合并到运营岗位；未改动现有文件：'+name)
+        retired.append(target)
     skills_root.mkdir(parents=True,exist_ok=True)
     transaction=skills_root.parent/'skill-backups'/('independent-'+datetime.now().strftime('%Y%m%d-%H%M%S')+'-'+uuid.uuid4().hex[:8])
     transaction.mkdir(parents=True)
-    stages=[];installed=[];backups=[]
+    stages=[];installed=[];backups=[];retired_backups=[]
     workspace_was_empty=workspace and (not workspace.exists() or not any(workspace.iterdir()))
     try:
         for row in selected:
@@ -62,12 +71,16 @@ def install(bundle,skills_root,workspace=None,names=None):
             if target.exists():
                 dest=transaction/row['name'];rename(target,dest);backups.append((target,dest))
             rename(stage,target);installed.append(target)
+        for target in retired:
+            dest=transaction/'retired-functions'/target.name;dest.parent.mkdir(parents=True,exist_ok=True)
+            rename(target,dest);retired_backups.append((target,dest))
         bound=[{**r,'entry':str(skills_root/r['name']/'SKILL.md')} for r in selected]
         team=initialize(workspace,bound,manifest['release']) if workspace else None
-        receipt={'installed':True,'release':manifest['release'],'skills':[{k:r[k] for k in ('id','name','label','version','entry')} for r in bound],'team':str(workspace) if workspace else None,'initialization':team,'backup_directory':str(transaction),'business_quality_accepted':False}
+        receipt={'installed':True,'release':manifest['release'],'skills':[{k:r[k] for k in ('id','name','label','version','entry')} for r in bound],'team':str(workspace) if workspace else None,'initialization':team,'backup_directory':str(transaction),'retired_function_skills':[{'name':t.name,'backup':str(d)} for t,d in retired_backups],'business_quality_accepted':False}
         if workspace:save(workspace/'安装回执.json',receipt)
         return receipt
     except Exception:
+        for target,dest in reversed(retired_backups):rename(dest,target)
         for target in reversed(installed):
             require(target.parent==skills_root,'回滚路径越界');shutil.rmtree(target)
         for target,dest in reversed(backups):rename(dest,target)

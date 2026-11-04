@@ -1,9 +1,9 @@
 # 新媒体运营首次使用
 
-本模块已随统一入口安装，无需另装同名独立skill。项目与岗位由统一入口配置读取，脚本目录为本SKILL.md旁的scripts。
+安装本岗位完整目录即可取得运营程序、视频制作和资料采集源码，不另安装功能型Skill。SKILL_DIR是本岗位SKILL.md所在目录，ROOT是接收者当前项目。
 
-先执行 `python <总入口>/scripts/portable.py doctor --project-root <当前项目>`。缺依赖按报告从官方渠道配置。基础口播需要Python 3.10+、FFmpeg与ffprobe（libx264及libass），图形与模板另需要Node18+、Chrome和随包package-lock对应依赖。ASR使用当前助手可用转写或自行配置faster-whisper，模型缓存与GPU自检在接收电脑完成；没有转写或听辨时保留实际缺项。
+先执行`python SKILL_DIR/scripts/ops.py doctor --root ROOT`。需要视频制作时再执行`python SKILL_DIR/capabilities/video-production/scripts/pipeline.py doctor`。基础剪辑需要Python 3.10+、FFmpeg及ffprobe，动效还需Node.js、Chrome与工具锁文件依赖；缺项按实际报告配置，安装源码不表示这些外部软件已经可用。
 
-新内容工作区可执行 `python <本模块>/scripts/ops.py init --root <当前素材工作区> --name 我的内容团队`，已有工作台先盘点保留，不覆盖媒体与业务记录。doctor、register、transcripts、index和start仍采用本模块原有流程。先确认实际可用端口，不能终止其他服务。安装本身不启动服务，不接账号，不发布。
+新工作区执行`python SKILL_DIR/scripts/ops.py init --root ROOT --name 我的内容团队`；已有工作台先盘点保留。视频运行依赖可用`python SKILL_DIR/scripts/ops.py bootstrap --root ROOT --editing`配置，首次联网安装按本次用户授权执行。不要运行不存在的旧总入口命令。采集运行时接入按[source-archive.md](source-archive.md)。
 
-动效依赖使用 `python <MOTION>/scripts/pipeline.py setup`，按随包锁文件安装到接收机，不带作者venv。发布使用官方蚁小二CLI及同步的官方skill，配置接收者自己的账号与密钥，不分发凭据；发布前采用其实际授权及实时回执。
+发布使用官方蚁小二CLI与正式规则，账号与密钥在使用者自己的环境配置；正式发布按本次授权及实际回执验收。安装本身不启动服务、不接账号、不发布。

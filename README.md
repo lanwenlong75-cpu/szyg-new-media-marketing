@@ -1,13 +1,13 @@
 # 数字员工独立Skill
 
-**当前发行：2026.11.03.3。十四个独立Skill，各自维护、安装和升级。**主管负责团队协作与版本治理，各岗位直接读取自己的SKILL.md。
+**当前发行：2026.11.04.1。十一个岗位Skill，各自维护、安装和升级；视频制作与资料采集为运营岗位内置工具。**主管负责团队协作与版本治理，各岗位直接读取自己的SKILL.md。
 
 ## 快速开始
 
-从[最新Release](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/latest)下载`szyg-digital-employees-independent-2026.11.03.3.zip`安装全部，或下载所需岗位的单独安装包。微信收到的中文名包与GitHub对应附件字节一致。完整解压，复制“安装提示词.txt”给Codex或WorkBuddy即可开始；只安装某岗位可直接说明。
+从[最新Release](https://github.com/lanwenlong75-cpu/szyg-new-media-marketing/releases/latest)下载`szyg-digital-employees-independent-2026.11.04.1.zip`安装全部，或下载所需岗位的单独安装包。微信收到的中文名包与GitHub对应附件字节一致。完整解压，复制“安装提示词.txt”给Codex或WorkBuddy即可开始；只安装某岗位可直接说明。
 
 ```text
-请帮我安装或升级这个数字员工Skill安装包，发行2026.11.03.3。完整解压并读取先读我.md，按我正在使用的软件安装所需的独立岗位Skill，没有指定则安装全部，创建或接入我的项目。保留已有资料和本地改进；有旧版先备份、比对迁移。完成后告诉我每个实际安装的Skill名称、版本和使用入口。
+请帮我安装或升级这个数字员工Skill安装包，发行2026.11.04.1。完整解压并读取先读我.md，按我正在使用的软件安装所需的独立岗位Skill，没有指定则安装全部，创建或接入我的项目。保留已有资料和本地改进；有旧版先备份、比对迁移。完成后告诉我每个实际安装的Skill名称、版本和使用入口。
 ```
 
 没有本地包时，将下面的提示词交给能访问GitHub的助手：
@@ -22,19 +22,16 @@
 
 | 岗位 | Skill | 自身版本 | 方法 |
 | --- | --- | --- | --- |
-| 短视频编导 | `szyg-short-video-director` | 1.2.0 | [查看Skill](skills/szyg-short-video-director/SKILL.md) |
-| 公众号编辑 | `szyg-wechat-editor` | 0.4.2 | [查看Skill](skills/szyg-wechat-editor/SKILL.md) |
+| 短视频编导 | `szyg-short-video-director` | 1.2.1 | [查看Skill](skills/szyg-short-video-director/SKILL.md) |
+| 公众号编辑 | `szyg-wechat-editor` | 0.4.3 | [查看Skill](skills/szyg-wechat-editor/SKILL.md) |
 | 海报设计师 | `szyg-poster-designer` | 0.1.1 | [查看Skill](skills/szyg-poster-designer/SKILL.md) |
 | 全栈工程师 | `szyg-fullstack-engineer` | 1.0.1 | [查看Skill](skills/szyg-fullstack-engineer/SKILL.md) |
 | 私域顾问 | `szyg-private-domain-advisor` | 0.1.1 | [查看Skill](skills/szyg-private-domain-advisor/SKILL.md) |
-| 新媒体运营 | `szyg-new-media-ops` | 1.0.10 | [查看Skill](skills/szyg-new-media-ops/SKILL.md) |
-| 视频制作引擎 | `szyg-duli-motion-video` | 3.14.0-rc.2 | [查看Skill](skills/szyg-duli-motion-video/SKILL.md) |
-| 数字员工搭建师 | `szyg-digital-employee-builder` | 1.2.2 | [查看Skill](skills/szyg-digital-employee-builder/SKILL.md) |
-| 新媒体主管 | `szyg-team-orchestrator` | 1.1.1 | [查看Skill](skills/szyg-team-orchestrator/SKILL.md) |
-| 单条视频归档 | `szyg-archive-social-video` | 0.1.1 | [查看Skill](skills/szyg-archive-social-video/SKILL.md) |
-| 账号作品归档 | `szyg-archive-social-account` | 0.1.1 | [查看Skill](skills/szyg-archive-social-account/SKILL.md) |
+| 新媒体运营 | `szyg-new-media-ops` | 1.1.0 | [查看Skill](skills/szyg-new-media-ops/SKILL.md) |
+| 数字员工搭建师 | `szyg-digital-employee-builder` | 1.3.0 | [查看Skill](skills/szyg-digital-employee-builder/SKILL.md) |
+| 新媒体主管 | `szyg-team-orchestrator` | 1.2.0 | [查看Skill](skills/szyg-team-orchestrator/SKILL.md) |
 | 产品经理 | `szyg-product-manager` | 0.2.2 | [查看Skill](skills/szyg-product-manager/SKILL.md) |
-| 小红书运营 | `szyg-xiaohongshu-operator` | 0.2.2 | [查看Skill](skills/szyg-xiaohongshu-operator/SKILL.md) |
+| 小红书运营 | `szyg-xiaohongshu-operator` | 0.2.3 | [查看Skill](skills/szyg-xiaohongshu-operator/SKILL.md) |
 | 课件打造师 | `szyg-courseware-designer` | 0.2.2 | [查看Skill](skills/szyg-courseware-designer/SKILL.md) |
 
 ## 管理和更新
@@ -44,3 +41,9 @@
 构建：`python distribution/build_independent.py --output 新输出目录 --runtime-cache 官方运行时目录`。同时生成整套和每个岗位的独立离线安装包。来源与许可见[THIRD_PARTY](THIRD_PARTY.md)及各Skill的许可文件。
 
 编导选题、策划和文案默认以可互动HTML展示，支持右侧预览、采纳当前文案、已拍和备注；随包工具可在接收者自己的项目独立启动。
+
+## 岗位与内部工具
+
+每个可发现、安装和注册的Skill都对应岗位，对内对外一致。新媒体运营包内已包含完整视频制作工具、单条资料采集、整号资料采集及其项目运行时源码；这些目录以GUIDE.md为内部说明，不是额外Skill或数字员工。编导负责选题、口播与分镜，小红书负责账号研究与笔记；需要采集和制作时使用运营岗位，资料仍留当前项目。
+
+从旧功能包升级时，安装器仅归档摘要与已知公开基线完全相同的三个旧功能Skill，并将工具收进运营岗位。发现旧功能Skill或岗位有本地改进时停止，先由助手合并；旧项目资料保持原样。旧Release、附件、模板、风格及来源许可保留。

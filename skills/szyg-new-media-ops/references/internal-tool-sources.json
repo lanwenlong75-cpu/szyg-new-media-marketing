@@ -1,0 +1,9 @@
+{
+  "owner_role": "OPS",
+  "copied_from_role": "DIRECTOR",
+  "source_role_version": "1.2.0",
+  "files": {
+    "source_intake.py": "16cf568770d54e29f14910255de6e249388233482872c33d497a736393105df2",
+    "check_caption_layout.py": "d9d146861ff04e036794a194a85eeb2ab9bb11ec7c57bfe115b0d77dc63de775"
+  }
+}

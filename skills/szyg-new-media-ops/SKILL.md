@@ -2,7 +2,7 @@
 name: szyg-new-media-ops
 description: 接手新媒体内容生产与运营：初始化可预览工作台，登记素材，剪辑和改版视频，设计发布封面，通过蚁小二准备或执行多平台发布，并做每日及每周数据复盘。用户要新媒体运营数字员工、整合剪辑发布复盘或执行工作台待办时使用。
 metadata:
-  version: "1.0.10"
+  version: "1.1.0"
   display-name: "szyg-新媒体运营数字员工"
 ---
 
@@ -23,12 +23,16 @@ metadata:
 | 任务 | 读取入口 | 实际工具 |
 | --- | --- | --- |
 | 安装、首次使用、运行不起来 | [setup.md](references/setup.md) | ops.py init / doctor / bootstrap / start |
-| 原片精剪、字幕、降噪、动效、改版 | [editing.md](references/editing.md) | 随包../motion引擎及FFmpeg |
+| 原片精剪、字幕、降噪、动效、改版 | [editing.md](references/editing.md) | 本岗位内置视频制作工具及FFmpeg |
 | 素材、内容登记、任务交接 | [workspace.md](references/workspace.md) | ops.py register / materials / task-status / index |
 | 文案、封面、草稿、定时、发布、回读 | [publishing.md](references/publishing.md) | 官方yxer CLI与同步的正式Skill |
 | 每日检查、每周复盘、选题反馈 | [review.md](references/review.md) | ops.py sync、作品快照与区间增量 |
 
-执行单项无需先加载全部参考。剪辑动效按需使用独立的`szyg-duli-motion-video`，蚁小二程序和正式规则从官方渠道安装与同步，按当前任务调用本Skill及已安装的必要制作Skill。
+执行单项无需先加载全部参考。剪辑动效按需使用本岗位`capabilities/video-production`中的内置工具，蚁小二程序和正式规则从官方渠道安装与同步，按当前任务调用本Skill及本岗位内置工具。
+
+## 外部视频与账号资料
+
+需要获取参考视频、逐字稿或整号素材时，读取[资料采集](references/source-archive.md)。采集、去重、转写和来源归档属于运营工具；内容判断仍由本次编导、编辑或小红书岗位负责，资料留本次项目，不自动改写正式知识。
 
 ## 共同约定
 
@@ -54,6 +58,10 @@ metadata:
 
 结束时说明完成内容、产物位置、实际验证范围与仍缺的必要输入，给出实际预览或文件链接。新用户工作区没有示例账号、假指标或作者素材。只有用户请求后才配置每日/每周自动化。
 
+
+## 岗位边界与内部工具
+
+本岗位负责素材采集、剪辑、封面、发布执行与运营复盘。视频引擎、单条采集与整号采集都是包内工具，不作为独立Skill或员工安装、注册、派单。
 
 ## 当前自用入口与维护位置
 

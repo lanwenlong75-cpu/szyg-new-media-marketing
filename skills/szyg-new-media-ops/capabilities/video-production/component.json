@@ -1,0 +1,8 @@
+{
+  "schema": "job-role-internal-tool/1",
+  "owner_skill": "szyg-new-media-ops",
+  "key": "MOTION",
+  "source_component_version": "3.14.0-rc.2",
+  "entry": "GUIDE.md",
+  "independently_installable_skill": false
+}
